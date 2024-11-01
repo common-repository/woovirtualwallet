@@ -1,0 +1,1414 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LWS Admin Panel\n"
+"POT-Creation-Date: 2020-12-14 23:22+0100\n"
+"PO-Revision-Date: 2018-06-14 12:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-adminpanel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/admin.php:227 include/pages/head.php:380
+msgid "Expand All"
+msgstr ""
+
+#: include/admin.php:228
+msgid "Collapse All"
+msgstr ""
+
+#: include/admin.php:229
+msgid "Show Advanced Settings"
+msgstr ""
+
+#: include/admin.php:230
+msgid "Hide Advanced Settings"
+msgstr ""
+
+#: include/admin.php:239
+msgid "At least one value is unknown."
+msgstr ""
+
+#: include/editlist/filtersimplefield.php:17
+msgid "Search"
+msgstr ""
+
+#: include/editlist/filtersimplefield.php:26
+msgid "Narrow your search"
+msgstr ""
+
+#: include/editlist/filtersimplelinks.php:23
+msgid "Filter the results"
+msgstr ""
+
+#: include/editlist/pager.php:82
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/editlist/pager.php:89
+msgid "Items per page"
+msgstr ""
+
+#: include/editlist/pager.php:109
+#, php-format
+msgctxt "Total page number"
+msgid "/ %d"
+msgid_plural "/ %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/internal/credits/license.php:202
+msgid "Seems like your trial period has been already consumed."
+msgstr ""
+
+#: include/internal/credits/license.php:216
+msgid "There was a problem establishing a connection to the trial server."
+msgstr ""
+
+#: include/internal/credits/license.php:231
+msgid "Update to the premium Trial is now available."
+msgstr ""
+
+#: include/internal/credits/license.php:239
+#, php-format
+msgid "The Trial for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr ""
+
+#: include/internal/credits/license.php:241
+#, php-format
+msgid "The Trial for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/internal/credits/license.php:254
+msgid "There was a problem activating the Trial. You may retry later."
+msgstr ""
+
+#: include/internal/credits/license.php:262
+#: include/internal/credits/license.php:472
+#: include/internal/credits/license.php:608
+msgid "There was a problem establishing a connection to the license service."
+msgstr ""
+
+#: include/internal/credits/license.php:427
+#: include/internal/credits/license.php:555
+msgid "There was a problem establishing a connection to the license server."
+msgstr ""
+
+#: include/internal/credits/license.php:442
+#, php-format
+msgid "The previews license key (%s) has been deactivated."
+msgstr ""
+
+#: include/internal/credits/license.php:447
+#: include/internal/credits/license.php:643
+msgid "Licence Key Successfully Unassigned."
+msgstr ""
+
+#: include/internal/credits/license.php:459
+#, php-format
+msgid "There was a problem deactivating the previews license key (%s)."
+msgstr ""
+
+#: include/internal/credits/license.php:461
+msgid "There was a problem deactivating the license."
+msgstr ""
+
+#: include/internal/credits/license.php:509
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/internal/credits/license.php:512
+#: include/internal/credits/license.php:580
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr ""
+
+#: include/internal/credits/license.php:570
+msgid "Update to the premium version is now available."
+msgstr ""
+
+#: include/internal/credits/license.php:582
+#, php-format
+msgid ""
+"The license <b>%3$s</b> for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/internal/credits/license.php:600
+#, php-format
+msgid "There was a problem activating the license (%s)."
+msgstr ""
+
+#: include/internal/credits/license.php:639
+msgid "Invalid licence key."
+msgstr ""
+
+#: include/internal/credits/license.php:640
+msgid "Invalid licence key or licence not active for domain."
+msgstr ""
+
+#: include/internal/credits/license.php:641
+msgid "You had reached the maximum number of domains for this key."
+msgstr ""
+
+#: include/internal/credits/license.php:642
+msgid "Licence Key does not match this product."
+msgstr ""
+
+#: include/internal/credits/license.php:644
+msgid "Licence Key Is Unassigned."
+msgstr ""
+
+#: include/internal/credits/license.php:645
+msgid "Licence key Is Active and Valid for Domain."
+msgstr ""
+
+#: include/internal/credits/license.php:754
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: include/internal/credits/license.php:791
+msgid "Unexpected response from API."
+msgstr ""
+
+#: include/internal/credits/license.php:834
+#, php-format
+msgid ""
+"Your support access for the plugin <b>%1$s</b> is no longer available. "
+"Please visit %2$s to expend your support period."
+msgstr ""
+
+#: include/internal/credits/license.php:843
+#, php-format
+msgid ""
+"Your subscription to plugin <b>%1$s</b> Premium Services expired. Please "
+"visit %2$s to expend your license period."
+msgstr ""
+
+#: include/internal/credits/license.php:927
+#, php-format
+msgid "%s Premium"
+msgstr ""
+
+#: include/internal/credits/license.php:930
+#, php-format
+msgid "Your Trial period expires the %1$d. Consider purchasing %2$s."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:87
+msgid "Please set a the extension license key to activate it."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:195
+msgid "License Management"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:209
+#: include/internal/credits/licensepage.php:475
+msgid "Deactivate my license"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:209
+msgid "Activate license"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:227
+msgid "The following extensions have been found on your system."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:228
+msgid "Here you manage the license keys for each one of them."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:231
+#, php-format
+msgid "The Premium version of %s must be active for extensions to work."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:250
+msgid "Installed Extensions"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:267
+msgid "Make your site even greater."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:268
+msgid "All these extensions are available here."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:271
+msgid "Addons need an active Premium version."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:289
+msgid "Available Extensions"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:306
+msgid "WordPress Updates"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:309
+msgid "<b>Your license is activated.</b>"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:310
+#, php-format
+msgid "Look in %1$s page for a %2$s update."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:311
+msgid ""
+"You should have to click \"<i>Check Again</i>\" button to force WordPress "
+"refresh its list."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:312
+msgid ""
+"If the Plugin Update still does not appears, please wait few minutes and try "
+"again."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:315
+msgid "<b>Your Trial is active.</b>"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:317
+msgid "Check for Updates"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:322
+msgid "An update is waiting for you"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:351
+msgid "Your Subscription is currently inactive."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:353
+msgid "You can't download new versions or send requests to the support."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:355
+msgid ""
+"You can't use Premium features of this plugin, download new versions or send "
+"requests to the support."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:356
+msgid ""
+"You can resume your subscription at any time to get access to updates and "
+"support."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:357
+msgid "Resume my subscription"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:361
+msgid "Your Subscription is currently active."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:366
+msgid "Updates and Support are available until :"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:368
+msgid ""
+"To avoid a service interruption, you should renew your subscription before :"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:370
+msgid "See my subscription"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:375
+msgid "Your Subscription includes Updates and Support."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:377
+msgid ""
+"Your Subscription includes the usage of this plugin, updates and support."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:378
+msgid "Cancel my subscription"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:383
+msgid "Maintenance and Updates"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:385
+msgid "Usage Permission"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:412
+msgid ""
+"If you have a Premium License Key, please input it in the field below and "
+"click on the Activation button."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:413
+msgid ""
+"If the activation is successful, the Premium version will be activated and "
+"installed automatically."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:418
+msgid "Activate my license"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:424
+#: include/internal/credits/licensepage.php:484
+#, php-format
+msgid "%s Premium License"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:432
+msgid "License Key"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:436
+msgid ""
+"Your license key has been provided to you in the Order Confirmation eMail."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:467
+#, php-format
+msgid "You're actually using a licensed version of %s Premium."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:468
+msgid "Your license key is :"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:478
+#, php-format
+msgid ""
+"If you deactivate your license, you will be reverted to the free version of "
+"%s. Your license count will be updated on our server and you'll be able to "
+"activate your license on another website."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:505
+#: include/internal/credits/licensepage.php:546
+msgid "This version contains only a few features of the premium version."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:507
+#, php-format
+msgid "You're actually using the free version of %s."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:509
+#, php-format
+msgid ""
+"If you're happy with %s Standard features, <b>please consider reviewing it</"
+"b> on wordpress.org"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:513
+msgid ""
+"If you want to gain access to more features, you can try the premium version "
+"for free for 30 days."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:518
+msgid "Review on wordpress.org"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:524
+msgid "Free Version"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:550
+#, php-format
+msgid "Try %s Premium for free for 30 days."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:551
+#, php-format
+msgid "Instant access to all %s Premium features."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:552
+msgid "No payment required."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:553
+msgid "No registration required."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:559
+msgid "Start the free trial"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:565
+#, php-format
+msgid "Free %s Premium Trial"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:590
+#, php-format
+msgid ""
+"You're actually trying %s Premium for free for a limited period of time. You "
+"will be reminded that your trial period is about to end 5 days and 3 days "
+"before it ends."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:592
+#, php-format
+msgid "You're actually trying %s Free with limited features."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:593
+#, php-format
+msgid ""
+"If you like %s, you can purchase a license on our website by clicking on the "
+"button below."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:599
+msgid "Your trial will expire in :"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:600 include/legacy/duration.php:286
+#: include/tools/duration.php:286
+msgid "Days"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:607
+#: include/internal/credits/licensepage.php:616
+#, php-format
+msgid "Purchase %s Premium"
+msgstr ""
+
+#: include/internal/credits/licensepage.php:610
+msgid ""
+"Premium Version is a paid service. This service features the plugin, the "
+"support and regular updates. You can cancel your subscription at any time by "
+"changing your preferences on your account on plugins.longwatchstudio.com. "
+"Cancelling your subscription will remove the access to support and updates."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:678
+#, php-format
+msgid ""
+"The Trial License found for the plugin <b>%s</b> cannot be migrated to the "
+"new system."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:679
+msgid ""
+"If you are sure your license should still be valid, try to restart the trial "
+"manually or contact the support of the plugin."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:697
+#, php-format
+msgid ""
+"The license found for the plugin <b>%s</b> cannot be migrated to the new "
+"system."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:698
+msgid ""
+"If you are sure your license should still be valid, try to reactivate it "
+"manually or contact the support of the plugin."
+msgstr ""
+
+#: include/internal/credits/licensepage.php:725
+#: include/internal/credits/licensepage.php:745
+#, php-format
+msgid "Go to <b>%s</b> Settings"
+msgstr ""
+
+#: include/internal/credits/page.php:90
+msgid "License"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:78
+#, php-format
+msgid ""
+"Sorry, the mail failed to be sent. You can try again or use the &lt;%s&gt; "
+"contact address."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:84
+msgid ""
+"Your request has been sent to our support team. We will respond as soon as "
+"possible."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:223
+msgid "Please, fill your Name before sending the mail."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:228
+msgid "Please, set a response EMail."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:233
+msgid "Please, select a Subject before sending the mail."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:238
+msgid "Please, Fill your request before sending the mail."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:298 include/pages/head.php:215
+msgid "Support"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:354
+msgid "Support Instructions"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:357
+msgid ""
+"Please read the instructions carefully before sending a support request."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:419
+#, php-format
+msgid "Support Request for <b>%s</b>"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:422
+msgid "Fill in the form below to send a support request."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:437
+msgid "Your Name"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:448
+msgid "Your Email"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:454
+msgid ""
+"The email we will response to. Please make sure this is a valid email that "
+"you view frequently."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:460 include/internal/mailer.php:437
+msgid "Subject"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:472
+msgid "Your Request"
+msgstr ""
+
+#: include/internal/credits/supportpage.php:475
+msgid ""
+"Describe your problem here, what happen, what is expected, what did you do."
+msgstr ""
+
+#: include/internal/credits/supportpage.php:487
+msgid "Send the support request"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:141
+msgctxt "editlist groupby"
+msgid "Add a group"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:269
+msgid "Apply"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:312
+msgid "Action"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:325
+#: include/pages/field/taglist.php:21
+msgid "Add"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:450
+msgid "Cancel"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:451
+msgid "Save"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:454
+msgctxt "Confirm event/unlockable type choice"
+msgid "Next"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:455
+msgctxt "Undo event/unlockable type choice"
+msgid "Back"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:498
+msgid "Quick Edit"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:499
+msgid "Copy"
+msgstr ""
+
+#: include/internal/editlistcontroler.php:500
+msgid "Delete"
+msgstr ""
+
+#: include/internal/helpers/pages.php:59
+msgid "Used to get google fonts."
+msgstr ""
+
+#: include/internal/helpers/pages.php:62
+msgid "Generate API Key"
+msgstr ""
+
+#: include/internal/helpers/pages.php:63
+#, php-format
+msgid "or <a target='_blank' href='%s'>click here to Get a Google API KEY</a>"
+msgstr ""
+
+#: include/internal/helpers/pages.php:66
+msgid "You MUST be logged in to your Google account to generate a key."
+msgstr ""
+
+#: include/internal/helpers/pages.php:70
+msgid "Google account"
+msgstr ""
+
+#: include/internal/mailer.php:323
+msgid "This is a test."
+msgstr ""
+
+#: include/internal/mailer.php:397
+msgid "Email Settings"
+msgstr ""
+
+#: include/internal/mailer.php:397
+#, php-format
+msgid "%s Email Settings"
+msgstr ""
+
+#: include/internal/mailer.php:399
+msgid ""
+"Once you've finished the email settings, <b>save your changes</b><br/>You "
+"will then see the result in the style editor below<br/>Select the elements "
+"you wish to change and have fun!"
+msgstr ""
+
+#: include/internal/mailer.php:403
+msgid "Header picture"
+msgstr ""
+
+#: include/internal/mailer.php:411
+msgid "Footer text"
+msgstr ""
+
+#: include/internal/mailer.php:432
+msgid "Email details"
+msgstr ""
+
+#: include/internal/mailer.php:448
+msgid "Preheader"
+msgstr ""
+
+#: include/internal/mailer.php:485
+msgid "Receiver Email"
+msgstr ""
+
+#: include/internal/mailer.php:488
+msgid "Test your email to see how it looks"
+msgstr ""
+
+#: include/internal/mailer.php:495
+msgid "Send test email"
+msgstr ""
+
+#: include/internal/mailer.php:513
+msgid "Test email sent."
+msgstr ""
+
+#: include/internal/mailer.php:516
+msgid "Test email is not valid."
+msgstr ""
+
+#: include/internal/pages.php:423
+msgid "Changes not commited."
+msgstr ""
+
+#: include/internal/pages.php:424
+msgid "Please confirm or cancel the active form before submit that page."
+msgstr ""
+
+#: include/internal/pages.php:425
+msgid "Do you really want to delete the line?"
+msgstr ""
+
+#: include/internal/pages.php:426
+msgid "Update error, please check the values."
+msgstr ""
+
+#: include/internal/pages.php:427
+msgid "An error occured, please try later."
+msgstr ""
+
+#: include/internal/pages.php:428
+msgid "Please, select an item."
+msgstr ""
+
+#: include/internal/pages.php:429
+msgid "Select a font"
+msgstr ""
+
+#: include/internal/pages.php:430
+msgctxt "Font list"
+msgid "Show more"
+msgstr ""
+
+#: include/internal/pages.php:431
+msgctxt "Font list"
+msgid "Show less"
+msgstr ""
+
+#: include/internal/pages.php:433
+msgctxt "Font weight"
+msgid "Thin"
+msgstr ""
+
+#: include/internal/pages.php:434
+msgctxt "Font weight"
+msgid "Extra Light"
+msgstr ""
+
+#: include/internal/pages.php:435
+msgctxt "Font weight"
+msgid "Light"
+msgstr ""
+
+#: include/internal/pages.php:436 include/internal/pages.php:437
+msgctxt "Font weight"
+msgid "Normal"
+msgstr ""
+
+#: include/internal/pages.php:438
+msgctxt "Font weight"
+msgid "Medium"
+msgstr ""
+
+#: include/internal/pages.php:439
+msgctxt "Font weight"
+msgid "Semi Bold"
+msgstr ""
+
+#: include/internal/pages.php:440
+msgctxt "Font weight"
+msgid "Bold"
+msgstr ""
+
+#: include/internal/pages.php:441
+msgctxt "Font weight"
+msgid "Extra Bold"
+msgstr ""
+
+#: include/internal/pages.php:442
+msgctxt "Font weight"
+msgid "Black"
+msgstr ""
+
+#: include/internal/pages.php:447
+msgid " didn't match any items"
+msgstr ""
+
+#: include/internal/pages.php:448
+msgid "Show All Items"
+msgstr ""
+
+#: include/legacy/duration.php:79 include/tools/duration.php:79
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:82 include/tools/duration.php:82
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:85 include/tools/duration.php:85
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:88 include/tools/duration.php:88
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:91 include/tools/duration.php:91
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:94 include/tools/duration.php:94
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:97 include/tools/duration.php:97
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/legacy/duration.php:287 include/tools/duration.php:287
+msgid "Months"
+msgstr ""
+
+#: include/legacy/duration.php:288 include/tools/duration.php:288
+msgid "Years"
+msgstr ""
+
+#: include/legacy/duration.php:291 include/tools/duration.php:291
+msgid "Weeks"
+msgstr ""
+
+#: include/legacy/duration.php:292 include/tools/duration.php:292
+msgid "Hours"
+msgstr ""
+
+#: include/legacy/duration.php:293 include/tools/duration.php:293
+msgid "Minutes"
+msgstr ""
+
+#: include/legacy/duration.php:294 include/tools/duration.php:294
+msgid "Seconds"
+msgstr ""
+
+#: include/pages/field/border.php:25
+msgctxt "CSS margin tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global margin of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left margins</p>"
+msgstr ""
+
+#: include/pages/field/border.php:33
+msgctxt "CSS padding tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global padding of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left padding</p>"
+msgstr ""
+
+#: include/pages/field/border.php:41
+msgctxt "CSS border tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border size of 5 pixels</"
+"p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left borders</p>"
+msgstr ""
+
+#: include/pages/field/border.php:49
+msgctxt "CSS radius tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border radius of 5 "
+"pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left border radius</p>"
+msgstr ""
+
+#: include/pages/field/border.php:73
+msgctxt "CSS border size edition"
+msgid "Margin"
+msgstr ""
+
+#: include/pages/field/border.php:75
+msgctxt "CSS border size editoin"
+msgid "Padding"
+msgstr ""
+
+#: include/pages/field/border.php:77
+msgctxt "CSS border size editoin"
+msgid "Border"
+msgstr ""
+
+#: include/pages/field/border.php:79
+msgctxt "CSS border size editoin"
+msgid "Radius"
+msgstr ""
+
+#: include/pages/field/border.php:81
+msgctxt "CSS color edition"
+msgid "Border Color"
+msgstr ""
+
+#: include/pages/field/border.php:83
+msgctxt "CSS color edition"
+msgid "Background"
+msgstr ""
+
+#: include/pages/field/border.php:155
+msgctxt "LWSS border text demo"
+msgid "This is a sample text"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:67
+msgctxt "LWSS button colors"
+msgid "Normal"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:68
+msgctxt "LWSS button colors"
+msgid "Over"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:69
+msgctxt "LWSS button colors"
+msgid "Focused"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:70
+msgctxt "LWSS button colors"
+msgid "Text"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:71
+msgctxt "LWSS button colors"
+msgid "Background"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:88
+msgctxt "CSS color edition"
+msgid "Normal Text"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:89
+msgctxt "CSS color edition"
+msgid "On Hover Text"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:90
+msgctxt "CSS color edition"
+msgid "On Click Text"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:95
+msgctxt "CSS color edition"
+msgid "Normal Background"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:96
+msgctxt "CSS color edition"
+msgid "On Hover Background"
+msgstr ""
+
+#: include/pages/field/cssbutton.php:97
+msgctxt "CSS color edition"
+msgid "On Click Background"
+msgstr ""
+
+#: include/pages/field/duration.php:82
+msgid "An integer value greater than zero."
+msgstr ""
+
+#: include/pages/field/font.php:83
+msgctxt "LWSS font text demo"
+msgid "This is a sample text"
+msgstr ""
+
+#: include/pages/field/googleapiskey.php:24
+msgid "Your Google API key"
+msgstr ""
+
+#: include/pages/field/googleapiskey.php:32
+msgid "You should define a Google API key in this settings."
+msgstr ""
+
+#: include/pages/field/lacchecklist.php:60
+msgid "Select..."
+msgstr ""
+
+#: include/pages/field/lacchecklist.php:61
+msgid "Search..."
+msgstr ""
+
+#: include/pages/field/lactaglist.php:51
+msgctxt "lac-taglist \"add\" button"
+msgid "Add"
+msgstr ""
+
+#: include/pages/field/media.php:30
+msgid "Remove"
+msgstr ""
+
+#: include/pages/field/media.php:31 include/pages/field/media.php:33
+msgid "Select a media"
+msgstr ""
+
+#: include/pages/field/media.php:32
+msgid "Use the selected item"
+msgstr ""
+
+#: include/pages/field/media.php:34
+msgid "Edit..."
+msgstr ""
+
+#: include/pages/field/shortcode.php:17
+msgid "Shortcode"
+msgstr ""
+
+#: include/pages/field/shortcode.php:18
+msgid "Attributes"
+msgstr ""
+
+#: include/pages/field/shortcode.php:19
+msgid "Description"
+msgstr ""
+
+#: include/pages/field/shortcode.php:20
+msgid "Styling"
+msgstr ""
+
+#: include/pages/field/shortcode.php:21
+msgid "Customize the look of this shortcode"
+msgstr ""
+
+#: include/pages/field/stygen.php:46
+msgid "Available Elements"
+msgstr ""
+
+#: include/pages/field/stygen.php:47
+msgid "Select an element to start modifying its style"
+msgstr ""
+
+#: include/pages/field/stygen.php:48
+msgctxt "Stygen button"
+msgid "Reset Style"
+msgstr ""
+
+#: include/pages/field/stygen.php:130
+msgid "Snippet unknown"
+msgstr ""
+
+#: include/pages/head.php:213
+msgid "Admin Menu"
+msgstr ""
+
+#: include/pages/head.php:214 include/pages/head.php:507
+msgid "Advanced Settings"
+msgstr ""
+
+#: include/pages/head.php:216
+msgid "Troubleshooting"
+msgstr ""
+
+#: include/pages/head.php:217
+msgid "Live Chat"
+msgstr ""
+
+#: include/pages/head.php:218
+msgid "Documentation"
+msgstr ""
+
+#: include/pages/head.php:219
+msgid "Patch Notes"
+msgstr ""
+
+#: include/pages/head.php:220
+msgid "License Information"
+msgstr ""
+
+#: include/pages/head.php:221
+msgid "Try Premium for Free"
+msgstr ""
+
+#: include/pages/head.php:259
+msgid "Plugin Notifications"
+msgstr ""
+
+#: include/pages/head.php:265
+msgid "Other Notifications"
+msgstr ""
+
+#: include/pages/head.php:335
+msgid "Dismiss"
+msgstr ""
+
+#: include/pages/head.php:368
+msgid "Discard Changes"
+msgstr ""
+
+#: include/pages/head.php:371
+msgid "Save Changes"
+msgstr ""
+
+#: include/pages/head.php:445
+msgid "https://plugins.longwatchstudio.com/"
+msgstr ""
+
+#: include/pages/head.php:448
+msgid "https://plugins.longwatchstudio.com/documentation/"
+msgstr ""
+
+#: include/pages/notices.php:139
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/pages/screens/admin.php:147 include/pages/screens/singular.php:194
+msgid "Your settings have been saved."
+msgstr ""
+
+#: include/pages/screens/singular.php:93
+msgctxt "Singular object edition screen"
+msgid "Delete element"
+msgstr ""
+
+#: include/pages/screens/singular.php:94
+msgctxt "Singular object edition screen"
+msgid "I really want to delete it"
+msgstr ""
+
+#: include/pages/screens/singular.php:95
+msgctxt "Singular object edition screen"
+msgid "Cancel"
+msgstr ""
+
+#: include/pages/screens/singular.php:96
+msgctxt "Singular object edition screen"
+msgid "This element will be permanently removed. Are you sure?"
+msgstr ""
+
+#: include/pages/screens/singular.php:97
+msgctxt "Singular object edition screen"
+msgid "Permanent deletion"
+msgstr ""
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object creation screen"
+msgid "Create"
+msgstr ""
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object edition screen"
+msgid "Update"
+msgstr ""
+
+#: include/pages/screens/singular.php:122
+msgid "Publish"
+msgstr ""
+
+#: include/pages/screens/singular.php:166
+msgid "Action rejected for current user. Insufficient capacities."
+msgstr ""
+
+#: include/pages/screens/singular.php:219
+msgctxt "post deletion"
+msgid "Unavailable action."
+msgstr ""
+
+#: include/pages/screens/singular.php:225
+msgctxt "post deletion"
+msgid "Security check failed."
+msgstr ""
+
+#: include/pages/screens/singular.php:231
+msgid "Element permanently removed."
+msgstr ""
+
+#: include/pages/wizard.php:189
+#, php-format
+msgid ""
+"If you can see this, an error occured. Click %s here %s to resolve. Then "
+"restart the wizard."
+msgstr ""
+
+#: include/pages/wizard.php:202
+msgid "Leave the wizard"
+msgstr ""
+
+#: include/pages/wizard.php:202 include/pages/wizard.php:1004
+msgid "You can come back later and continue from that point."
+msgstr ""
+
+#: include/pages/wizard.php:358
+msgid "An error occured during form validation."
+msgstr ""
+
+#: include/pages/wizard.php:753
+#, php-format
+msgctxt "wizard critical path tab title with loop count"
+msgid "%s (%s)"
+msgstr ""
+
+#: include/pages/wizard.php:964
+msgctxt "previous wizard step"
+msgid "Previous"
+msgstr ""
+
+#: include/pages/wizard.php:975
+msgctxt "repeat a wizard portion"
+msgid "Add"
+msgstr ""
+
+#: include/pages/wizard.php:984
+msgctxt "next wizard step"
+msgid "Next"
+msgstr ""
+
+#: include/pages/wizard.php:988
+msgctxt "final wizard submit"
+msgid "Submit"
+msgstr ""
+
+#: include/pages/wizard.php:1003
+msgid "Leave this wizard"
+msgstr ""
+
+#: include/pages/wizard.php:1005
+msgid "Cancel this wizard"
+msgstr ""
+
+#: include/pages/wizard.php:1006
+msgid "You will lose all prepared settings."
+msgstr ""
+
+#: include/tools/argparser.php:158
+#, php-format
+msgctxt "Input array validation"
+msgid "%s value rejected"
+msgstr ""
+
+#: include/tools/argparser.php:169
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not an array"
+msgstr ""
+
+#: include/tools/argparser.php:173
+#, php-format
+msgid "A value in %s"
+msgstr ""
+
+#: include/tools/argparser.php:192
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not valid"
+msgstr ""
+
+#: include/tools/argparser.php:197
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be equal or greater than zero"
+msgstr ""
+
+#: include/tools/argparser.php:203
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a decimal number"
+msgstr ""
+
+#: include/tools/argparser.php:205 include/tools/argparser.php:215
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be greater than zero"
+msgstr ""
+
+#: include/tools/argparser.php:213
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a number"
+msgstr ""
+
+#: include/tools/argparser.php:219
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a string"
+msgstr ""
+
+#: include/tools/argparser.php:231
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is empty"
+msgstr ""
+
+#: include/tools/argparser.php:281
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing required value for %s"
+msgstr ""
+
+#: include/tools/argparser.php:291
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing entry %s"
+msgstr ""
+
+#: include/tools/argparser.php:297
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing value for %s"
+msgstr ""
+
+#: include/tools/argparser.php:364
+#, php-format
+msgctxt "Input array validation"
+msgid "Unknown entry %s"
+msgstr ""
+
+#: include/tools/pseudocss.php:243
+msgid "Default CSS values"
+msgstr ""
+
+#: include/tools/pseudocss.php:248
+msgctxt "Default css values"
+msgid "Reset"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LWS Admin Panel"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Provide an easy way to manage other plugin's settings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""

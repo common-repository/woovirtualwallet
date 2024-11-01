@@ -1,0 +1,52 @@
+.form-grid{
+	.lac-select-wrapper{
+		grid-column: 1 / 4;
+
+		.lac-select-ddbutton{
+			background-color: var(--wizard-color, #366);
+
+			&:hover{
+				background-color: var(--wizard-color-light, #577);
+			}
+		}
+		.lac-select-list{
+			.lac-select-item{
+				&:hover{
+					background-color: var(--wizard-color, #366);
+				}
+			}
+		}
+	}
+	.lac-checklist-wrapper{
+		grid-column: 1 / 4;
+
+		.top-line{
+			.selector{
+				.anim-icon{
+					background-color: var(--wizard-color, #366);
+				}
+			}
+			.search-div{
+				.search-btn{
+					background-color: var(--wizard-color-lighter, #9aa);
+				}
+				.search-input{
+					background-color: var(--wizard-color-alpha, #33666620);
+				}
+				.reset-btn{
+					background-color: var(--wizard-color-lighter, #9aa);
+				}
+			}
+			.close-btn{
+				background-color: var(--wizard-color, #366);
+			}
+		}
+		.values-list{
+			.tag-wrapper{
+				.tag-remove{
+					color: var(--wizard-color, #366);
+				}
+			}
+		}
+	}
+}

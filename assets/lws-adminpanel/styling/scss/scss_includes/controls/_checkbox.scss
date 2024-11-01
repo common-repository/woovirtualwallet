@@ -1,0 +1,33 @@
+.lws-checkbox{
+	border: none;
+	margin:1px;
+	background-color:#eee;
+	border-radius : 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:16px;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all 0.3s;
+
+	width: 26px;
+	height: 26px;
+	line-height: 22px;
+	font-size:22px;
+
+	&:before{
+		color:var(--group-color, #366);
+	}
+	&:hover{
+		background-color:#ccc;
+	}
+
+	&.lws-checkbox-inactive{
+		background: rgb(238,238,238);
+		background: linear-gradient(135deg, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 48%, rgba(102,102,102,1) 50%, rgba(238,238,238,1) 52%, rgba(238,238,238,1) 100%);
+	}
+}
+.lws_checkbox.lws-checkbox-hidden{
+    order: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;
+}

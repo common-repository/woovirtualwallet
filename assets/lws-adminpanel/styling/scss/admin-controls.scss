@@ -1,0 +1,48 @@
+@import "scss_includes/controls/_checklist.scss";
+@import "scss_includes/controls/_checkgrid.scss";
+@import "scss_includes/controls/_checkbox.scss";
+@import "scss_includes/controls/_duration.scss";
+@import "scss_includes/controls/_select.scss";
+@import "scss_includes/controls/_taglist.scss";
+@import "scss_includes/controls/_switch.scss";
+@import "scss_includes/controls/_shortcode.scss";
+@import "scss_includes/controls/_media.scss";
+@import "scss_includes/controls/_vertnav.scss";
+
+input.lws-input{
+	&[type="text"], &[type="search"], &[type="tel"], &[type="time"], &[type="url"], &[type="password"], &[type="week"], &[type="month"],
+	&[type="color"], &[type="date"], &[type="datetime"], &[type="datetime-local"], &[type="email"], &[type="number"]{
+		border:none;
+		border-radius : 0;
+		margin:0;
+		background-color: #eee;
+		color:#000;
+		height:30px;
+		box-sizing: border-box;
+		transition: all 0.3s ease ;
+
+		&::placeholder{
+			opacity: 1;
+			color:#666;
+		}
+
+		&:hover{
+			background-color:#cdd;
+
+			&::placeholder{
+				color:#577;
+			}
+		}
+
+		&:focus{
+			background-color:#344;
+			color:#fff;
+			outline:none;
+			box-shadow: none;
+			&::placeholder{
+				color:#aaa;
+			}
+		}
+	}
+
+}

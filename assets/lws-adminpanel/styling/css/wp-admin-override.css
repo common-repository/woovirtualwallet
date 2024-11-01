@@ -1,0 +1,29 @@
+/* WP LWS Pages */
+
+
+.lws-adminpanel-body #screen-meta-links #screen-options-link-wrap{
+	box-shadow:none;border:none;background:transparent;
+}
+.lws-adminpanel-body #screen-meta-links{margin-right:10px;}
+.lws-adminpanel-body #screen-meta-links .show-settings{
+	box-shadow: none;border-radius:4px;background: #fff;
+	line-height:20px;
+}
+.lws-adminpanel-body #screen-meta-links .show-settings::after{
+	bottom:0px;
+}
+.lws-adminpanel-body #screen-meta-links .show-settings.screen-meta-active{
+	border-radius: 0 0 4px 4px;
+}
+.lws-adminpanel-body #screen-meta{border:none;border-radius:4px 4px 0 4px;margin-right: 10px;}
+
+.lws-adminpanel-body .wrap .page-title-action{
+	border:none;border-radius: 4px; background-color:#3fa9f5;color:#fff;
+}
+.lws-adminpanel-body .wrap .page-title-action:hover{
+	background-color:#4fc9ff;color:#fff;
+}
+
+.lws-adminpanel-body .tablenav .actions{overflow:visible;}
+.lws-adminpanel-body .tablenav .actions label{vertical-align: baseline;}
+.lws-adminpanel-body .tablenav .actions .lac-select-wrapper{margin: 2px 5px 0 5px;}

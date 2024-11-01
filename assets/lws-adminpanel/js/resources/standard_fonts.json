@@ -1,0 +1,134 @@
+{
+    "items": [
+        {
+            "family": "Georgia",
+            "category": "serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Palatino Linotype",
+            "category": "serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Times New Roman",
+            "category": "serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Arial",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Arial Black",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Comic Sans MS",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Impact",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Lucida Sans Unicode",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Tahoma",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Trebuchet MS",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Verdana",
+            "category": "sans-serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Courier New",
+            "category": "monospace",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        },
+        {
+            "family": "Lucida Console",
+            "category": "monospace",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ]
+        }
+    ]
+}

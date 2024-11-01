@@ -1,0 +1,32 @@
+/* LWS Autocomplete Controls - Select */
+
+.lac-select-wrapper{position: relative;display:inline-flex;}
+.lac-select-combo{display:inline-flex;flex-direction: row;border:1px solid #ccc;background:#fff;height:28px;box-sizing: border-box;}
+.lac-select-input{flex:0 1 auto;background-color:transparent;position: relative;}
+input[readonly].lac-select-input{background-color: transparent;}
+.lac-select-wrapper .lac-select-combo .lac-select-input{border:none; height:24px;width:auto;}
+.lac-select-ddbutton{flex:0 0 auto;padding:0 5px;color:#3fa9f5;background-color:transparent;cursor:pointer;box-sizing: border-box;line-height:26px;}
+.lac-select-ddbutton:hover{background-color:#3fa9f5;color:#fff;}
+.lac-select-ddbutton.lws-disabled{background-color:#ddd;color:#bbb;}
+.lac-select-ddbutton.lws-disabled:hover{background-color:#ddd;color:#bbb;}
+.lac-select-showmore{flex:0 0 auto;padding:2px 3px;color:#666666;background-color:transparent;cursor:pointer;font-size:18px;display:none;}
+.lac-select-showmore:hover{color:#3fa9f5;}
+.lac-select-list{position:absolute;border:1px solid #ddd;background-color:#fff;
+    top:27px;min-width:180px;max-height:200px;overflow-y:auto;box-sizing:border-box;
+    padding:0;display:none;height:auto;z-index:300;
+}
+.lac-select-optgroup{padding:5px;box-sizing: border-box;background-color:#999;color:#fff;font-size:10px;font-weight: bold;text-transform: uppercase;}
+.lac-select-item{padding:5px;box-sizing: border-box;cursor:pointer;display: flex;flex-direction: row;}
+.lac-select-item:hover{background-color:#3fa9f5;color:#fff;}
+.lac-item-arrow{flex:0 0 20px;display:flex;align-items: center; justify-content: center;
+    margin: -5px 5px -5px 0px;padding-right: 5px;border-right: 1px solid #eee;box-sizing: border-box;
+}
+.lac-highlighted, .lac-highlighted:hover{background-color:#015aa3;color:#fff;}
+.lac-select-error{position:absolute;border:1px solid #df2500;background-color:#fee;
+    top:28px; color: #600; padding:2px 10px;display:none;z-index:200;}
+
+/*temp*/
+.lws-country-line{display: flex;flex-direction: row;cursor:pointer;}
+.lws-country-flag{flex:0 0 30px;padding-right:5px;height:20px;}
+.lws-country-flag img{width:30px;height:20px;}
+.lws-country-name{line-height: 20px;height:20px;}

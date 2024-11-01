@@ -1,0 +1,102 @@
+/* lwss objects */
+.lwss-text-container{border: 1px solid #aaa;position:relative;padding:3px 20px 3px 5px;  cursor:pointer;}
+.lwss-text-editor{position:relative;padding:3px 20px 3px 0;}
+
+/* jQuery SelectMenu */
+.lwss-default-sel{float:left;border:1px solid #ccc;border-radius: 0;padding:0 3px 0 3px;background: #fff;color:#666;margin:0;}
+.lwss-default-sel span.ui-icon {background:none !important;text-indent:0;border:none;}
+.lwss-default-sel span.ui-icon:after{content: "\e900";font-family: lws_icons;color:#3fa1f5;}
+.lwss-default-sel.ui-selectmenu-button-open span.ui-icon:after{content: "\e901";font-family: lws_icons;color:#2f81c5;}
+.lwss-default-sel span.ui-selectmenu-text{border:none;padding-left:1px;}
+.lwss-weight-sel{width:7em;margin-left:-1px;margin-right:3px;}
+.lwss-unit-sel{width:4.5em;}
+.lwss-font-sel{width:10em;}
+
+/* Font Elements */
+.lwss-text-size-select{margin-left:2px;}
+input.lwss-text-size-value{ float:left;width:3em;height:28px;border:1px solid #ccc;margin:0 0 0 -1px;border-right:0;padding:3px 0 3px 5px;
+                            box-sizing: border-box;color:#666;outline:none;box-shadow: none;-webkit-box-shadow:none;}
+.lwss-font-btn{ box-sizing: border-box;width: 30px;height: 28px;background: linear-gradient(#f5f5f5, #ddd);padding:3px; float:left;
+                border-radius: 0;border:1px solid #ccc;color:#3fa1f5;box-shadow: none; font-size:18px;vertical-align: baseline;}
+.lwss-font-btn:hover{border-color:#ccc;color:#2f81c5;background:linear-gradient(#eee, #ccc);}
+.lwss-font-btn.lws-btn-toggle-on{border-color:#ccc;color:#fff;background:linear-gradient(#3fa1f5, #3f91f5);}
+.lwss-font-style{margin-left:3px;padding-left:4px;}
+.lwss-font-decoration{margin-left: -1px;padding-left:4px;}
+.lwss-font-hor-sep{clear:both;height:10px;min-width:300px;border-bottom:1px solid #999;}
+.lwss-font-example-container{clear: both;width:460px;min-height:30px;background:#fff;margin-top:10px;padding:10px;}
+.lwss-font-transform{margin-left: -1px;margin-right:3px;padding-left:0px;}
+
+/*** CSS Border editor ***/
+.lwss-bloc-highlight{display: block;float:left;width:104px;height:104px;position: relative;background-color:#eee;margin-right:10px;}
+.lwss-bloc-demo{font-size:10px;width:20px;height:20px;margin:20px;padding:20px;background-color:#ccc;border:1px solid #666;}
+.lwss-bloc-demo-inside{height:100%;width:100%;background:white;}
+
+.lwss-bloc-mark{position:absolute;width:16px;height:16px;border: 1px solid #3fa1f5;border-radius:10px;opacity:0}
+.lwss-bloc-mark-u.lwss-bloc-mark-margin{top:1px;left:42px;}
+.lwss-bloc-mark-d.lwss-bloc-mark-margin{bottom:2px;left:42px;}
+.lwss-bloc-mark-l.lwss-bloc-mark-margin{top:42px;left:1px;}
+.lwss-bloc-mark-r.lwss-bloc-mark-margin{top:42px;right:2px;}
+.lwss-bloc-mark-u.lwss-bloc-mark-padding{top:22px;left:42px;}
+.lwss-bloc-mark-d.lwss-bloc-mark-padding{bottom:23px;left:42px;}
+.lwss-bloc-mark-l.lwss-bloc-mark-padding{top:42px;left:22px;}
+.lwss-bloc-mark-r.lwss-bloc-mark-padding{top:42px;right:23px;}
+.lwss-bloc-mark-u.lwss-bloc-mark-border-width{top:11px;left:42px;}
+.lwss-bloc-mark-d.lwss-bloc-mark-border-width{bottom:12px;left:42px;}
+.lwss-bloc-mark-l.lwss-bloc-mark-border-width{top:42px;left:11px;}
+.lwss-bloc-mark-r.lwss-bloc-mark-border-width{top:42px;right:12px;}
+.lwss-bloc-mark-u.lwss-bloc-mark-border-radius{top:11px;left:11px;}
+.lwss-bloc-mark-r.lwss-bloc-mark-border-radius{top:11px;right:12px;}
+.lwss-bloc-mark-d.lwss-bloc-mark-border-radius{bottom:12px;right:12px;}
+.lwss-bloc-mark-l.lwss-bloc-mark-border-radius{bottom:12px;left:11px;}
+
+.lwss-bloc-example-container{background: #fff;display:block;float:left;margin-top:10px;}
+.lwss-bloc-example{border-style: solid;}
+.lwss-bloc-vertical-separator{display: block;float:left;height: 104px;margin-right:10px;width:0px;border-left:1px solid #ccc;}
+.lwss-bloc-standard-input{position:relative;display: block;float:left;font-family: "Gravity";}
+.lwss-bloc-colorpicker{float:right;}
+
+.lwss-hl-width{float:left;width:12em;margin-bottom:8px;margin-right:10px;}
+.lwss-bloc-label{float:left;line-height:28px;margin-right:5px;}
+input.lwss-text-with-tooltip{height:28px;float:right;background:white;border:1px solid #ccc;padding:3px 5px 3px 5px;width:8em;font-size:13px;color:#666;box-shadow:none;-webkit-box-shadow:none;}
+
+.lwss-tooltip-container{position: relative;}
+.lwss-tooltip{position: absolute;top:1px;right:1px;z-index:1;width:14px;height:14px;cursor: pointer;background: #fff url("../../images/tooltip-background.png") top right no-repeat;}
+#lwss-tooltip-widget{position: absolute;top:0;right:-10em;z-index:999;width:18em;border:1px solid #999;padding:5px;background-color:#eee;text-align: justify;cursor:help;}
+.lwss-tooltip-exemple{font-size:10px !important;}
+
+.lwss-input-button-toggle{box-sizing: border-box;
+	width: 30px;
+	height: 28px;
+	background: linear-gradient(#f5f5f5, #ddd);
+	padding: 0px;
+	float: left;
+	border-radius: 0;
+	border: 1px solid #ccc;
+	color: #3fa1f5;
+	box-shadow: none;
+	font-size: 18px;
+	vertical-align: baseline;
+	cursor:pointer;
+}
+
+.lwss-button-color-line{clear:both;}
+.lwss-button-color-cell{float:left;width:110px;height:37px;line-height: 35px;padding:2px 0 0 10px;}
+.lwss-input-tab{clear:both;}
+.lwss-input-popup{border:1px solid lightgray;background-color:white;width:480px;height:113px;position:relative;top:5px;}
+.lwss-input-popup .lwss-hl-width{margin:3px 5px 5px 5px;}
+.lwss-input-popup .lwss-bloc-highlight{margin:4px 5px 0 4px;}
+.lwss-input-popup .lwss-bloc-vertical-separator{margin:4px 5px 0 0;}
+.lwss-button-color-table{position:absolute;width:480px;height:113px;top:0;left:0}
+.lwss-absolute-background-normal{position:absolute;width:120px;height: 113px;background:rgba(200,200,200,0.3);top:0;left:120px;}
+.lwss-absolute-background-over{position:absolute;width:120px;height: 113px;background:rgba(180,180,180,0.3);top:0;left:240px;}
+.lwss-absolute-background-focused{position:absolute;width:120px;height: 113px;background:rgba(160,160,160,0.3);top:0;left:360px;}
+.lwss-absolute-background-text{position:absolute;width:480px;height: 38px;background:rgba(200,200,200,0.3);top:37px;left:0px;}
+.lwss-absolute-background-background{position:absolute;width:480px;height: 38px;background:rgba(180,180,180,0.3);top:75px;left:0px;}
+.lwss-toggle-bloc{width:40px;height:28px;padding: 3px;}
+.lwss-toggle-bloc:hover{background:linear-gradient(#eee, #ccc)}
+.lwss-toggle-bloc:after{content: "\eaf2";font-family: lws_icons;font-size:23px;line-height:0.8}
+.lwss-toggle-states{width:62px;margin-left:3px;}
+.lwss-toggle-states-N{width:17px;height:26px;float:left;padding-left:3px;}
+.lwss-toggle-states-O{width:17px;height:26px;float:left;padding-left:3px;}
+.lwss-toggle-states-F{width:16px;height:26px;float:left;padding-left:4px;}
+

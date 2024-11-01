@@ -1,0 +1,29 @@
+.lwss_selectable.lws-woovirtualwallet-widget-history-table{}
+.lwss_selectable.lws-woovirtualwallet-widget-history-head{
+	background-color:#999;color:#fff;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-woovirtualwallet-widget-history-value.date{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-woovirtualwallet-widget-history-value.reason{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+}
+.lwss_selectable.lws-woovirtualwallet-widget-history-value.move{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	text-align:right;
+}
+.lwss_selectable.lws-woovirtualwallet-widget-history-value.total{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	text-align:right;font-weight: bold;
+}
+.lwss_selectable.lwss_modify.lws_woovirtualwallet_history_widget_header{
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:0px;
+	font-size:16px;
+}
+
+.lws-woovirtualwallet-widget-history-table{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	gap : 2px;
+}

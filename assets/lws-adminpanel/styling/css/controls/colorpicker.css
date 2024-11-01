@@ -1,0 +1,8 @@
+.lws-color-picker{display:flex;flex-direction: row;flex:0 1 150px;margin:5px 0 0 10px;}
+.lws-cp-left{flex:0 0 45px;height:45px;background-color: #ddd; border-radius: 4px 0 4px 0;padding:3px;box-sizing: border-box;}
+.lws-cp-demo{width:39px;height:39px;background-color:#fff;border-radius:2px;cursor: pointer;}
+.lws-cp-right{flex:0 0 120px;display:flex;flex-direction:column;}
+.lws-cp-input{flex:0 0 25px;background-color:#ddd;border-radius: 0 4px 4px 0;border:none;box-shadow: none;
+	font-size:14px;width:120px;margin:0px;padding:2px;
+}
+.lws-cp-title{text-align:center;text-transform:uppercase;font-size:11px;color:#666;font-weight: bold;}

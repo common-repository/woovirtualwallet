@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="LWS_Loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<circle cx="50" cy="50" r="40" stroke="#3fa9f5" fill="none" stroke-width="6" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" dur="2s" repeatCount="indefinite" from="0" to="503"></animate>
+    <animate attributeName="stroke-dasharray" dur="2s" repeatCount="indefinite" values="150.6 100.4;1 250;150.6 100.4"></animate>
+</circle>
+<circle cx="50" cy="50" r="30" stroke="#aaaaaa" fill="none" stroke-width="6" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" dur="2s" repeatCount="indefinite" from="377" to="0"></animate>
+    <animate attributeName="stroke-dasharray" dur="2s" repeatCount="indefinite" values="150 38.5;100.5 88;150 38.5"></animate>
+</circle>
+</svg>

@@ -1,0 +1,57 @@
+/* LWS Autocomplete Controls - Select */
+
+.lac-checklist-wrapper{position: relative;display: inline-flex;flex-direction: column;}
+.lac-checklist-top{flex:0 0 30px;width:400px;position: relative;}
+.lac-checklist-bottom{flex:0 1 auto;}
+.lac-checklist-combo{display:flex;flex-direction: row;height:28px;box-sizing: border-box;
+    background-color:#3f89c5;color:#fff;cursor:pointer;border-radius: 4px}
+.lac-checklist-basebutton{padding:5px;flex:1 1 auto;font-weight:normal;overflow:hidden;white-space: nowrap;box-sizing: border-box;}
+.lac-checklist-searchdiv{margin:1px;flex:0 0 auto;width:26px;display:flex;flex-direction: row;overflow:hidden;
+    background-color:#ccc;color:#fff;cursor:pointer;border-radius: 4px}
+.lac-checklist-resetbtn{flex:0 0 26px;padding:3px 5px;font-size:16px;color:#3f89c5;box-sizing: border-box;}
+.lac-checklist-resetbtn:hover{color: #3fa9f5;}
+.lac-checklist-searchbtn{flex:0 0 26px;padding:3px 5px;font-size:16px;line-height:20px;color:#3f89c5;box-sizing: border-box;}
+.lac-checklist-searchbtn:hover{color: #3fa9f5;}
+.lac-checklist-close{display:none;margin:1px;flex:0 0 26px;padding:5px 5px;font-size:12px;line-height:15px;color:#fff;background-color:#1cd144;box-sizing: border-box;border-radius: 4px;font-weight: normal;}
+.lac-checklist-close:hover{color: #fff;background-color:#1eec4b;}
+.lac-checklist-input{border:none;flex:1 1 auto;background-color:#eee;margin:0;
+    position: relative;height:28px;box-sizing: border-box;border-width: 1px;border-style:solid;border-color:#ddd;}
+.lac-checklist-resicon{flex:0 0 auto;padding:4px 7px;color:#3f89c5;background-color:#ddd;cursor:pointer;border-radius: 4px 0 0 4px;font-size:16px;}
+.lac-checklist-okbutton{flex:0 0 auto;padding:4px 10px;color:#fff;background-color:#3f89c5;cursor:pointer;border-radius: 0 4px 4px 0;}
+.lac-checklist-okbutton:hover{background-color:#3fa9f5;color:#fff;}
+.lac-checklist-optgroup{padding:5px;box-sizing: border-box;background-color:#999;color:#fff;
+    font-size:10px;font-weight: bold;text-transform: uppercase;text-align: center;
+    margin:3px 0 0 3px;border-radius:2px;width:377px;
+}
+.lac-checklist-list{position:absolute;border:1px solid #ddd;background-color:#fff;
+    top:28px;width:400px;max-height:200px;overflow-y:auto;overflow-y:scroll;
+    padding:0;height:auto;z-index:300;box-sizing: border-box;width:100%;
+    display:none;flex-direction:row;flex-wrap: wrap;align-content: flex-start;
+}
+.lac-checklist-item{padding:5px;box-sizing: border-box;cursor:pointer;width:123px;text-align: center;border-radius:2px;
+    margin:3px 0 0 3px;background-color:#eee;display: flex;flex-direction: row;
+}
+.lac-checklist-item-label{font-size:12px;padding: 2px 0px 2px 5px;text-align:center;flex:1 1 auto;}
+.lac-checklist-item:hover{background-color:#3fa9f5;color:#fff;}
+.lac-checklist-item-selected{background-color:#015aa3;color:#fff;}
+.lac-checklist-error{position:absolute;border:1px solid #df2500;background-color:#fee;
+    top:28px; color: #600; padding:2px 10px;display:none;z-index:200;}
+.lac-checklist-buffer{position:absolute;width:0px;height:0px;opacity:0;}
+
+.lac-checklist-tags{border:1px solid #ddd;background-color:#fff;width:400px;min-height:100px;
+	display:flex;flex-direction:row;flex-wrap: wrap;align-content: flex-start;overflow-y: auto;box-sizing: border-box;
+}
+.lac-tag-wrapper{margin:2px 0 0 2px;background-color:#f5f5f5;padding:5px 10px 2px 10px;height:20px;font-size:14px;line-height:14px;
+	display:flex;flex-direction:row;
+}
+.lac-tag-text{padding-right:5px;}
+.lac-tag-remove{cursor: pointer;font-size:12px;position:relative;bottom:0;top:2px;}
+
+.form-table td .lac-checklist-wrapper{padding-top:20px;}
+
+.lac-checklist-showmore{width:376px;height:35px;background-color:#3f89c5;color: #fff;
+    margin:3px 0 0 3px;border-radius: 4px;cursor: pointer;font-size: 14px; font-weight: normal;
+    display: flex; flex-direction: row; justify-content: center;align-items:center;
+}
+.lac-checklist-showmore:hover{background-color:#3fa9f5}
+.lac-checklist-smicon{padding: 0 5px;font-size: 16px;}

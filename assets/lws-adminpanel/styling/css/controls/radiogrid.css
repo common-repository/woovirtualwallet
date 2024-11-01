@@ -1,0 +1,22 @@
+/* Buttons */
+/*
+.lws-radiogrid-button{width:100%;height:30px;border:1px solid #666;border-radius: 4px;display: flex;flex-direction: row;cursor: pointer;}
+.lws-radiogrid-button-icon{flex:0 0 30px;line-height: 30px;font-size:20px;color:#fff;background-color:#666;text-align: center;}
+.lws-radiogrid-button-label{line-height: 20px;padding:5px;font-size:15px;box-sizing: border-box;}
+.lws-radiogrid-button:hover{border-color:#cc1f25}
+.lws-radiogrid-button:hover .lws-radiogrid-button-icon{background-color:#09578f;}
+.lws-radiogrid-button.selected{border-color:#1280cf;}
+.lws-radiogrid-button.selected .lws-radiogrid-button-icon{background-color:#1280cf;}
+
+.lws-radiogrid-button.no-icon{justify-content: center;align-items: center;}
+.lws-radiogrid-button.no-icon.selected{border-color:#1280cf;background-color:#1280cf;color:#fff}
+.lws-radiogrid-button.no-icon:hover{border-color:#09578f;background-color:#09578f;color:#fff}
+
+/* Inactive buttons */
+.lws-radiogrid-button.inactive{border:1px solid #aaa;cursor: default;}
+.lws-radiogrid-button.inactive .lws-radiogrid-button-icon{background-color:#aaa;text-align: center;}
+.lws-radiogrid-button.inactive .lws-radiogrid-button-label{color:#aaa;}
+.lws-radiogrid-button.inactive .lws-radiogrid-button:hover{border-color:#aaa}
+.lws-radiogrid-button.inactive .lws-radiogrid-button:hover .lws-radiogrid-button-icon{background-color:#aaa;}
+.lws-radiogrid-button.inactive .lws-radiogrid-button.selected{border-color:#aaa;}
+.lws-radiogrid-button.inactive .lws-radiogrid-button.selected .lws-radiogrid-button-icon{background-color:#aaa;}

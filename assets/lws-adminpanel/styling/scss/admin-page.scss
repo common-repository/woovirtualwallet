@@ -1,0 +1,71 @@
+@import "scss_includes/admin-pages/_groups.scss";
+@import "scss_includes/admin-pages/_fields.scss";
+@import "scss_includes/admin-pages/_resume.scss";
+@import "scss_includes/admin-pages/_singular.scss";
+@import "scss_includes/admin-pages/_support.scss";
+.lws-admin-page{
+	background-color: #fff;
+	.resume-grid{
+		display:grid;
+		grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+		padding:20px; gap:20px;
+	}
+
+	.groups-grid{
+		display:grid;
+		grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr);
+		padding:20px; gap:20px;
+
+		&.has-vertnav{
+			padding-right:40px;
+		}
+
+		&.onecol{
+			grid-template-columns: 1fr;
+
+			.group-item{
+				grid-column : 1 / 1;
+
+				&.third{
+					grid-column : 1 / 1;
+				}
+				&.half{
+					grid-column : 1 / 1;
+				}
+
+			}
+		}
+
+		&.vertical{
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.lws-group-descr-copy{
+		display: inline-flex;
+		min-height: 30px;
+		line-height: 30px;
+		border:none;
+		border-left: 5px solid #366;
+		font-weight: bold;
+		background-color: #ccc;
+		border-radius: 0;
+
+		.lws-group-descr-copy-text{
+			background-color: transparent;
+			padding: 0 10px;
+			font-size:14px;
+			font-family: 'Consolas';
+		}
+		.lws-group-descr-copy-icon{
+			background-color: #366;
+			color:#fff;
+			cursor: pointer;
+			padding:0 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+}

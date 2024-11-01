@@ -1,0 +1,1678 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"Project-Id-Version: LWS Admin Panel\n"
+"POT-Creation-Date: 2020-01-07 15:47+0100\n"
+"PO-Revision-Date: 2021-01-13 14:58+0000\n"
+"Last-Translator: Damian\n"
+"Language-Team: Čeština\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-adminpanel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: cs-CZ\n"
+"X-Loco-Version: 2.5.0; wp-5.6"
+
+#: include/internal/pages.php:447
+msgid " didn't match any items"
+msgstr "neodpovídá žádným položkám"
+
+#: include/editlist/pager.php:82
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d položka"
+msgstr[1] "%d položky"
+msgstr[2] "%d položek"
+
+#: include/internal/mailer.php:397
+#, php-format
+msgid "%s Email Settings"
+msgstr "%s Nastavení e-mailu"
+
+#: include/internal/credits/license.php:927
+#, php-format
+msgid "%s Premium"
+msgstr ""
+"%s Premium\n"
+
+#: include/internal/credits/licensepage.php:424 
+#: include/internal/credits/licensepage.php:484
+#, php-format
+msgid "%s Premium License"
+msgstr ""
+"%s Premium Licence\n"
+
+#: include/internal/credits/licensepage.php:309
+msgid "<b>Your license is activated.</b>"
+msgstr "<b>Vaše licence je aktivována.</b>"
+
+#: include/internal/credits/licensepage.php:315
+msgid "<b>Your Trial is active.</b>"
+msgstr ""
+"<b>Vaše zkušební verze je aktivní.</b>\n"
+
+#: include/tools/argparser.php:173
+#, php-format
+msgid "A value in %s"
+msgstr "Hodnota v %s"
+
+#: include/internal/editlistcontroler.php:312
+msgid "Action"
+msgstr ""
+"Akce\n"
+
+#: include/pages/screens/singular.php:166
+msgid "Action rejected for current user. Insufficient capacities."
+msgstr ""
+"Akce byla pro aktuálního uživatele odmítnuta. Nedostatečné kapacity.\n"
+
+#: include/internal/credits/licensepage.php:209
+msgid "Activate license"
+msgstr ""
+"Aktivovat licenci\n"
+
+#: include/internal/credits/licensepage.php:418
+#| msgid "Activate your license"
+msgid "Activate my license"
+msgstr ""
+"Aktivujte svoji licenci\n"
+
+#: include/internal/editlistcontroler.php:325 
+#: include/pages/field/taglist.php:21
+msgid "Add"
+msgstr "Přidat"
+
+#: include/internal/credits/licensepage.php:271
+msgid "Addons need an active Premium version."
+msgstr ""
+"Doplňky vyžadují aktivní prémiovou verzi.\n"
+
+#: include/pages/head.php:213
+msgid "Admin Menu"
+msgstr ""
+"Nabídka správce\n"
+
+#: include/pages/head.php:214 include/pages/head.php:507
+msgid "Advanced Settings"
+msgstr ""
+"Pokročilé nastavení\n"
+
+#: include/internal/credits/licensepage.php:268
+msgid "All these extensions are available here."
+msgstr ""
+"Všechna tato rozšíření jsou k dispozici zde.\n"
+
+#: include/pages/wizard.php:358
+msgid "An error occured during form validation."
+msgstr ""
+"Během ověřování formuláře došlo k chybě.\n"
+
+#: include/internal/pages.php:427
+msgid "An error occured, please try later."
+msgstr ""
+"Došlo k chybě, zkuste to prosím později.\n"
+
+#: include/pages/field/duration.php:82
+msgid "An integer value greater than zero."
+msgstr ""
+"Celočíselná hodnota větší než nula.\n"
+
+#: include/internal/credits/license.php:754
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+"Během požadavku API došlo k neočekávané chybě HTTP.\n"
+
+#: include/internal/credits/licensepage.php:322
+msgid "An update is waiting for you"
+msgstr ""
+"Čeká na vás aktualizace\n"
+
+#: include/internal/editlistcontroler.php:269
+msgid "Apply"
+msgstr ""
+"Aplikovat\n"
+
+#: include/admin.php:239
+msgid "At least one value is unknown."
+msgstr ""
+"Alespoň jedna hodnota není známa.\n"
+
+#: include/pages/field/shortcode.php:18
+msgid "Attributes"
+msgstr ""
+"Atributy\n"
+
+#: include/pages/field/stygen.php:46
+msgid "Available Elements"
+msgstr ""
+"Dostupné prvky\n"
+
+#: include/internal/credits/licensepage.php:289
+msgid "Available Extensions"
+msgstr ""
+"Dostupné rozšíření\n"
+
+#: include/internal/editlistcontroler.php:450
+msgid "Cancel"
+msgstr ""
+"Zrušení\n"
+
+#: include/internal/credits/licensepage.php:378
+msgid "Cancel my subscription"
+msgstr ""
+"Zrušit moje předplatné\n"
+
+#: include/pages/wizard.php:1005
+msgid "Cancel this wizard"
+msgstr ""
+"Zrušit tohoto průvodce\n"
+
+#: include/internal/pages.php:423
+msgid "Changes not commited."
+msgstr ""
+"Změny nebyly potvrzeny.\n"
+
+#: include/internal/credits/licensepage.php:317
+msgid "Check for Updates"
+msgstr ""
+"Kontrola aktualizací\n"
+
+#: include/admin.php:228
+msgid "Collapse All"
+msgstr ""
+"Sbalit vše\n"
+
+#: include/internal/editlistcontroler.php:454
+msgctxt "Confirm event/unlockable type choice"
+msgid "Next"
+msgstr "další"
+
+#: include/internal/editlistcontroler.php:499
+msgid "Copy"
+msgstr ""
+"Kopírovat\n"
+
+#: include/pages/field/border.php:73
+msgctxt "CSS border size edition"
+msgid "Margin"
+msgstr "Okraj"
+
+#: include/pages/field/border.php:77
+msgctxt "CSS border size editoin"
+msgid "Border"
+msgstr "Okraj"
+
+#: include/pages/field/border.php:75
+msgctxt "CSS border size editoin"
+msgid "Padding"
+msgstr "Odsazení"
+
+#: include/pages/field/border.php:79
+msgctxt "CSS border size editoin"
+msgid "Radius"
+msgstr "Poloměr"
+
+#: include/pages/field/border.php:41
+msgctxt "CSS border tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border size of 5 "
+"pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left borders</p>"
+msgstr ""
+"1 až 4 přijatelné hodnoty<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Nastaví velikost globálního ohraničení "
+"na 5 pixelů</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Nastaví horní, pravý, "
+"dolní, levý okraj</p>"
+
+#: include/pages/field/border.php:83
+msgctxt "CSS color edition"
+msgid "Background"
+msgstr "Pozadí"
+
+#: include/pages/field/border.php:81
+msgctxt "CSS color edition"
+msgid "Border Color"
+msgstr "Barva ohraničení"
+
+#: include/pages/field/cssbutton.php:95
+msgctxt "CSS color edition"
+msgid "Normal Background"
+msgstr "Normální pozadí"
+
+#: include/pages/field/cssbutton.php:88
+msgctxt "CSS color edition"
+msgid "Normal Text"
+msgstr "Normální text"
+
+#: include/pages/field/cssbutton.php:97
+msgctxt "CSS color edition"
+msgid "On Click Background"
+msgstr "Po kliknutí na pozadí"
+
+#: include/pages/field/cssbutton.php:90
+msgctxt "CSS color edition"
+msgid "On Click Text"
+msgstr "Po kliknutí na text"
+
+#: include/pages/field/cssbutton.php:96
+msgctxt "CSS color edition"
+msgid "On Hover Background"
+msgstr "Na pozadí přechodu"
+
+#: include/pages/field/cssbutton.php:89
+msgctxt "CSS color edition"
+msgid "On Hover Text"
+msgstr "Na text při najetí myší"
+
+#: include/pages/field/border.php:25
+msgctxt "CSS margin tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global margin of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left margins</p>"
+msgstr ""
+"1 až 4 přijatelné hodnoty<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Nastaví globální okraj 5 pixelů</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Nastavuje horní, pravý, "
+"dolní, levý okraj</p>"
+
+#: include/pages/field/border.php:33
+msgctxt "CSS padding tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global padding of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left padding</p>"
+msgstr ""
+" 1 až 4 přijatelné hodnoty<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Nastaví globální odsazení na 5 "
+"pixelů</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Nastavuje horní, pravé, "
+"spodní, levé odsazení</p>"
+
+#: include/pages/field/border.php:49
+msgctxt "CSS radius tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border radius of 5 "
+"pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left border radius</p>"
+msgstr ""
+"1 až 4 přijatelné hodnoty<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Nastaví poloměr globálního ohraničení "
+"na 5 pixelů</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Nastaví poloměr ohraničení "
+"nahoře, vpravo, dole, vlevo</p>"
+
+#: include/pages/field/shortcode.php:21
+msgid "Customize the look of this shortcode"
+msgstr ""
+"Upravte vzhled tohoto zkráceného kódu\n"
+
+#: include/legacy/duration.php:97 include/tools/duration.php:97
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Den"
+msgstr[1] "Dny"
+msgstr[2] "Dnů"
+
+#: include/internal/credits/licensepage.php:600 
+#: include/legacy/duration.php:286 include/tools/duration.php:286
+msgid "Days"
+msgstr "Dnů"
+
+#: include/internal/credits/licensepage.php:209 
+#: include/internal/credits/licensepage.php:475
+msgid "Deactivate my license"
+msgstr ""
+"Deaktivovat moji licenci\n"
+
+#: include/tools/pseudocss.php:243
+msgid "Default CSS values"
+msgstr ""
+"Výchozí hodnoty CSS\n"
+
+#: include/tools/pseudocss.php:248
+msgctxt "Default css values"
+msgid "Reset"
+msgstr "Resetovat"
+
+#: include/internal/editlistcontroler.php:500
+msgid "Delete"
+msgstr "Vymazat"
+
+#: include/internal/credits/supportpage.php:475
+msgid ""
+"Describe your problem here, what happen, what is expected, what did you do."
+msgstr ""
+"Popište zde svůj problém, co se stalo, co se očekává, co jste udělali.\n"
+
+#: include/pages/field/shortcode.php:19
+msgid "Description"
+msgstr "Popis"
+
+#: include/pages/head.php:368
+msgid "Discard Changes"
+msgstr ""
+"Zrušit změny\n"
+
+#: include/pages/head.php:335
+msgid "Dismiss"
+msgstr ""
+"Zavrhnout\n"
+
+#: include/pages/notices.php:139
+msgid "Dismiss this notice"
+msgstr ""
+"Zamítnout toto upozornění\n"
+
+#: include/internal/pages.php:425
+msgid "Do you really want to delete the line?"
+msgstr ""
+"Opravdu chcete smazat řádek?\n"
+
+#: include/pages/head.php:218
+msgid "Documentation"
+msgstr ""
+"Dokumentace\n"
+
+#: include/pages/field/media.php:34
+msgid "Edit..."
+msgstr ""
+"Upravit...\n"
+
+#: include/internal/editlistcontroler.php:141
+msgctxt "editlist groupby"
+msgid "Add a group"
+msgstr "Přidat skupinu"
+
+#: include/pages/screens/singular.php:231
+msgid "Element permanently removed."
+msgstr ""
+"Prvek byl trvale odstraněn.\n"
+
+#: include/internal/mailer.php:432
+msgid "Email details"
+msgstr ""
+"E-mailové podrobnosti\n"
+
+#: include/internal/mailer.php:397
+msgid "Email Settings"
+msgstr ""
+"Nastavení e-mailu\n"
+
+#: include/admin.php:227 include/pages/head.php:380
+msgid "Expand All"
+msgstr ""
+"Rozbalit vše\n"
+
+#: include/internal/credits/supportpage.php:422
+msgid "Fill in the form below to send a support request."
+msgstr ""
+"Vyplňte následující formulář a odešlete žádost o podporu.\n"
+
+#: include/editlist/filtersimplelinks.php:23
+msgid "Filter the results"
+msgstr ""
+"Filtrujte výsledky\n"
+
+#: include/pages/wizard.php:988
+msgctxt "final wizard submit"
+msgid "Submit"
+msgstr "Odeslat"
+
+#: include/internal/pages.php:431
+msgctxt "Font list"
+msgid "Show less"
+msgstr "Ukaž méně"
+
+#: include/internal/pages.php:430
+msgctxt "Font list"
+msgid "Show more"
+msgstr "Zobrazit více"
+
+#: include/internal/pages.php:442
+msgctxt "Font weight"
+msgid "Black"
+msgstr "Černá"
+
+#: include/internal/pages.php:440
+msgctxt "Font weight"
+msgid "Bold"
+msgstr "Tučně"
+
+#: include/internal/pages.php:441
+msgctxt "Font weight"
+msgid "Extra Bold"
+msgstr "Extra tučné"
+
+#: include/internal/pages.php:434
+msgctxt "Font weight"
+msgid "Extra Light"
+msgstr "Extra hubené"
+
+#: include/internal/pages.php:435
+msgctxt "Font weight"
+msgid "Light"
+msgstr "Světlo"
+
+#: include/internal/pages.php:438
+msgctxt "Font weight"
+msgid "Medium"
+msgstr "Střední"
+
+#: include/internal/pages.php:436 include/internal/pages.php:437
+msgctxt "Font weight"
+msgid "Normal"
+msgstr "Normální"
+
+#: include/internal/pages.php:439
+msgctxt "Font weight"
+msgid "Semi Bold"
+msgstr "Semi Bold"
+
+#: include/internal/pages.php:433
+msgctxt "Font weight"
+msgid "Thin"
+msgstr "Tenký"
+
+#: include/internal/mailer.php:411
+msgid "Footer text"
+msgstr ""
+"Text zápatí\n"
+
+#: include/internal/credits/licensepage.php:565
+#, php-format
+msgid "Free %s Premium Trial"
+msgstr ""
+"Zkušební verze %s zdarma\n"
+
+#: include/internal/credits/licensepage.php:524
+#| msgid "Pro Version"
+msgid "Free Version"
+msgstr ""
+"Bezplatná verze\n"
+"\n"
+
+#: include/internal/helpers/pages.php:62
+msgid "Generate API Key"
+msgstr ""
+"Generovat klíč API\n"
+
+#: include/internal/credits/licensepage.php:725 
+#: include/internal/credits/licensepage.php:745
+#, php-format
+msgid "Go to <b>%s</b> Settings"
+msgstr ""
+"Přejděte do Nastavení <b>%s</b>\n"
+
+#: include/internal/helpers/pages.php:70
+msgid "Google account"
+msgstr ""
+"Účet Google\n"
+
+#: include/internal/mailer.php:403
+msgid "Header picture"
+msgstr ""
+"Obrázek záhlaví\n"
+
+#: include/internal/credits/licensepage.php:228
+msgid "Here you manage the license keys for each one of them."
+msgstr ""
+"Zde spravujete licenční klíče pro každý z nich.\n"
+
+#: include/admin.php:230
+msgid "Hide Advanced Settings"
+msgstr ""
+"Skrýt pokročilá nastavení\n"
+
+#: include/legacy/duration.php:88 include/tools/duration.php:88
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Hodina"
+msgstr[1] "Hodiny"
+msgstr[2] "Hodin"
+
+#: include/legacy/duration.php:292 include/tools/duration.php:292
+msgid "Hours"
+msgstr ""
+"Hodin\n"
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""
+"https://longwatchstudio.com\n"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr ""
+"https://plugins.longwatchstudio.com\n"
+
+#: include/pages/head.php:445
+msgid "https://plugins.longwatchstudio.com/"
+msgstr ""
+"https://plugins.longwatchstudio.com/\n"
+
+#: include/pages/head.php:448
+msgid "https://plugins.longwatchstudio.com/documentation/"
+msgstr ""
+"https://plugins.longwatchstudio.com/documentation/\n"
+
+#: include/internal/credits/licensepage.php:413
+msgid ""
+"If the activation is successful, the Premium version will be activated and "
+"installed automatically."
+msgstr ""
+"Pokud je aktivace úspěšná, verze Premium se aktivuje a nainstaluje "
+"automaticky.\n"
+
+#: include/internal/credits/licensepage.php:312
+msgid ""
+"If the Plugin Update still does not appears, please wait few minutes and try "
+"again."
+msgstr ""
+"Pokud se aktualizace pluginu stále neobjeví, počkejte několik minut a zkuste "
+"to znovu.\n"
+
+#: include/internal/credits/licensepage.php:698
+msgid ""
+"If you are sure your license should still be valid, try to reactivate it "
+"manually or contact the support of the plugin."
+msgstr ""
+"Pokud jste si jisti, že vaše licence by měla být stále platná, zkuste ji "
+"znovu aktivovat ručně nebo se obraťte na podporu pluginu.\n"
+
+#: include/internal/credits/licensepage.php:679
+msgid ""
+"If you are sure your license should still be valid, try to restart the trial "
+"manually or contact the support of the plugin."
+msgstr ""
+"Pokud jste si jisti, že vaše licence by měla být stále platná, zkuste "
+"zkušební verzi restartovat ručně nebo se obraťte na podporu pluginu.\n"
+
+#: include/pages/wizard.php:189
+#, php-format
+msgid ""
+"If you can see this, an error occured. Click %s here %s to resolve. Then "
+"restart the wizard."
+msgstr ""
+"Pokud to vidíte, došlo k chybě. Kliknutím %s sem %s to vyřešíte. Poté "
+"restartujte průvodce.\n"
+
+#: include/internal/credits/licensepage.php:478
+#, php-format
+msgid ""
+"If you deactivate your license, you will be reverted to the free version of "
+"%s. Your license count will be updated on our server and you'll be able to "
+"activate your license on another website."
+msgstr ""
+"Pokud deaktivujete licenci, budete vráceni k bezplatné verzi %s. Počet "
+"licencí bude aktualizován na našem serveru a budete moci aktivovat licenci "
+"na jiném webu.\n"
+
+#: include/internal/credits/licensepage.php:412
+msgid ""
+"If you have a Premium License Key, please input it in the field below and "
+"click on the Activation button."
+msgstr ""
+"Pokud máte prémiový licenční klíč, zadejte jej do pole níže a klikněte na "
+"tlačítko Aktivace.\n"
+
+#: include/internal/credits/licensepage.php:593
+#, php-format
+msgid ""
+"If you like %s, you can purchase a license on our website by clicking on the "
+"button below."
+msgstr ""
+"Pokud máte rádi %s, můžete si zakoupit licenci na našem webu kliknutím na "
+"tlačítko níže.\n"
+
+#: include/internal/credits/licensepage.php:513
+msgid ""
+"If you want to gain access to more features, you can try the premium version "
+"for free for 30 days."
+msgstr ""
+"Pokud chcete získat přístup k dalším funkcím, můžete si na 30 dní vyzkoušet "
+"prémiovou verzi zdarma.\n"
+
+#: include/internal/credits/licensepage.php:509
+#, php-format
+msgid ""
+"If you're happy with %s Standard features, <b>please consider reviewing "
+"it</b> on wordpress.org"
+msgstr ""
+"Pokud jste spokojeni se standardními funkcemi %s, zvažte jejich přezkoumání "
+"na wordpress.org\n"
+
+#: include/tools/argparser.php:231
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is empty"
+msgstr "%s je prázdné"
+
+#: include/tools/argparser.php:203
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a decimal number"
+msgstr "%s není desetinné číslo"
+
+#: include/tools/argparser.php:213
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a number"
+msgstr "%s není číslo"
+
+#: include/tools/argparser.php:219
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a string"
+msgstr "%s není řetězec"
+
+#: include/tools/argparser.php:169
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not an array"
+msgstr "%s není pole"
+
+#: include/tools/argparser.php:192
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not valid"
+msgstr "%s není platný"
+
+#: include/tools/argparser.php:197
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be equal or greater than zero"
+msgstr "%s musí být rovno nebo větší než nula"
+
+#: include/tools/argparser.php:205 include/tools/argparser.php:215
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be greater than zero"
+msgstr "%s musí být větší než nula"
+
+#: include/tools/argparser.php:158
+#, php-format
+msgctxt "Input array validation"
+msgid "%s value rejected"
+msgstr "%s hodnota odmítnuta"
+
+#: include/tools/argparser.php:291
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing entry %s"
+msgstr "Chybí vstup %s"
+
+#: include/tools/argparser.php:281
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing required value for %s"
+msgstr "Chybí požadovaná hodnota pro %s"
+
+#: include/tools/argparser.php:297
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing value for %s"
+msgstr "Chybí hodnota pro %s"
+
+#: include/tools/argparser.php:364
+#, php-format
+msgctxt "Input array validation"
+msgid "Unknown entry %s"
+msgstr "Neznámý záznam %s"
+
+#: include/internal/credits/licensepage.php:250
+msgid "Installed Extensions"
+msgstr ""
+"Nainstalovaná rozšíření\n"
+
+#: include/internal/credits/licensepage.php:551
+#, php-format
+msgid "Instant access to all %s Premium features."
+msgstr ""
+"Okamžitý přístup ke všem prémiovým funkcím %s.\n"
+
+#: include/internal/credits/license.php:640
+msgid "Invalid licence key or licence not active for domain."
+msgstr ""
+"Neplatný licenční klíč nebo licence není pro doménu aktivní.\n"
+
+#: include/internal/credits/license.php:639
+msgid "Invalid licence key."
+msgstr ""
+"Neplatný licenční klíč.\n"
+
+#: include/editlist/pager.php:89
+msgid "Items per page"
+msgstr ""
+"Položek na stránce\n"
+
+#: include/pages/field/lactaglist.php:51
+msgctxt "lac-taglist \"add\" button"
+msgid "Add"
+msgstr "Přidat"
+
+#: include/pages/wizard.php:202
+msgid "Leave the wizard"
+msgstr ""
+"Opusťte průvodce\n"
+
+#: include/pages/wizard.php:1003
+msgid "Leave this wizard"
+msgstr ""
+"Opusťte tohoto průvodce\n"
+
+#: include/internal/credits/license.php:642
+msgid "Licence Key does not match this product."
+msgstr ""
+"Licenční klíč neodpovídá tomuto produktu.\n"
+
+#: include/internal/credits/license.php:645
+msgid "Licence key Is Active and Valid for Domain."
+msgstr ""
+"Licenční klíč je aktivní a platí pro doménu.\n"
+
+#: include/internal/credits/license.php:644
+msgid "Licence Key Is Unassigned."
+msgstr ""
+"Licenční klíč není přiřazen.\n"
+
+#: include/internal/credits/license.php:447 
+#: include/internal/credits/license.php:643
+msgid "Licence Key Successfully Unassigned."
+msgstr ""
+"Licenční klíč byl úspěšně odhlášen.\n"
+
+#: include/internal/credits/page.php:90
+msgid "License"
+msgstr "Licence"
+
+#: include/pages/head.php:220
+msgid "License Information"
+msgstr ""
+"Informace o licenci\n"
+
+#: include/internal/credits/licensepage.php:432
+msgid "License Key"
+msgstr ""
+"Licenční klíč\n"
+
+#: include/internal/credits/licensepage.php:195
+msgid "License Management"
+msgstr ""
+"Správa licencí\n"
+
+#: include/pages/head.php:217
+msgid "Live Chat"
+msgstr ""
+"Živý chat\n"
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+"Studio Long Watch\n"
+
+#: include/internal/credits/licensepage.php:310
+#, php-format
+msgid "Look in %1$s page for a %2$s update."
+msgstr ""
+"Na stránce %1$s najdete aktualizaci %2$s.\n"
+
+#. Plugin Name of the plugin/theme
+msgid "LWS Admin Panel"
+msgstr ""
+"Panel správy LWS\n"
+
+#: include/pages/field/border.php:155
+msgctxt "LWSS border text demo"
+msgid "This is a sample text"
+msgstr "Toto je ukázkový text"
+
+#: include/pages/field/cssbutton.php:71
+msgctxt "LWSS button colors"
+msgid "Background"
+msgstr "Pozadí"
+
+#: include/pages/field/cssbutton.php:69
+msgctxt "LWSS button colors"
+msgid "Focused"
+msgstr "Zaostřeno"
+
+#: include/pages/field/cssbutton.php:67
+msgctxt "LWSS button colors"
+msgid "Normal"
+msgstr "Normální"
+
+#: include/pages/field/cssbutton.php:68
+msgctxt "LWSS button colors"
+msgid "Over"
+msgstr "Přes"
+
+#: include/pages/field/cssbutton.php:70
+msgctxt "LWSS button colors"
+msgid "Text"
+msgstr "Text"
+
+#: include/pages/field/font.php:83
+msgctxt "LWSS font text demo"
+msgid "This is a sample text"
+msgstr "Toto je ukázkový text"
+
+#: include/internal/credits/licensepage.php:383
+msgid "Maintenance and Updates"
+msgstr ""
+"Údržba a aktualizace\n"
+
+#: include/internal/credits/licensepage.php:267
+msgid "Make your site even greater."
+msgstr ""
+"Zkvalitněte svoji stránku.\n"
+
+#: include/legacy/duration.php:91 include/tools/duration.php:91
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Minuta"
+msgstr[1] "Minuty"
+msgstr[2] "Minut"
+
+#: include/legacy/duration.php:293 include/tools/duration.php:293
+msgid "Minutes"
+msgstr ""
+"Minut\n"
+
+#: include/legacy/duration.php:82 include/tools/duration.php:82
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Měsíc"
+msgstr[1] "Měsíce"
+msgstr[2] "Měsíců"
+
+#: include/legacy/duration.php:287 include/tools/duration.php:287
+msgid "Months"
+msgstr "Měsíců"
+
+#: include/editlist/filtersimplefield.php:26
+msgid "Narrow your search"
+msgstr "Zúžit vyhledávání"
+
+#: include/pages/wizard.php:984
+msgctxt "next wizard step"
+msgid "Next"
+msgstr "Další"
+
+#: include/internal/credits/licensepage.php:552
+msgid "No payment required."
+msgstr ""
+"Není nutná žádná platba.\n"
+
+#: include/internal/credits/licensepage.php:553
+msgid "No registration required."
+msgstr ""
+"Nevyžaduje se registrace.\n"
+
+#: include/internal/mailer.php:399
+#| msgid ""
+#| "\n"
+#| "\t\t\t\t\t\t\tOnce you've finished the email settings, <b>save your "
+#| "changes</b><br/>\n"
+#| "\t\t\t\t\t\t\tYou will then see the result in the style editor below<br/>\n"
+#| "\t\t\t\t\t\t\tSelect the elements you wish to change and have fun!\n"
+#| "\t\t\t\t\t\t"
+msgid ""
+"Once you've finished the email settings, <b>save your changes</b><br/>You "
+"will then see the result in the style editor below<br/>Select the elements "
+"you wish to change and have fun!"
+msgstr ""
+"                                                        Po dokončení "
+"nastavení e-mailu, <b>uložte provedené změny.</b><br/>\n"
+"\t\t\t\t\t\t\tVýsledek se poté zobrazí v editoru stylů níže<br/>\n"
+"\t\t\t\t\t\t\tVyberte prvky, které chcete změnit, a bavte se!"
+
+#: include/internal/helpers/pages.php:63
+#, php-format
+msgid "or <a target='_blank' href='%s'>click here to Get a Google API KEY</a>"
+msgstr ""
+"nebo <a target='_blank' href='%s'>klikni zde pro získání Google API KEY</a>"
+
+#: include/pages/head.php:265
+msgid "Other Notifications"
+msgstr ""
+"Další oznámení\n"
+
+#: include/pages/head.php:219
+msgid "Patch Notes"
+msgstr ""
+"Poznámky k opravě\n"
+
+#: include/internal/pages.php:424
+msgid "Please confirm or cancel the active form before submit that page."
+msgstr ""
+"Před odesláním této stránky prosím potvrďte nebo zrušte aktivní formulář.\n"
+
+#: include/internal/credits/supportpage.php:357
+msgid ""
+"Please read the instructions carefully before sending a support request."
+msgstr ""
+"Před odesláním žádosti o podporu si prosím pečlivě přečtěte pokyny.\n"
+
+#: include/internal/credits/licensepage.php:87
+msgid "Please set a the extension license key to activate it."
+msgstr ""
+"Aktivujte prosím licenční klíč rozšíření.\n"
+
+#: include/internal/credits/supportpage.php:223
+msgid "Please, fill your Name before sending the mail."
+msgstr ""
+"Před odesláním e-mailu prosím vyplňte své jméno.\n"
+
+#: include/internal/credits/supportpage.php:238
+msgid "Please, Fill your request before sending the mail."
+msgstr ""
+"Před odesláním e-mailu prosím vyplňte svůj požadavek.\n"
+
+#: include/internal/credits/supportpage.php:233
+msgid "Please, select a Subject before sending the mail."
+msgstr ""
+"Před odesláním e-mailu vyberte předmět.\n"
+
+#: include/internal/pages.php:428
+msgid "Please, select an item."
+msgstr ""
+"Vyberte prosím položku.\n"
+
+#: include/internal/credits/supportpage.php:228
+msgid "Please, set a response EMail."
+msgstr ""
+"Nastavte odpověď E-mail.\n"
+
+#: include/pages/head.php:259
+msgid "Plugin Notifications"
+msgstr ""
+"Oznámení pluginu\n"
+
+#: include/pages/screens/singular.php:225
+msgctxt "post deletion"
+msgid "Security check failed."
+msgstr "Kontrola zabezpečení se nezdařila."
+
+#: include/pages/screens/singular.php:219
+msgctxt "post deletion"
+msgid "Unavailable action."
+msgstr "Nedostupná akce."
+
+#: include/internal/mailer.php:448
+msgid "Preheader"
+msgstr "Předzáhlaví"
+
+#: include/internal/credits/licensepage.php:610
+msgid ""
+"Premium Version is a paid service. This service features the plugin, the "
+"support and regular updates. You can cancel your subscription at any time by "
+"changing your preferences on your account on plugins.longwatchstudio.com. "
+"Cancelling your subscription will remove the access to support and updates."
+msgstr ""
+"Premium verze je placená služba. Tato služba obsahuje plugin, podporu a "
+"pravidelné aktualizace. Předplatné můžete kdykoli zrušit změnou předvoleb ve "
+"svém účtu na adrese plugins.longwatchstudio.com. Zrušením předplatného "
+"odeberete přístup k podpoře a aktualizacím.\n"
+
+#: include/pages/wizard.php:964
+msgctxt "previous wizard step"
+msgid "Previous"
+msgstr "Předchozí"
+
+#. Description of the plugin/theme
+msgid "Provide an easy way to manage other plugin's settings."
+msgstr ""
+"Poskytuje snadný způsob správy nastavení jiných pluginů.\n"
+
+#: include/pages/screens/singular.php:122
+msgid "Publish"
+msgstr "Publikovat"
+
+#: include/internal/credits/licensepage.php:607 
+#: include/internal/credits/licensepage.php:616
+#, php-format
+msgid "Purchase %s Premium"
+msgstr ""
+"Kupte si %s Premium licenci\n"
+
+#: include/internal/editlistcontroler.php:498
+msgid "Quick Edit"
+msgstr ""
+"Rychlé úpravy\n"
+
+#: include/internal/mailer.php:485
+msgid "Receiver Email"
+msgstr ""
+"E-mail příjemce\n"
+
+#: include/pages/field/media.php:30
+msgid "Remove"
+msgstr "Vyjmout"
+
+#: include/pages/wizard.php:975
+msgctxt "repeat a wizard portion"
+msgid "Add"
+msgstr "Přidat"
+
+#: include/internal/credits/licensepage.php:357
+msgid "Resume my subscription"
+msgstr ""
+"Obnovit mé předplatné\n"
+
+#: include/internal/credits/licensepage.php:518
+msgid "Review on wordpress.org"
+msgstr ""
+"Recenze na wordpress.org\n"
+
+#: include/internal/editlistcontroler.php:451
+msgid "Save"
+msgstr ""
+"Uložit\n"
+
+#: include/pages/head.php:371
+msgid "Save Changes"
+msgstr ""
+"Uložit změny\n"
+
+#: include/editlist/filtersimplefield.php:17
+msgid "Search"
+msgstr "Vyhledávání"
+
+#: include/pages/field/lacchecklist.php:61
+msgid "Search..."
+msgstr ""
+"Vyhledávání...\n"
+
+#: include/legacy/duration.php:94 include/tools/duration.php:94
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] "Druhý"
+msgstr[1] "Druhého"
+msgstr[2] "Druhých"
+
+#: include/legacy/duration.php:294 include/tools/duration.php:294
+msgid "Seconds"
+msgstr ""
+"Sekundy\n"
+
+#: include/internal/credits/licensepage.php:370
+msgid "See my subscription"
+msgstr ""
+"Zobrazit moje předplatné\n"
+
+#: include/internal/credits/license.php:202
+msgid "Seems like your trial period has been already consumed."
+msgstr ""
+"Vypadá to, že vaše zkušební doba již byla vyčerpána.\n"
+
+#: include/internal/pages.php:429
+msgid "Select a font"
+msgstr "Vyberte písmo"
+
+#: include/pages/field/media.php:31 include/pages/field/media.php:33
+msgid "Select a media"
+msgstr ""
+"Vyberte médium\n"
+
+#: include/pages/field/stygen.php:47
+msgid "Select an element to start modifying its style"
+msgstr ""
+"Vyberte prvek a začněte upravovat jeho styl\n"
+
+#: include/pages/field/lacchecklist.php:60
+msgid "Select..."
+msgstr ""
+"Vybrat...\n"
+
+#: include/internal/mailer.php:495
+msgid "Send test email"
+msgstr ""
+"Odeslat zkušební e-mail\n"
+
+#: include/internal/credits/supportpage.php:487
+msgid "Send the support request"
+msgstr ""
+"Zašlete žádost o podporu\n"
+
+#: include/pages/field/shortcode.php:17
+msgid "Shortcode"
+msgstr ""
+"Zkrácený kód\n"
+
+#: include/admin.php:229
+msgid "Show Advanced Settings"
+msgstr ""
+"Zobrazit rozšířená nastavení\n"
+
+#: include/internal/pages.php:448
+msgid "Show All Items"
+msgstr ""
+"Zobrazit všechny položky\n"
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object creation screen"
+msgid "Create"
+msgstr "Vytvořit"
+
+#: include/pages/screens/singular.php:95
+msgctxt "Singular object edition screen"
+msgid "Cancel"
+msgstr "Zrušení"
+
+#: include/pages/screens/singular.php:93
+msgctxt "Singular object edition screen"
+msgid "Delete element"
+msgstr "Odstranit prvek"
+
+#: include/pages/screens/singular.php:94
+msgctxt "Singular object edition screen"
+msgid "I really want to delete it"
+msgstr "Opravdu to chci smazat"
+
+#: include/pages/screens/singular.php:97
+msgctxt "Singular object edition screen"
+msgid "Permanent deletion"
+msgstr "Trvalé mazání"
+
+#: include/pages/screens/singular.php:96
+msgctxt "Singular object edition screen"
+msgid "This element will be permanently removed. Are you sure?"
+msgstr "Tento prvek bude trvale odstraněn. Jsi si jistá?"
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object edition screen"
+msgid "Update"
+msgstr "Aktualizace"
+
+#: include/pages/field/stygen.php:130
+msgid "Snippet unknown"
+msgstr ""
+"Fragment neznámý\n"
+
+#: include/internal/credits/supportpage.php:78
+#, php-format
+msgid ""
+"Sorry, the mail failed to be sent. You can try again or use the &lt;%s&gt; "
+"contact address."
+msgstr ""
+"Litujeme, e-mail se nepodařilo odeslat. Můžete to zkusit znovu nebo použít "
+"kontaktní adresu <%s>.\n"
+
+#: include/internal/credits/licensepage.php:559
+msgid "Start the free trial"
+msgstr ""
+"Spusťte bezplatnou zkušební verzi\n"
+
+#: include/pages/field/stygen.php:48
+msgctxt "Stygen button"
+msgid "Reset Style"
+msgstr "Obnovit styl"
+
+#: include/pages/field/shortcode.php:20
+msgid "Styling"
+msgstr ""
+"Styling\n"
+
+#: include/internal/credits/supportpage.php:460 include/internal/mailer.php:437
+msgid "Subject"
+msgstr "Předmět"
+
+#: include/internal/credits/supportpage.php:298 include/pages/head.php:215
+msgid "Support"
+msgstr ""
+"Podpora\n"
+
+#: include/internal/credits/supportpage.php:354
+msgid "Support Instructions"
+msgstr ""
+"Pokyny k podpoře\n"
+
+#: include/internal/credits/supportpage.php:419
+#, php-format
+msgid "Support Request for <b>%s</b>"
+msgstr ""
+"Žádost o podporu pro <b>%s</b>\n"
+
+#: include/internal/mailer.php:516
+msgid "Test email is not valid."
+msgstr ""
+"Zkušební e-mail není platný.\n"
+
+#: include/internal/mailer.php:513
+msgid "Test email sent."
+msgstr ""
+"Testovací e-mail byl odeslán.\n"
+
+#: include/internal/mailer.php:488
+msgid "Test your email to see how it looks"
+msgstr ""
+"Vyzkoušejte svůj e-mail a podívejte se, jak vypadá\n"
+
+#: include/internal/credits/supportpage.php:454
+msgid ""
+"The email we will response to. Please make sure this is a valid email that "
+"you view frequently."
+msgstr ""
+"E-mail, na který odpovíme. Ujistěte se, že se jedná o platný e-mail, který "
+"často zobrazujete.\n"
+
+#: include/internal/credits/licensepage.php:227
+msgid "The following extensions have been found on your system."
+msgstr ""
+"Ve vašem systému byla nalezena následující rozšíření.\n"
+
+#: include/internal/credits/license.php:582
+#, php-format
+msgid ""
+"The license <b>%3$s</b> for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+"Licence <b>%3$s</b> pro <i>%2$s</i> již vypršela <b>%1$s</b>.\n"
+
+#: include/internal/credits/license.php:509
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> expired the <b>%1$s</b>."
+msgstr ""
+"Licence <b>%3$</b> s pro <i>%2$s</i> vypršela <b>%1$s</b>.\n"
+
+#: include/internal/credits/license.php:512 
+#: include/internal/credits/license.php:580
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr ""
+"Licence <b>%3$s</b> pro <i>%2$s</i> vyprší <b>%1$s</b>.\n"
+
+#: include/internal/credits/licensepage.php:697
+#, php-format
+msgid ""
+"The license found for the plugin <b>%s</b> cannot be migrated to the new "
+"system."
+msgstr ""
+"Licenci nalezenou pro plugin %s nelze migrovat do nového systému.\n"
+
+#: include/internal/credits/licensepage.php:231
+#, php-format
+msgid "The Premium version of %s must be active for extensions to work."
+msgstr ""
+"Aby rozšíření fungovala, musí být aktivní prémiová verze %s.\n"
+
+#: include/internal/credits/license.php:442
+#, php-format
+msgid "The previews license key (%s) has been deactivated."
+msgstr ""
+"Licenční klíč náhledů (%s) byl deaktivován.\n"
+
+#: include/internal/credits/license.php:241
+#, php-format
+msgid "The Trial for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+"Zkušební verze pro <i>%2$s</i> již vypršela <b>%1$s</b>.\n"
+
+#: include/internal/credits/license.php:239
+#, php-format
+msgid "The Trial for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr ""
+"Zkušební verze pro <i>%2$s</i> vyprší <b>%1$s</b>.\n"
+
+#: include/internal/credits/licensepage.php:678
+#, php-format
+msgid ""
+"The Trial License found for the plugin <b>%s</b> cannot be migrated to the "
+"new system."
+msgstr ""
+"Nalezenou zkušební licenci pro plugin <b>%s</b> nelze migrovat do nového "
+"systému.\n"
+
+#: include/internal/credits/license.php:600
+#, php-format
+msgid "There was a problem activating the license (%s)."
+msgstr ""
+"Při aktivaci licence došlo k problému (%s).\n"
+
+#: include/internal/credits/license.php:254
+msgid "There was a problem activating the Trial. You may retry later."
+msgstr ""
+"Při aktivaci zkušební verze došlo k problému. Můžete to zkusit později.\n"
+
+#: include/internal/credits/license.php:461
+msgid "There was a problem deactivating the license."
+msgstr ""
+"Při deaktivaci licence došlo k problému.\n"
+
+#: include/internal/credits/license.php:459
+#, php-format
+msgid "There was a problem deactivating the previews license key (%s)."
+msgstr ""
+"Při deaktivaci náhledového licenčního klíče (%s) došlo k potížím.\n"
+
+#: include/internal/credits/license.php:427 
+#: include/internal/credits/license.php:555
+msgid "There was a problem establishing a connection to the license server."
+msgstr ""
+"Při navazování připojení k licenčnímu serveru došlo k problému.\n"
+
+#: include/internal/credits/license.php:262 
+#: include/internal/credits/license.php:472 
+#: include/internal/credits/license.php:608
+msgid "There was a problem establishing a connection to the license service."
+msgstr ""
+"Při navazování připojení k licenční službě došlo k problému.\n"
+
+#: include/internal/credits/license.php:216
+msgid "There was a problem establishing a connection to the trial server."
+msgstr ""
+"Došlo k problému s navázáním připojení k zkušebnímu serveru.\n"
+
+#: include/internal/mailer.php:323
+msgid "This is a test."
+msgstr ""
+"Tohle je zkouška.\n"
+
+#: include/internal/credits/licensepage.php:505 
+#: include/internal/credits/licensepage.php:546
+msgid "This version contains only a few features of the premium version."
+msgstr ""
+"Tato verze obsahuje pouze několik funkcí prémiové verze.\n"
+
+#: include/internal/credits/licensepage.php:368
+msgid ""
+"To avoid a service interruption, you should renew your subscription before :"
+msgstr ""
+"Abyste se vyhnuli přerušení služby, měli byste si předplatné obnovit před:\n"
+
+#: include/editlist/pager.php:109
+#, php-format
+msgctxt "Total page number"
+msgid "/ %d"
+msgid_plural "/ %d"
+msgstr[0] "/ %d"
+msgstr[1] "/ %d"
+msgstr[2] "/ %d"
+
+#: include/pages/head.php:216
+msgid "Troubleshooting"
+msgstr ""
+"Odstraňování problémů\n"
+
+#: include/internal/credits/licensepage.php:550
+#, php-format
+msgid "Try %s Premium for free for 30 days."
+msgstr ""
+"Vyzkoušejte %s Premium zdarma po dobu 30 dnů.\n"
+
+#: include/pages/head.php:221
+msgid "Try Premium for Free"
+msgstr ""
+"Vyzkoušejte Premium zdarma\n"
+
+#: include/internal/editlistcontroler.php:455
+msgctxt "Undo event/unlockable type choice"
+msgid "Back"
+msgstr "Zpět"
+
+#: include/internal/credits/license.php:791
+msgid "Unexpected response from API."
+msgstr ""
+"Neočekávaná odpověď z API.\n"
+
+#: include/internal/pages.php:426
+msgid "Update error, please check the values."
+msgstr ""
+"Chyba aktualizace, zkontrolujte hodnoty.\n"
+
+#: include/internal/credits/license.php:231
+msgid "Update to the premium Trial is now available."
+msgstr ""
+"Nyní je k dispozici aktualizace prémiové verze.\n"
+
+#: include/internal/credits/license.php:570
+msgid "Update to the premium version is now available."
+msgstr ""
+"Aktualizace na prémiovou verzi je nyní k dispozici.\n"
+
+#: include/internal/credits/licensepage.php:366
+msgid "Updates and Support are available until :"
+msgstr ""
+"Aktualizace a podpora jsou k dispozici do:\n"
+
+#: include/internal/credits/licensepage.php:385
+msgid "Usage Permission"
+msgstr ""
+"Povolení k použití\n"
+
+#: include/pages/field/media.php:32
+msgid "Use the selected item"
+msgstr ""
+"Použijte vybranou položku\n"
+
+#: include/internal/helpers/pages.php:59
+msgid "Used to get google fonts."
+msgstr ""
+"Používá se k získání písem Google.\n"
+
+#: include/legacy/duration.php:85 include/tools/duration.php:85
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] ""
+"Týden\n"
+msgstr[1] "Týdny"
+msgstr[2] "Týdnů"
+
+#: include/legacy/duration.php:291 include/tools/duration.php:291
+msgid "Weeks"
+msgstr "Týdny"
+
+#: include/pages/wizard.php:753
+#, php-format
+msgctxt "wizard critical path tab title with loop count"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: include/internal/credits/licensepage.php:306
+msgid "WordPress Updates"
+msgstr ""
+"Aktualizace WordPress\n"
+
+#: include/legacy/duration.php:79 include/tools/duration.php:79
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] "Rok"
+msgstr[1] "Roky"
+msgstr[2] "Let"
+
+#: include/legacy/duration.php:288 include/tools/duration.php:288
+msgid "Years"
+msgstr "Let"
+
+#: include/pages/wizard.php:202 include/pages/wizard.php:1004
+msgid "You can come back later and continue from that point."
+msgstr ""
+"Můžete se vrátit později a pokračovat od tohoto bodu.\n"
+
+#: include/internal/credits/licensepage.php:356
+msgid ""
+"You can resume your subscription at any time to get access to updates and "
+"support."
+msgstr ""
+"Předplatné můžete kdykoli obnovit, abyste získali přístup k aktualizacím a "
+"podpoře.\n"
+
+#: include/internal/credits/licensepage.php:353
+msgid "You can't download new versions or send requests to the support."
+msgstr ""
+"Nemůžete stahovat nové verze ani odesílat žádosti o podporu.\n"
+
+#: include/internal/credits/licensepage.php:355
+msgid ""
+"You can't use Premium features of this plugin, download new versions or send "
+"requests to the support."
+msgstr ""
+"Nemůžete používat prémiové funkce tohoto pluginu, stahovat nové verze nebo "
+"odesílat žádosti o podporu.\n"
+
+#: include/internal/credits/license.php:641
+msgid "You had reached the maximum number of domains for this key."
+msgstr ""
+"Dosáhli jste maximálního počtu domén pro tento klíč.\n"
+
+#: include/internal/helpers/pages.php:66
+msgid "You MUST be logged in to your Google account to generate a key."
+msgstr ""
+"K vygenerování klíče MUSÍTE být přihlášeni ke svému účtu Google.\n"
+
+#: include/pages/field/googleapiskey.php:32
+msgid "You should define a Google API key in this settings."
+msgstr ""
+"V tomto nastavení byste měli definovat klíč Google API.\n"
+
+#: include/internal/credits/licensepage.php:311
+msgid ""
+"You should have to click \"<i>Check Again</i>\" button to force WordPress "
+"refresh its list."
+msgstr ""
+"Chcete-li vynutit aktualizaci seznamu WordPress, musíte kliknout na tlačítko "
+"\"<i>Zkontrolovat znovu</i>\".\n"
+
+#: include/pages/wizard.php:1006
+msgid "You will lose all prepared settings."
+msgstr ""
+"Ztratíte všechna připravená nastavení.\n"
+
+#: include/internal/credits/licensepage.php:592
+#, php-format
+msgid "You're actually trying %s Free with limited features."
+msgstr ""
+"Ve skutečnosti zkoušíte %s ZDARMA s omezenými funkcemi.\n"
+
+#: include/internal/credits/licensepage.php:590
+#, php-format
+msgid ""
+"You're actually trying %s Premium for free for a limited period of time. You "
+"will be reminded that your trial period is about to end 5 days and 3 days "
+"before it ends."
+msgstr ""
+"Ve skutečnosti zkoušíte %s Premium zdarma po omezenou dobu. Připomínáme, že "
+"zkušební doba má skončit 5 dní a 3 dny před jejím koncem.\n"
+
+#: include/internal/credits/licensepage.php:467
+#, php-format
+msgid "You're actually using a licensed version of %s Premium."
+msgstr ""
+"Ve skutečnosti používáte licencovanou verzi %s Premium.\n"
+
+#: include/internal/credits/licensepage.php:507
+#, php-format
+msgid "You're actually using the free version of %s."
+msgstr ""
+"Ve skutečnosti používáte bezplatnou verzi %s.\n"
+
+#: include/internal/credits/supportpage.php:448
+msgid "Your Email"
+msgstr ""
+"Tvůj e-mail\n"
+
+#: include/pages/field/googleapiskey.php:24
+msgid "Your Google API key"
+msgstr ""
+"Váš klíč Google API\n"
+
+#: include/internal/credits/licensepage.php:436
+msgid ""
+"Your license key has been provided to you in the Order Confirmation eMail."
+msgstr ""
+"Váš licenční klíč vám byl poskytnut v e-mailu s potvrzením objednávky.\n"
+
+#: include/internal/credits/licensepage.php:468
+msgid "Your license key is :"
+msgstr ""
+"Váš licenční klíč je:\n"
+
+#: include/internal/credits/supportpage.php:437
+msgid "Your Name"
+msgstr ""
+"Tvé jméno\n"
+
+#: include/internal/credits/supportpage.php:472
+msgid "Your Request"
+msgstr ""
+"Váš požadavek\n"
+
+#: include/internal/credits/supportpage.php:84
+msgid ""
+"Your request has been sent to our support team. We will respond as soon as "
+"possible."
+msgstr ""
+"Vaše žádost byla odeslána našemu týmu podpory. Odpovíme co nejdříve.\n"
+
+#: include/pages/screens/admin.php:147 include/pages/screens/singular.php:194
+msgid "Your settings have been saved."
+msgstr "Your settings have been saved."
+
+#: include/internal/credits/licensepage.php:377
+msgid ""
+"Your Subscription includes the usage of this plugin, updates and support."
+msgstr ""
+"Vaše předplatné zahrnuje použití tohoto pluginu, aktualizace a podporu.\n"
+
+#: include/internal/credits/licensepage.php:375
+msgid "Your Subscription includes Updates and Support."
+msgstr ""
+"Vaše předplatné zahrnuje aktualizace a podporu.\n"
+
+#: include/internal/credits/licensepage.php:361
+msgid "Your Subscription is currently active."
+msgstr ""
+"Vaše předplatné je aktuálně aktivní.\n"
+
+#: include/internal/credits/licensepage.php:351
+msgid "Your Subscription is currently inactive."
+msgstr ""
+"Vaše předplatné je momentálně neaktivní.\n"
+
+#: include/internal/credits/license.php:843
+#, php-format
+msgid ""
+"Your subscription to plugin <b>%1$s</b> Premium Services expired. Please "
+"visit %2$s to expend your license period."
+msgstr ""
+"Vaše předplatné pluginu <b>%1$s</b> Premium služby vypršelo. Navštivte "
+"prosím, %2$s a vyčerpejte licenční období.\n"
+
+#: include/internal/credits/license.php:834
+#, php-format
+msgid ""
+"Your support access for the plugin <b>%1$s</b> is no longer available. "
+"Please visit %2$s to expend your support period."
+msgstr ""
+"Váš přístup k podpoře pluginu <b>%1$s</b> již není k dispozici. Navštivte "
+"prosím %2$s a vyčerpejte své období podpory.\n"
+
+#: include/internal/credits/license.php:930
+#, php-format
+msgid "Your Trial period expires the %1$d. Consider purchasing %2$s."
+msgstr ""
+"Vaše zkušební doba vyprší %1$d. Zvažte nákup %2$s.\n"
+
+#: include/internal/credits/licensepage.php:599
+msgid "Your trial will expire in :"
+msgstr ""
+"Vaše zkušební doba vyprší za:\n"

@@ -1,0 +1,1725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LWS Admin Panel\n"
+"POT-Creation-Date: 2020-12-14 23:22+0100\n"
+"PO-Revision-Date: 2021-01-19 07:49+0300\n"
+"Last-Translator: Paley\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-adminpanel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/admin.php:227 include/pages/head.php:380
+msgid "Expand All"
+msgstr "Развернуть все"
+
+#: include/admin.php:228
+msgid "Collapse All"
+msgstr "Свернуть все"
+
+#: include/admin.php:229
+msgid "Show Advanced Settings"
+msgstr "Показать расширенные настройки"
+
+#: include/admin.php:230
+msgid "Hide Advanced Settings"
+msgstr "Скрыть расширенные настройки"
+
+#: include/admin.php:239
+msgid "At least one value is unknown."
+msgstr "По крайней мере одно значение неизвестно."
+
+#: include/editlist/filtersimplefield.php:17
+msgid "Search"
+msgstr "Поиск"
+
+#: include/editlist/filtersimplefield.php:26
+msgid "Narrow your search"
+msgstr "Уточниь поиск"
+
+#: include/editlist/filtersimplelinks.php:23
+msgid "Filter the results"
+msgstr "Фильтровать результаты"
+
+#: include/editlist/pager.php:82
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d элемент"
+msgstr[1] "%d элемента"
+msgstr[2] "%d элементов"
+
+#: include/editlist/pager.php:89
+msgid "Items per page"
+msgstr "Элементов на странице"
+
+#: include/editlist/pager.php:109
+#, php-format
+msgctxt "Total page number"
+msgid "/ %d"
+msgid_plural "/ %d"
+msgstr[0] "/ %d"
+msgstr[1] "/ %d"
+msgstr[2] "/ %d"
+
+#: include/internal/credits/license.php:202
+msgid "Seems like your trial period has been already consumed."
+msgstr "Похоже, Ваш пробный период был уже использован."
+
+#: include/internal/credits/license.php:216
+msgid "There was a problem establishing a connection to the trial server."
+msgstr "Возникла проблема при установке соединения с сервером пробной версии."
+
+#: include/internal/credits/license.php:231
+msgid "Update to the premium Trial is now available."
+msgstr "Обновление до Премиум-пробника теперь доступно."
+
+#: include/internal/credits/license.php:239
+#, php-format
+msgid "The Trial for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr "Пробная версия для <i>%2$s</i> истечёт <b>%1$s</b>."
+
+#: include/internal/credits/license.php:241
+#, php-format
+msgid "The Trial for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr "Пробная версия для <i>%2$s</i> уже истекла <b>%1$s</b>."
+
+#: include/internal/credits/license.php:254
+msgid "There was a problem activating the Trial. You may retry later."
+msgstr ""
+"Возникла проблема с активацией Пробной версии. Вы можете повторить попытку "
+"позже."
+
+#: include/internal/credits/license.php:262
+#: include/internal/credits/license.php:472
+#: include/internal/credits/license.php:608
+msgid "There was a problem establishing a connection to the license service."
+msgstr "Возникла проблема при установке соединения с сервисом лицензии."
+
+#: include/internal/credits/license.php:427
+#: include/internal/credits/license.php:555
+msgid "There was a problem establishing a connection to the license server."
+msgstr "Возникла проблема при установке соединения с сервером лицензии."
+
+#: include/internal/credits/license.php:442
+#, php-format
+msgid "The previews license key (%s) has been deactivated."
+msgstr "Ключ лицензии предварительного просмотра (%s) отключен."
+
+#: include/internal/credits/license.php:447
+#: include/internal/credits/license.php:643
+msgid "Licence Key Successfully Unassigned."
+msgstr "Лицензионный ключ успешно отключен."
+
+#: include/internal/credits/license.php:459
+#, php-format
+msgid "There was a problem deactivating the previews license key (%s)."
+msgstr ""
+"Возникла проблема при деактивации ключа лицензии предварительного просмотра "
+"(%s)."
+
+#: include/internal/credits/license.php:461
+msgid "There was a problem deactivating the license."
+msgstr "Возникла проблема при деактивации лицензии."
+
+#: include/internal/credits/license.php:509
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> expired the <b>%1$s</b>."
+msgstr "Лицензия <b>%3$s</b> для <i>%2$s</i> истекла <b>%1$s</b>."
+
+#: include/internal/credits/license.php:512
+#: include/internal/credits/license.php:580
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr "Лицензия <b>%3$s</b> для <i>%2$s</i> истечёт <b>%1$s</b>."
+
+#: include/internal/credits/license.php:570
+msgid "Update to the premium version is now available."
+msgstr "Обновление до премиум-версии теперь доступно."
+
+#: include/internal/credits/license.php:582
+#, php-format
+msgid ""
+"The license <b>%3$s</b> for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr "Лицензия <b>%3$s</b> для <i>%2$s</i> уже истекла <b>%1$s</b>."
+
+#: include/internal/credits/license.php:600
+#, php-format
+msgid "There was a problem activating the license (%s)."
+msgstr "Возникла проблема активации лицензии (%s)."
+
+#: include/internal/credits/license.php:639
+msgid "Invalid licence key."
+msgstr "Недействительный ключ лицензии."
+
+#: include/internal/credits/license.php:640
+msgid "Invalid licence key or licence not active for domain."
+msgstr "Недействительный ключ лицензии или лицензия не активна для домена."
+
+#: include/internal/credits/license.php:641
+msgid "You had reached the maximum number of domains for this key."
+msgstr "Вы достигли максимального количества доменов для этого ключа."
+
+#: include/internal/credits/license.php:642
+msgid "Licence Key does not match this product."
+msgstr "Лицензионный ключ не соответствует данному продукту."
+
+#: include/internal/credits/license.php:644
+msgid "Licence Key Is Unassigned."
+msgstr "Лицензионный ключ был отвязан."
+
+#: include/internal/credits/license.php:645
+msgid "Licence key Is Active and Valid for Domain."
+msgstr "Лицензионный ключ активен и действителен для домена."
+
+#: include/internal/credits/license.php:754
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Произошла непредвиденная ошибка HTTP во время запроса API."
+
+#: include/internal/credits/license.php:791
+msgid "Unexpected response from API."
+msgstr "Неожиданный ответ от API."
+
+#: include/internal/credits/license.php:834
+#, php-format
+msgid ""
+"Your support access for the plugin <b>%1$s</b> is no longer available. "
+"Please visit %2$s to expend your support period."
+msgstr ""
+"Доступ к поддержке для плагина <b>%1$s</b> больше недоступен. Пожалуйста, "
+"посетите %2$s, чтобы продлить ваш период поддержки."
+
+#: include/internal/credits/license.php:843
+#, php-format
+msgid ""
+"Your subscription to plugin <b>%1$s</b> Premium Services expired. Please "
+"visit %2$s to expend your license period."
+msgstr ""
+"Срок действия подписки на Премиум Функции <b>%1$s</b> истек. Пожалуйста, "
+"посетите %2$s, чтобы продлить период действия лицензии."
+
+#: include/internal/credits/license.php:927
+#, php-format
+msgid "%s Premium"
+msgstr "%s Премиум"
+
+#: include/internal/credits/license.php:930
+#, php-format
+msgid "Your Trial period expires the %1$d. Consider purchasing %2$s."
+msgstr ""
+"Срок действия пробного периода истекает %1$d. Рассмотрите возможность "
+"приобретения %2$s."
+
+#: include/internal/credits/licensepage.php:87
+msgid "Please set a the extension license key to activate it."
+msgstr ""
+"Пожалуйста, введите лицензионный ключ расширения, чтобы активировать его."
+
+#: include/internal/credits/licensepage.php:195
+msgid "License Management"
+msgstr "Управление Лицензией"
+
+#: include/internal/credits/licensepage.php:209
+#: include/internal/credits/licensepage.php:475
+msgid "Deactivate my license"
+msgstr "Деактивировать мою лицензию"
+
+#: include/internal/credits/licensepage.php:209
+msgid "Activate license"
+msgstr "Активировать лицензию"
+
+#: include/internal/credits/licensepage.php:227
+msgid "The following extensions have been found on your system."
+msgstr "Следующие расширения были найдены в Вашей системе."
+
+#: include/internal/credits/licensepage.php:228
+msgid "Here you manage the license keys for each one of them."
+msgstr "Здесь вы можете управлять лицензионными ключами для каждого из них."
+
+#: include/internal/credits/licensepage.php:231
+#, php-format
+msgid "The Premium version of %s must be active for extensions to work."
+msgstr "Премиум-версия %s должна быть активной для работы расширений."
+
+#: include/internal/credits/licensepage.php:250
+msgid "Installed Extensions"
+msgstr "Установленные расширения"
+
+#: include/internal/credits/licensepage.php:267
+msgid "Make your site even greater."
+msgstr "Сделайте ваш сайт еще лучше."
+
+#: include/internal/credits/licensepage.php:268
+msgid "All these extensions are available here."
+msgstr "Все эти расширения доступны здесь."
+
+#: include/internal/credits/licensepage.php:271
+msgid "Addons need an active Premium version."
+msgstr "Аддоны нуждаются в активной Премиум-версии."
+
+#: include/internal/credits/licensepage.php:289
+msgid "Available Extensions"
+msgstr "Доступные расширения"
+
+#: include/internal/credits/licensepage.php:306
+msgid "WordPress Updates"
+msgstr "Обновления WordPress"
+
+#: include/internal/credits/licensepage.php:309
+msgid "<b>Your license is activated.</b>"
+msgstr "<b>Ваша лицензия активирована.</b>"
+
+#: include/internal/credits/licensepage.php:310
+#, php-format
+msgid "Look in %1$s page for a %2$s update."
+msgstr "Посетите страницу %1$s для обновления %2$s."
+
+#: include/internal/credits/licensepage.php:311
+msgid ""
+"You should have to click \"<i>Check Again</i>\" button to force WordPress "
+"refresh its list."
+msgstr ""
+"Вы должны нажать кнопку \"<i>Проверить снова</i>\", чтобы заставить "
+"WordPress обновить свой список."
+
+#: include/internal/credits/licensepage.php:312
+msgid ""
+"If the Plugin Update still does not appears, please wait few minutes and try "
+"again."
+msgstr ""
+"Если обновление плагина все еще не отображается, пожалуйста, подождите "
+"несколько минут и повторите попытку."
+
+#: include/internal/credits/licensepage.php:315
+msgid "<b>Your Trial is active.</b>"
+msgstr "<b>Ваша пробная лицензия активна.</b>"
+
+#: include/internal/credits/licensepage.php:317
+msgid "Check for Updates"
+msgstr "Проверить наличие обновлений"
+
+#: include/internal/credits/licensepage.php:322
+msgid "An update is waiting for you"
+msgstr "Обновление ожидает вас"
+
+#: include/internal/credits/licensepage.php:351
+msgid "Your Subscription is currently inactive."
+msgstr "Ваша Подписка сейчас неактивна."
+
+#: include/internal/credits/licensepage.php:353
+msgid "You can't download new versions or send requests to the support."
+msgstr "Вы не можете загружать новые версии или отправить запросы в поддержку."
+
+#: include/internal/credits/licensepage.php:355
+msgid ""
+"You can't use Premium features of this plugin, download new versions or send "
+"requests to the support."
+msgstr ""
+"Вы не можете использовать Премиум-функции этого плагина, загружать новые "
+"версии или отправлять запросы в поддержку."
+
+#: include/internal/credits/licensepage.php:356
+msgid ""
+"You can resume your subscription at any time to get access to updates and "
+"support."
+msgstr ""
+"Вы можете возобновить подписку в любое время, чтобы получить доступ к "
+"обновлениям и поддержке."
+
+#: include/internal/credits/licensepage.php:357
+msgid "Resume my subscription"
+msgstr "Возобновить мою подписку"
+
+#: include/internal/credits/licensepage.php:361
+msgid "Your Subscription is currently active."
+msgstr "Ваша Подписка сейчас активна."
+
+#: include/internal/credits/licensepage.php:366
+msgid "Updates and Support are available until :"
+msgstr "Обновления и Поддержка доступны до:"
+
+#: include/internal/credits/licensepage.php:368
+msgid ""
+"To avoid a service interruption, you should renew your subscription before :"
+msgstr "Чтобы избежать прерывания работы, Вам следует продлить подписку до :"
+
+#: include/internal/credits/licensepage.php:370
+msgid "See my subscription"
+msgstr "Посмотреть мою подписку"
+
+#: include/internal/credits/licensepage.php:375
+msgid "Your Subscription includes Updates and Support."
+msgstr "Ваша подписка включает в себя обновления и поддержку."
+
+#: include/internal/credits/licensepage.php:377
+msgid ""
+"Your Subscription includes the usage of this plugin, updates and support."
+msgstr ""
+"Ваша подписка включает в себя использование этого плагина, обновления и "
+"поддержку."
+
+#: include/internal/credits/licensepage.php:378
+msgid "Cancel my subscription"
+msgstr "Отменить мою подписку"
+
+#: include/internal/credits/licensepage.php:383
+msgid "Maintenance and Updates"
+msgstr "Техническое обслуживание и обновления"
+
+#: include/internal/credits/licensepage.php:385
+msgid "Usage Permission"
+msgstr "Разрешения на использование"
+
+#: include/internal/credits/licensepage.php:412
+msgid ""
+"If you have a Premium License Key, please input it in the field below and "
+"click on the Activation button."
+msgstr ""
+"Если у вас есть ключ Премиум-лицензии, пожалуйста, внесите его в поле ниже и "
+"нажмите на кнопку активации."
+
+#: include/internal/credits/licensepage.php:413
+msgid ""
+"If the activation is successful, the Premium version will be activated and "
+"installed automatically."
+msgstr ""
+"Если активация успешна, Премиум-версия будет активирована и установлена "
+"автоматически."
+
+#: include/internal/credits/licensepage.php:418
+msgid "Activate my license"
+msgstr "Активировать мою лицензию"
+
+#: include/internal/credits/licensepage.php:424
+#: include/internal/credits/licensepage.php:484
+#, php-format
+msgid "%s Premium License"
+msgstr "Премиум Лицензия %s"
+
+#: include/internal/credits/licensepage.php:432
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: include/internal/credits/licensepage.php:436
+msgid ""
+"Your license key has been provided to you in the Order Confirmation eMail."
+msgstr ""
+"Ваш лицензионный ключ был предоставлен вам в электронном письме "
+"подтверждения заказа."
+
+#: include/internal/credits/licensepage.php:467
+#, php-format
+msgid "You're actually using a licensed version of %s Premium."
+msgstr "Вы используете лицензированную версию %s Premium."
+
+#: include/internal/credits/licensepage.php:468
+msgid "Your license key is :"
+msgstr "Ваш лицензионный ключ:"
+
+#: include/internal/credits/licensepage.php:478
+#, php-format
+msgid ""
+"If you deactivate your license, you will be reverted to the free version of "
+"%s. Your license count will be updated on our server and you'll be able to "
+"activate your license on another website."
+msgstr ""
+"Если Вы деактивируете лицензию, вы будете возвращены к бесплатной версии %s. "
+"Количество лицензий обновится на нашем сервере, и Вы сможете активировать "
+"лицензию на другом веб-сайте."
+
+#: include/internal/credits/licensepage.php:505
+#: include/internal/credits/licensepage.php:546
+msgid "This version contains only a few features of the premium version."
+msgstr "Эта версия содержит лишь некоторые особенности премиум-версии."
+
+#: include/internal/credits/licensepage.php:507
+#, php-format
+msgid "You're actually using the free version of %s."
+msgstr "Вы на самом деле используете бесплатную версию %s."
+
+#: include/internal/credits/licensepage.php:509
+#, php-format
+msgid ""
+"If you're happy with %s Standard features, <b>please consider reviewing it</"
+"b> on wordpress.org"
+msgstr ""
+"Если вы довольны Стандартными Функциями %s, <b>пожалуйста, оцените его</b> "
+"на wordpress.org"
+
+#: include/internal/credits/licensepage.php:513
+msgid ""
+"If you want to gain access to more features, you can try the premium version "
+"for free for 30 days."
+msgstr ""
+"Если вы хотите получить доступ к большему количеству функций, Вы можете "
+"попробовать премиум-версию бесплатно в течение 30 дней."
+
+#: include/internal/credits/licensepage.php:518
+msgid "Review on wordpress.org"
+msgstr "Оцените в wordpress.org"
+
+#: include/internal/credits/licensepage.php:524
+msgid "Free Version"
+msgstr "Бесплатная Версия"
+
+#: include/internal/credits/licensepage.php:550
+#, php-format
+msgid "Try %s Premium for free for 30 days."
+msgstr "Попробуйте Премиум-версию %s бесплатно в течение 30 дней."
+
+#: include/internal/credits/licensepage.php:551
+#, php-format
+msgid "Instant access to all %s Premium features."
+msgstr "Мгновенный доступ ко всем функциям Премиум-версии %s."
+
+#: include/internal/credits/licensepage.php:552
+msgid "No payment required."
+msgstr "Оплата не требуется."
+
+#: include/internal/credits/licensepage.php:553
+msgid "No registration required."
+msgstr "Регистрация не требуется."
+
+#: include/internal/credits/licensepage.php:559
+msgid "Start the free trial"
+msgstr "Запуск бесплатной пробной версии"
+
+#: include/internal/credits/licensepage.php:565
+#, php-format
+msgid "Free %s Premium Trial"
+msgstr "Бесплатный %s Премиум-Пробник"
+
+#: include/internal/credits/licensepage.php:590
+#, php-format
+msgid ""
+"You're actually trying %s Premium for free for a limited period of time. You "
+"will be reminded that your trial period is about to end 5 days and 3 days "
+"before it ends."
+msgstr ""
+"Вы на самом деле пользуетесь %s Premium бесплатно в течение ограниченного "
+"периода времени. Вам придёт уведомление, что ваш пробный срок вот-вот "
+"закончится за 5 и 3 дней до истечения срока действия."
+
+#: include/internal/credits/licensepage.php:592
+#, php-format
+msgid "You're actually trying %s Free with limited features."
+msgstr ""
+"Вы на самом деле используете Бесплатную версию %s с ограниченными "
+"возможностями."
+
+#: include/internal/credits/licensepage.php:593
+#, php-format
+msgid ""
+"If you like %s, you can purchase a license on our website by clicking on the "
+"button below."
+msgstr ""
+"Если вам нравится %s, Вы можете приобрести лицензию на нашем сайте, нажав на "
+"кнопку ниже."
+
+#: include/internal/credits/licensepage.php:599
+msgid "Your trial will expire in :"
+msgstr "Срок действия пробной версии истекает:"
+
+#: include/internal/credits/licensepage.php:600 include/legacy/duration.php:286
+#: include/tools/duration.php:286
+msgid "Days"
+msgstr "Дни"
+
+#: include/internal/credits/licensepage.php:607
+#: include/internal/credits/licensepage.php:616
+#, php-format
+msgid "Purchase %s Premium"
+msgstr "Купите Премиум-версию %s"
+
+#: include/internal/credits/licensepage.php:610
+msgid ""
+"Premium Version is a paid service. This service features the plugin, the "
+"support and regular updates. You can cancel your subscription at any time by "
+"changing your preferences on your account on plugins.longwatchstudio.com. "
+"Cancelling your subscription will remove the access to support and updates."
+msgstr ""
+"Premium Version является платной услугой. В это услугу входит: плагин, "
+"поддержка и регулярные обновления. Вы можете отменить подписку в любое "
+"время, изменив свои предпочтения в своей учетной записи plugins."
+"longwatchstudio.com. Отмена подписки приведет к удалению доступа к поддержке "
+"и обновлениям."
+
+#: include/internal/credits/licensepage.php:678
+#, php-format
+msgid ""
+"The Trial License found for the plugin <b>%s</b> cannot be migrated to the "
+"new system."
+msgstr ""
+"Пробная лицензия, найденная для плагина <b>%s</b> не может быть перенесена в "
+"новую систему."
+
+#: include/internal/credits/licensepage.php:679
+msgid ""
+"If you are sure your license should still be valid, try to restart the trial "
+"manually or contact the support of the plugin."
+msgstr ""
+"Если вы уверены, что Ваша лицензия все еще должна быть действительной, "
+"попробуйте перезапустить пробную версию вручную или обратитесь в поддержку "
+"плагина."
+
+#: include/internal/credits/licensepage.php:697
+#, php-format
+msgid ""
+"The license found for the plugin <b>%s</b> cannot be migrated to the new "
+"system."
+msgstr ""
+"Лицензия, найденная для плагина <b>%s</b> не может быть перенесена в новую "
+"систему."
+
+#: include/internal/credits/licensepage.php:698
+msgid ""
+"If you are sure your license should still be valid, try to reactivate it "
+"manually or contact the support of the plugin."
+msgstr ""
+"Если вы уверены, что Ваша лицензия все еще должна быть действительной, "
+"попробуйте ре-активировать её вручную или обратитесь в поддержку плагина."
+
+#: include/internal/credits/licensepage.php:725
+#: include/internal/credits/licensepage.php:745
+#, php-format
+msgid "Go to <b>%s</b> Settings"
+msgstr "Перейти к Настройкам <b>%s</b>"
+
+#: include/internal/credits/page.php:90
+msgid "License"
+msgstr "Лицензия"
+
+#: include/internal/credits/supportpage.php:78
+#, php-format
+msgid ""
+"Sorry, the mail failed to be sent. You can try again or use the &lt;%s&gt; "
+"contact address."
+msgstr ""
+"К сожалению, письмо не было отправлено. Вы можете попробовать еще раз или "
+"используйте &lt;%s&gt; контактный адрес."
+
+#: include/internal/credits/supportpage.php:84
+msgid ""
+"Your request has been sent to our support team. We will respond as soon as "
+"possible."
+msgstr ""
+"Ваш запрос был направлен в нашу команду поддержки. Мы постараемся ответить "
+"как можно скорее."
+
+#: include/internal/credits/supportpage.php:223
+msgid "Please, fill your Name before sending the mail."
+msgstr "Пожалуйста, заполните свое имя перед отправкой письма."
+
+#: include/internal/credits/supportpage.php:228
+msgid "Please, set a response EMail."
+msgstr "Пожалуйста, укажите email для ответа."
+
+#: include/internal/credits/supportpage.php:233
+msgid "Please, select a Subject before sending the mail."
+msgstr "Пожалуйста, выберите Тему перед отправкой email."
+
+#: include/internal/credits/supportpage.php:238
+msgid "Please, Fill your request before sending the mail."
+msgstr "Пожалуйста, заполните ваш запрос перед отправкой письма."
+
+#: include/internal/credits/supportpage.php:298 include/pages/head.php:215
+msgid "Support"
+msgstr "Поддержка"
+
+#: include/internal/credits/supportpage.php:354
+msgid "Support Instructions"
+msgstr "Инструкции по поддержке"
+
+#: include/internal/credits/supportpage.php:357
+msgid ""
+"Please read the instructions carefully before sending a support request."
+msgstr ""
+"Пожалуйста, внимательно прочитайте инструкции перед отправкой запроса на "
+"поддержку."
+
+#: include/internal/credits/supportpage.php:419
+#, php-format
+msgid "Support Request for <b>%s</b>"
+msgstr "Запрос на поддержку <b>%s</b>"
+
+#: include/internal/credits/supportpage.php:422
+msgid "Fill in the form below to send a support request."
+msgstr "Заполните форму ниже, чтобы отправить запрос на поддержку."
+
+#: include/internal/credits/supportpage.php:437
+msgid "Your Name"
+msgstr "Ваше Имя"
+
+#: include/internal/credits/supportpage.php:448
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: include/internal/credits/supportpage.php:454
+msgid ""
+"The email we will response to. Please make sure this is a valid email that "
+"you view frequently."
+msgstr ""
+"Email, на который мы ответим. Пожалуйста, убедитесь, что это действительный "
+"email-адерс, который Вы часто просматриваете."
+
+#: include/internal/credits/supportpage.php:460 include/internal/mailer.php:437
+msgid "Subject"
+msgstr "Тема"
+
+#: include/internal/credits/supportpage.php:472
+msgid "Your Request"
+msgstr "Ваш Запрос"
+
+#: include/internal/credits/supportpage.php:475
+msgid ""
+"Describe your problem here, what happen, what is expected, what did you do."
+msgstr ""
+"Опишите свою проблему здесь, что произошло, что ожидается и что вы сделали "
+"(на английском)."
+
+#: include/internal/credits/supportpage.php:487
+msgid "Send the support request"
+msgstr "Отправить запрос поддержки"
+
+#: include/internal/editlistcontroler.php:141
+msgctxt "editlist groupby"
+msgid "Add a group"
+msgstr "Добавить группу"
+
+#: include/internal/editlistcontroler.php:269
+msgid "Apply"
+msgstr "Применить"
+
+#: include/internal/editlistcontroler.php:312
+msgid "Action"
+msgstr "Действие"
+
+#: include/internal/editlistcontroler.php:325
+#: include/pages/field/taglist.php:21
+msgid "Add"
+msgstr "Добавить"
+
+#: include/internal/editlistcontroler.php:450
+msgid "Cancel"
+msgstr "Отменить"
+
+#: include/internal/editlistcontroler.php:451
+msgid "Save"
+msgstr "Сохранить"
+
+#: include/internal/editlistcontroler.php:454
+msgctxt "Confirm event/unlockable type choice"
+msgid "Next"
+msgstr "Далее"
+
+#: include/internal/editlistcontroler.php:455
+msgctxt "Undo event/unlockable type choice"
+msgid "Back"
+msgstr "Назад"
+
+#: include/internal/editlistcontroler.php:498
+msgid "Quick Edit"
+msgstr "Быстрое редактирование"
+
+#: include/internal/editlistcontroler.php:499
+msgid "Copy"
+msgstr "Копировать"
+
+#: include/internal/editlistcontroler.php:500
+msgid "Delete"
+msgstr "Удалить"
+
+#: include/internal/helpers/pages.php:59
+msgid "Used to get google fonts."
+msgstr "Используется для получения шрифтов Google."
+
+#: include/internal/helpers/pages.php:62
+msgid "Generate API Key"
+msgstr "Генерировать ключ API"
+
+#: include/internal/helpers/pages.php:63
+#, php-format
+msgid "or <a target='_blank' href='%s'>click here to Get a Google API KEY</a>"
+msgstr ""
+"или <a target='_blank' href='%s'>нажмите здесь, чтобы Получить Google API "
+"KEY</a>"
+
+#: include/internal/helpers/pages.php:66
+msgid "You MUST be logged in to your Google account to generate a key."
+msgstr "Вы ДОЛЖНЫ войти в свой аккаунт Google для создания ключа."
+
+#: include/internal/helpers/pages.php:70
+msgid "Google account"
+msgstr "Аккаунт Google"
+
+#: include/internal/mailer.php:323
+msgid "This is a test."
+msgstr "Это тест."
+
+#: include/internal/mailer.php:397
+msgid "Email Settings"
+msgstr "Настройки Email"
+
+#: include/internal/mailer.php:397
+#, php-format
+msgid "%s Email Settings"
+msgstr "%s Настройки Email"
+
+#: include/internal/mailer.php:399
+msgid ""
+"Once you've finished the email settings, <b>save your changes</b><br/>You "
+"will then see the result in the style editor below<br/>Select the elements "
+"you wish to change and have fun!"
+msgstr ""
+"Как только Вы закончите настройку email, <b>сохраните Ваши настройки</b><br/"
+">Вы увидите результат в редакторе стилей ниже<br/>Выберите элементы, которые "
+"хотите изменить и веселитесь!"
+
+#: include/internal/mailer.php:403
+msgid "Header picture"
+msgstr "Изображение хэдера"
+
+#: include/internal/mailer.php:411
+msgid "Footer text"
+msgstr "Текст футера"
+
+#: include/internal/mailer.php:432
+msgid "Email details"
+msgstr "Детали email"
+
+#: include/internal/mailer.php:448
+msgid "Preheader"
+msgstr "Прехедер"
+
+#: include/internal/mailer.php:485
+msgid "Receiver Email"
+msgstr "Получатель email'а"
+
+#: include/internal/mailer.php:488
+msgid "Test your email to see how it looks"
+msgstr "Проверьте своё email-письмо, чтобы увидеть, как оно выглядит"
+
+#: include/internal/mailer.php:495
+msgid "Send test email"
+msgstr "Отправить тестовое email-письмо"
+
+#: include/internal/mailer.php:513
+msgid "Test email sent."
+msgstr "Тестовое письмо отправлено."
+
+#: include/internal/mailer.php:516
+msgid "Test email is not valid."
+msgstr "Тестовое письмо не действительно."
+
+#: include/internal/pages.php:423
+msgid "Changes not commited."
+msgstr "Изменения не внесены."
+
+#: include/internal/pages.php:424
+msgid "Please confirm or cancel the active form before submit that page."
+msgstr ""
+"Пожалуйста, подтвердите или отмените активную форму перед отправкой этой "
+"страницы."
+
+#: include/internal/pages.php:425
+msgid "Do you really want to delete the line?"
+msgstr "Вы действительно хотите удалить строку?"
+
+#: include/internal/pages.php:426
+msgid "Update error, please check the values."
+msgstr "Ошибка обновления, пожалуйста, проверьте значения."
+
+#: include/internal/pages.php:427
+msgid "An error occured, please try later."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте позже."
+
+#: include/internal/pages.php:428
+msgid "Please, select an item."
+msgstr "Пожалуйста, выберите элемент."
+
+#: include/internal/pages.php:429
+msgid "Select a font"
+msgstr "Выбрать шрифт"
+
+#: include/internal/pages.php:430
+msgctxt "Font list"
+msgid "Show more"
+msgstr "Показать больше"
+
+#: include/internal/pages.php:431
+msgctxt "Font list"
+msgid "Show less"
+msgstr "Показать меньше"
+
+#: include/internal/pages.php:433
+msgctxt "Font weight"
+msgid "Thin"
+msgstr "Тонкий"
+
+#: include/internal/pages.php:434
+msgctxt "Font weight"
+msgid "Extra Light"
+msgstr "Очень светлый"
+
+#: include/internal/pages.php:435
+msgctxt "Font weight"
+msgid "Light"
+msgstr "Светлый"
+
+#: include/internal/pages.php:436 include/internal/pages.php:437
+msgctxt "Font weight"
+msgid "Normal"
+msgstr "Нормальный"
+
+#: include/internal/pages.php:438
+msgctxt "Font weight"
+msgid "Medium"
+msgstr "Средний"
+
+#: include/internal/pages.php:439
+msgctxt "Font weight"
+msgid "Semi Bold"
+msgstr "Полужирный"
+
+#: include/internal/pages.php:440
+msgctxt "Font weight"
+msgid "Bold"
+msgstr "Жирный"
+
+#: include/internal/pages.php:441
+msgctxt "Font weight"
+msgid "Extra Bold"
+msgstr "Экстра-жирный"
+
+#: include/internal/pages.php:442
+msgctxt "Font weight"
+msgid "Black"
+msgstr "Черный"
+
+#: include/internal/pages.php:447
+msgid " didn't match any items"
+msgstr " не совпадают с какими-либо элементами"
+
+#: include/internal/pages.php:448
+msgid "Show All Items"
+msgstr "Показать все элементы"
+
+#: include/legacy/duration.php:79 include/tools/duration.php:79
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] "Год"
+msgstr[1] "Года"
+msgstr[2] "Лет"
+
+#: include/legacy/duration.php:82 include/tools/duration.php:82
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Месяц"
+msgstr[1] "Месяца"
+msgstr[2] "Месяцев"
+
+#: include/legacy/duration.php:85 include/tools/duration.php:85
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] "Неделя"
+msgstr[1] "Недели"
+msgstr[2] "Недель"
+
+#: include/legacy/duration.php:88 include/tools/duration.php:88
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Час"
+msgstr[1] "Часа"
+msgstr[2] "Часов"
+
+#: include/legacy/duration.php:91 include/tools/duration.php:91
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Минута"
+msgstr[1] "Минуты"
+msgstr[2] "Минут"
+
+#: include/legacy/duration.php:94 include/tools/duration.php:94
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] "Секунда"
+msgstr[1] "Секунд"
+msgstr[2] "Секунд"
+
+#: include/legacy/duration.php:97 include/tools/duration.php:97
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "День"
+msgstr[1] "Дня"
+msgstr[2] "Дней"
+
+#: include/legacy/duration.php:287 include/tools/duration.php:287
+msgid "Months"
+msgstr "Месяцев"
+
+#: include/legacy/duration.php:288 include/tools/duration.php:288
+msgid "Years"
+msgstr "Лет"
+
+#: include/legacy/duration.php:291 include/tools/duration.php:291
+msgid "Weeks"
+msgstr "Недель"
+
+#: include/legacy/duration.php:292 include/tools/duration.php:292
+msgid "Hours"
+msgstr "Часы"
+
+#: include/legacy/duration.php:293 include/tools/duration.php:293
+msgid "Minutes"
+msgstr "Минуты"
+
+#: include/legacy/duration.php:294 include/tools/duration.php:294
+msgid "Seconds"
+msgstr "Секунды"
+
+#: include/pages/field/border.php:25
+msgctxt "CSS margin tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global margin of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left margins</p>"
+msgstr ""
+"Принимается от 1 до 4 значений<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Устанавливает общий внешний отступ в 5 "
+"пикселей</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Устанавливает верхний, "
+"правый, нижний, левый внешние отступы</p>"
+
+#: include/pages/field/border.php:33
+msgctxt "CSS padding tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global padding of 5 pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left padding</p>"
+msgstr ""
+"Принимается от 1 до 4 значений<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Устанавливает общий внутренний отступ "
+"в 5 пикселей</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Устанавливает верхний, "
+"правый, нижний, левый внутренние отступы</p>"
+
+#: include/pages/field/border.php:41
+msgctxt "CSS border tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border size of 5 pixels</"
+"p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left borders</p>"
+msgstr ""
+"Принимается от 1 до 4 значений<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Устанавливает общий размер границы в 5 "
+"пикселей</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Устанавливает верхнюю, "
+"правую, нижнюю, левую границы</p>"
+
+#: include/pages/field/border.php:49
+msgctxt "CSS radius tooltip"
+msgid ""
+"1 to 4 values accepted<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Sets a global border radius of 5 "
+"pixels</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Sets top, right, bottom, "
+"left border radius</p>"
+msgstr ""
+"Принимается от 1 до 4 значений<br/>\n"
+"<p class='lwss-tooltip-exemple'>5px | Устанавливает общий радиус границы в 5 "
+"пикселей</p>\n"
+"<p class='lwss-tooltip-exemple'>1px 2px 3px 4px | Устанавливает верхний, "
+"правый, нижний, левый радиусы границы</p>"
+
+#: include/pages/field/border.php:73
+msgctxt "CSS border size edition"
+msgid "Margin"
+msgstr "Внеш. отступ"
+
+#: include/pages/field/border.php:75
+msgctxt "CSS border size editoin"
+msgid "Padding"
+msgstr "Внут. отступ"
+
+#: include/pages/field/border.php:77
+msgctxt "CSS border size editoin"
+msgid "Border"
+msgstr "Граница"
+
+#: include/pages/field/border.php:79
+msgctxt "CSS border size editoin"
+msgid "Radius"
+msgstr "Радиус"
+
+#: include/pages/field/border.php:81
+msgctxt "CSS color edition"
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: include/pages/field/border.php:83
+msgctxt "CSS color edition"
+msgid "Background"
+msgstr "Фон"
+
+#: include/pages/field/border.php:155
+msgctxt "LWSS border text demo"
+msgid "This is a sample text"
+msgstr "Это образец текста"
+
+#: include/pages/field/cssbutton.php:67
+msgctxt "LWSS button colors"
+msgid "Normal"
+msgstr "Нормальный"
+
+#: include/pages/field/cssbutton.php:68
+msgctxt "LWSS button colors"
+msgid "Over"
+msgstr "Наведение"
+
+#: include/pages/field/cssbutton.php:69
+msgctxt "LWSS button colors"
+msgid "Focused"
+msgstr "В Фокусе"
+
+#: include/pages/field/cssbutton.php:70
+msgctxt "LWSS button colors"
+msgid "Text"
+msgstr "Текст"
+
+#: include/pages/field/cssbutton.php:71
+msgctxt "LWSS button colors"
+msgid "Background"
+msgstr "Фон"
+
+#: include/pages/field/cssbutton.php:88
+msgctxt "CSS color edition"
+msgid "Normal Text"
+msgstr "Нормальный текст"
+
+#: include/pages/field/cssbutton.php:89
+msgctxt "CSS color edition"
+msgid "On Hover Text"
+msgstr "Текст при наведении"
+
+#: include/pages/field/cssbutton.php:90
+msgctxt "CSS color edition"
+msgid "On Click Text"
+msgstr "Текст при нажатии"
+
+#: include/pages/field/cssbutton.php:95
+msgctxt "CSS color edition"
+msgid "Normal Background"
+msgstr "Нормальный фон"
+
+#: include/pages/field/cssbutton.php:96
+msgctxt "CSS color edition"
+msgid "On Hover Background"
+msgstr "Фон при наведении"
+
+#: include/pages/field/cssbutton.php:97
+msgctxt "CSS color edition"
+msgid "On Click Background"
+msgstr "Фон при нажатии"
+
+#: include/pages/field/duration.php:82
+msgid "An integer value greater than zero."
+msgstr "Целое число больше нуля."
+
+#: include/pages/field/font.php:83
+msgctxt "LWSS font text demo"
+msgid "This is a sample text"
+msgstr "Это образец текста"
+
+#: include/pages/field/googleapiskey.php:24
+msgid "Your Google API key"
+msgstr "Ваш ключ Google API"
+
+#: include/pages/field/googleapiskey.php:32
+msgid "You should define a Google API key in this settings."
+msgstr "Вы должны определить ключ API Google в этих настройках."
+
+#: include/pages/field/lacchecklist.php:60
+msgid "Select..."
+msgstr "Выбрать..."
+
+#: include/pages/field/lacchecklist.php:61
+msgid "Search..."
+msgstr "Поиск..."
+
+#: include/pages/field/lactaglist.php:51
+msgctxt "lac-taglist \"add\" button"
+msgid "Add"
+msgstr "Добавить"
+
+#: include/pages/field/media.php:30
+msgid "Remove"
+msgstr "Удалить"
+
+#: include/pages/field/media.php:31 include/pages/field/media.php:33
+msgid "Select a media"
+msgstr "Выбрать медиа"
+
+#: include/pages/field/media.php:32
+msgid "Use the selected item"
+msgstr "Использовать выбранный элемент"
+
+#: include/pages/field/media.php:34
+msgid "Edit..."
+msgstr "Pедактировать..."
+
+#: include/pages/field/shortcode.php:17
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: include/pages/field/shortcode.php:18
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: include/pages/field/shortcode.php:19
+msgid "Description"
+msgstr "Описание"
+
+#: include/pages/field/shortcode.php:20
+msgid "Styling"
+msgstr "Стайлинг"
+
+#: include/pages/field/shortcode.php:21
+msgid "Customize the look of this shortcode"
+msgstr "Настройте внешний вид этого короткого кода"
+
+#: include/pages/field/stygen.php:46
+msgid "Available Elements"
+msgstr "Доступные элементы"
+
+#: include/pages/field/stygen.php:47
+msgid "Select an element to start modifying its style"
+msgstr "Выберите элемент, чтобы начать изменять его стиль"
+
+#: include/pages/field/stygen.php:48
+msgctxt "Stygen button"
+msgid "Reset Style"
+msgstr "Сбросить Стиль"
+
+#: include/pages/field/stygen.php:130
+msgid "Snippet unknown"
+msgstr "Фрагмент неизвестен"
+
+#: include/pages/head.php:213
+msgid "Admin Menu"
+msgstr "Меню Админа"
+
+#: include/pages/head.php:214 include/pages/head.php:507
+msgid "Advanced Settings"
+msgstr "Расширенные Настройки"
+
+#: include/pages/head.php:216
+msgid "Troubleshooting"
+msgstr "Решение проблем"
+
+#: include/pages/head.php:217
+msgid "Live Chat"
+msgstr "Онлайн-чат"
+
+#: include/pages/head.php:218
+msgid "Documentation"
+msgstr "Документация"
+
+#: include/pages/head.php:219
+msgid "Patch Notes"
+msgstr "Патчноут"
+
+#: include/pages/head.php:220
+msgid "License Information"
+msgstr "Сведения о лицензии"
+
+#: include/pages/head.php:221
+msgid "Try Premium for Free"
+msgstr "Попробуйте Премиум бесплатно"
+
+#: include/pages/head.php:259
+msgid "Plugin Notifications"
+msgstr "Уведомления Плагина"
+
+#: include/pages/head.php:265
+msgid "Other Notifications"
+msgstr "Другие Уведомления"
+
+#: include/pages/head.php:335
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: include/pages/head.php:368
+msgid "Discard Changes"
+msgstr "Отклонить изменения"
+
+#: include/pages/head.php:371
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: include/pages/head.php:445
+msgid "https://plugins.longwatchstudio.com/"
+msgstr "https://plugins.longwatchstudio.com/"
+
+#: include/pages/head.php:448
+msgid "https://plugins.longwatchstudio.com/documentation/"
+msgstr "https://plugins.longwatchstudio.com/documentation/"
+
+#: include/pages/notices.php:139
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: include/pages/screens/admin.php:147 include/pages/screens/singular.php:194
+msgid "Your settings have been saved."
+msgstr "Ваши настройки сохранены."
+
+#: include/pages/screens/singular.php:93
+msgctxt "Singular object edition screen"
+msgid "Delete element"
+msgstr "Удалить элемент"
+
+#: include/pages/screens/singular.php:94
+msgctxt "Singular object edition screen"
+msgid "I really want to delete it"
+msgstr "Я действительно хочу удалить это"
+
+#: include/pages/screens/singular.php:95
+msgctxt "Singular object edition screen"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: include/pages/screens/singular.php:96
+msgctxt "Singular object edition screen"
+msgid "This element will be permanently removed. Are you sure?"
+msgstr "Этот элемент будет удален навсегда. Вы уверены?"
+
+#: include/pages/screens/singular.php:97
+msgctxt "Singular object edition screen"
+msgid "Permanent deletion"
+msgstr "Перманентное удаление"
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object creation screen"
+msgid "Create"
+msgstr "Создать"
+
+#: include/pages/screens/singular.php:114
+msgctxt "Singular object edition screen"
+msgid "Update"
+msgstr "Обновить"
+
+#: include/pages/screens/singular.php:122
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: include/pages/screens/singular.php:166
+msgid "Action rejected for current user. Insufficient capacities."
+msgstr ""
+"Действия отклонены для текущего пользователя. Недостаточные возможности."
+
+#: include/pages/screens/singular.php:219
+msgctxt "post deletion"
+msgid "Unavailable action."
+msgstr "Недоступное действие."
+
+#: include/pages/screens/singular.php:225
+msgctxt "post deletion"
+msgid "Security check failed."
+msgstr "Ошибка проверки безопасности."
+
+#: include/pages/screens/singular.php:231
+msgid "Element permanently removed."
+msgstr "Элемент удалён навсегда."
+
+#: include/pages/wizard.php:189
+#, php-format
+msgid ""
+"If you can see this, an error occured. Click %s here %s to resolve. Then "
+"restart the wizard."
+msgstr ""
+"Если вы видите это, то произошла ошибка. Нажмите %s здесь %s, чтобы "
+"разрешить. Затем, перезапустите мастер настройки."
+
+#: include/pages/wizard.php:202
+msgid "Leave the wizard"
+msgstr "Покинуть мастер настройки"
+
+#: include/pages/wizard.php:202 include/pages/wizard.php:1004
+msgid "You can come back later and continue from that point."
+msgstr "Вы можете вернуться позже и продолжить с этого момента."
+
+#: include/pages/wizard.php:358
+msgid "An error occured during form validation."
+msgstr "Произошла ошибка во время валидации формы."
+
+#: include/pages/wizard.php:753
+#, php-format
+msgctxt "wizard critical path tab title with loop count"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: include/pages/wizard.php:964
+msgctxt "previous wizard step"
+msgid "Previous"
+msgstr "Назад"
+
+#: include/pages/wizard.php:975
+msgctxt "repeat a wizard portion"
+msgid "Add"
+msgstr "Добавить"
+
+#: include/pages/wizard.php:984
+msgctxt "next wizard step"
+msgid "Next"
+msgstr "Далее"
+
+#: include/pages/wizard.php:988
+msgctxt "final wizard submit"
+msgid "Submit"
+msgstr "Отправить"
+
+#: include/pages/wizard.php:1003
+msgid "Leave this wizard"
+msgstr "Покинуть этот мастер настройки"
+
+#: include/pages/wizard.php:1005
+msgid "Cancel this wizard"
+msgstr "Отменить этот мастер настройки"
+
+#: include/pages/wizard.php:1006
+msgid "You will lose all prepared settings."
+msgstr "Вы потеряете все подготовленные настройки."
+
+#: include/tools/argparser.php:158
+#, php-format
+msgctxt "Input array validation"
+msgid "%s value rejected"
+msgstr "%s значение отклонено"
+
+#: include/tools/argparser.php:169
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not an array"
+msgstr "%s не массив"
+
+#: include/tools/argparser.php:173
+#, php-format
+msgid "A value in %s"
+msgstr "Значение в %s"
+
+#: include/tools/argparser.php:192
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not valid"
+msgstr "%s не действителен"
+
+#: include/tools/argparser.php:197
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be equal or greater than zero"
+msgstr "%s должен быть равен или больше нуля"
+
+#: include/tools/argparser.php:203
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a decimal number"
+msgstr "%s не десятичное число"
+
+#: include/tools/argparser.php:205 include/tools/argparser.php:215
+#, php-format
+msgctxt "Input array validation"
+msgid "%s must be greater than zero"
+msgstr "%s должен быть больше нуля"
+
+#: include/tools/argparser.php:213
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a number"
+msgstr "%s не число"
+
+#: include/tools/argparser.php:219
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is not a string"
+msgstr "%s не string"
+
+#: include/tools/argparser.php:231
+#, php-format
+msgctxt "Input array validation"
+msgid "%s is empty"
+msgstr "%s пусто"
+
+#: include/tools/argparser.php:281
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing required value for %s"
+msgstr "Отсутствует требуемое значение для %s"
+
+#: include/tools/argparser.php:291
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing entry %s"
+msgstr "Отсутствующие входные данные %s"
+
+#: include/tools/argparser.php:297
+#, php-format
+msgctxt "Input array validation"
+msgid "Missing value for %s"
+msgstr "Отсутствует значение для %s"
+
+#: include/tools/argparser.php:364
+#, php-format
+msgctxt "Input array validation"
+msgid "Unknown entry %s"
+msgstr "Неизвестные входные данные %s"
+
+#: include/tools/pseudocss.php:243
+msgid "Default CSS values"
+msgstr "Значения CSS по умолчанию"
+
+#: include/tools/pseudocss.php:248
+msgctxt "Default css values"
+msgid "Reset"
+msgstr "Сброс"
+
+#. Plugin Name of the plugin/theme
+msgid "LWS Admin Panel"
+msgstr "Панель Админа LWS"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#. Description of the plugin/theme
+msgid "Provide an easy way to manage other plugin's settings."
+msgstr "Предоставляет простой способ управления настройками других плагинов."
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"
+
+#, php-format
+#~ msgid "This activation actually uses the license key <b>%s</b>"
+#~ msgstr "Эта активация фактически использует ключ лицензии <b>%s</b>"
+
+#, php-format
+#~ msgid "%s - Activated"
+#~ msgstr "%s - Активирован"
+
+#, php-format
+#~ msgid "Visit <a href='%s'>%s</a> to discover other offers."
+#~ msgstr ""
+#~ "Посетите <a href='%s'>%s</a>, чтобы ознакомиться с другими предложениями."
+
+#~ msgid "Set another license key"
+#~ msgstr "Установите другой лицензионный ключ"
+
+#, php-format
+#~ msgid "%s - Activate your license"
+#~ msgstr "%s - Активируйте лицензию"
+
+#, php-format
+#~ msgid ""
+#~ "<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs "
+#~ "activation</p><p>Contact your administrator.</p>"
+#~ msgstr ""
+#~ "<p>Плагин <strong>%s</strong> от <a href='%s'>%s</a> требует активации</"
+#~ "p><p>Свяжитесь с Вашим администратором.</p>"
+
+#~ msgctxt "plugin activation form button"
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgctxt "plugin activation form"
+#~ msgid "Login"
+#~ msgstr "Логин"
+
+#~ msgctxt "plugin activation form"
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Install pro version after license validation"
+#~ msgstr "Установите pro-версию после проверки лицензии"
+
+#, php-format
+#~ msgctxt "%4$s is license key form."
+#~ msgid ""
+#~ "<p>Activate this plugin to enjoy all the pro features of <strong>%1$s</"
+#~ "strong><br/>\n"
+#~ "If you do not have any license, please visit <a href='%3$s'>%2$s</a></p>\n"
+#~ "<p>%4$s</p>"
+#~ msgstr ""
+#~ "<p>Активируйте этот плагин, чтобы использовать все pro-функции <strong>"
+#~ "%1$s</strong><br/>\n"
+#~ "Если у Вас еще нет лицензии, пожалуйста, посетите <a href='%3$s'>%2$s</"
+#~ "a></p>\n"
+#~ "<p>%4$s</p>"
+
+#, php-format
+#~ msgid "<p>An error occured during <strong>%s</strong> activation.</p>"
+#~ msgstr "<p>Произошла ошибка во время активации<strong>%s</strong>.</p>"
+
+#, php-format
+#~ msgid "or using your connection settings to <a href='%2$s'>%1$s</a>"
+#~ msgstr "или с помощью настроек соединения для <a href='%2$s'>%1$s</a>"
+
+#, php-format
+#~ msgid ""
+#~ "You are using the free version of %1$s. You can use it <a href=\"%2$s"
+#~ "\">here</a> or upgrade to the Trial/Pro version down below."
+#~ msgstr ""
+#~ "Вы используете бесплатную версию %1$s. Вы можете просмотреть его <a href="
+#~ "\"%2$s\">здесь</a> или обновитесь до Пробной/Pro версии ниже."
+
+#~ msgctxt "plugin activation link"
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#, php-format
+#~ msgid "<p>The plugin <strong>%s</strong> needs activation %s</p>"
+#~ msgstr "<p>Плагин <strong>%s</strong> нуждается в активации %s</p>"
+
+#, php-format
+#~ msgid ""
+#~ "<p>The plugin <strong>%s</strong> from <a href='%s'>%s</a> needs "
+#~ "activation</p>\n"
+#~ "\t\t\t\t<p>Contact your administrator.</p>"
+#~ msgstr ""
+#~ "<p>Плагин <strong>%s</strong> от <a href='%s'>%s</a> требует активации</"
+#~ "p>\n"
+#~ "\t\t\t\t<p>Свяжитесь с Вашим администратором.</p>"
+
+#~ msgid "<p>Data seems corrupted.</p>"
+#~ msgstr "<p>Данные кажутся поврежденными.</p>"
+
+#~ msgid ""
+#~ "<p>Your web host cannot contact the licence server. Update and activation "
+#~ "could be affected.</p>"
+#~ msgstr ""
+#~ "<p>Ваш веб-хостинг не может связаться с сервером лицензии. Могут быть "
+#~ "затронуты обновления и активация.</p>"
+
+#, php-format
+#~ msgid ""
+#~ "<p>It is a known issue on some web host providers working with clusters. "
+#~ "Please contact your host provider and ask for <i>%s</i></p>"
+#~ msgstr ""
+#~ "<p>Это известная проблема на некоторых веб-хостингах, работающих с "
+#~ "кластерами. Пожалуйста, свяжитесь с вашим хостом и попросите <i>%s</i></p>"
+
+#~ msgid ""
+#~ "<p>Please fill in the form again to try activation in <b>degraded mode</"
+#~ "b></p>"
+#~ msgstr ""
+#~ "<p>Пожалуйста, заполните форму еще раз, чтобы попробовать активацию в "
+#~ "<b>пониженном режиме</b></p>"
+
+#~ msgid "<p>Internal error, please retry later.</p>"
+#~ msgstr "<p>Внутренняя ошибка, пожалуйста, повторите позже.</p>"
+
+#~ msgid "<p>Corrupted data.</p>"
+#~ msgstr "<p>Поврежденные данные.</p>"
+
+#~ msgid ""
+#~ "<p class='lws-adminpanel-activation-error'>The license server cannot "
+#~ "validate your request. Please check your values and try again.</p>"
+#~ msgstr ""
+#~ "<p class='lws-adminpanel-activation-error'>Сервер лицензии не может "
+#~ "подтвердить ваш запрос. Пожалуйста, проверьте свои значения и попробуйте "
+#~ "еще раз.</p>"
+
+#~ msgid "<p>Operation abort, detect a man-in-the-middle attack.</p>"
+#~ msgstr "<p>Операция прервана, обнаружена атака man-in-the-middle.</p>"
+
+#~ msgid "<p>Corrupted data from license server.</p>"
+#~ msgstr "<p>Поврежденные данные с сервера лицензии.</p>"
+
+#, php-format
+#~ msgid "<p><strong>%s</strong> is now activated.</p>"
+#~ msgstr "<p><strong>%s</strong> теперь активирован.</p>"
+
+#~ msgid "Now, you can check available plugin updates."
+#~ msgstr "Теперь Вы можете проверить доступные обновления плагина."
+
+#~ msgid "<p>License denied.</p>"
+#~ msgstr "<p>Лицензия отклонена.</p>"
+
+#~ msgid "More..."
+#~ msgstr "Еще..."
+
+#, php-format
+#~ msgid ""
+#~ "<p><b>%s</b> cannot contact licence server. Plugin update encounters "
+#~ "difficulties.</p>"
+#~ msgstr ""
+#~ "<p><b>%s</b> не может связаться с сервером лицензии. Обновление плагина "
+#~ "сталкивается с трудностями.</p>"
+
+#~ msgid "Invalid URL Provided."
+#~ msgstr "Предоставлен недопустимый URL-адрес."
+
+#~ msgid "Could not create Temporary file."
+#~ msgstr "Не удалось создать временный файл."
+
+#, php-format
+#~ msgid "No maintenance available for <b>%s</b>."
+#~ msgstr "Нет доступного обслуживания для <b>%s</b> ."
+
+#~ msgid "Update request rejected."
+#~ msgstr "Запрос на обновление отклонен."
+
+#~ msgid "Download falls back to an older version."
+#~ msgstr "Скачивание возвращается к старой версии."
+
+#, php-format
+#~ msgid "<p>Your maintenance expired on %s.</p>"
+#~ msgstr "<p>Срок вашего обслуживания истекает %s.</p>"
+
+#, php-format
+#~ msgid ""
+#~ "<p>Please visit %s to renew your maintenance and receive the plugin "
+#~ "updates.</p>"
+#~ msgstr ""
+#~ "<p>Пожалуйста, посетите %s, чтобы возобновить техническое обслуживание и "
+#~ "получить обновления плагина.</p>"
+
+#, php-format
+#~ msgid ""
+#~ "The trial period of plugin <b>%s</b> expired the <i>%s</i>. We hope you "
+#~ "enjoyed it and expect you soon on <a href='%s' target='_blank'>%s</a>."
+#~ msgstr ""
+#~ "Пробный период плагина <b>%s</b> истёк <i>%s</i>. Мы надеемся, что он Вам "
+#~ "понравился и ждём Вас скоро в <a href='%s' target='_blank'>%s</a>."
+
+#~ msgid "Other Plugins"
+#~ msgstr "Другие плагины"
+
+#~ msgid "Join Us on Discord"
+#~ msgstr "Присоединяйтесь к нам в Discord"
+
+#~ msgid "Watch our Youtube tutorials"
+#~ msgstr "Просмотрите наши обучающие Youtube-ролики"
+
+#, php-format
+#~ msgid "%1$s Admin Panel %2$s"
+#~ msgstr "%1$s Админка %2$s"

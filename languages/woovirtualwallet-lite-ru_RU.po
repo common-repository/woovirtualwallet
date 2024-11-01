@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooVirtualWallet\n"
+"POT-Creation-Date: 2021-01-09 21:28+0100\n"
+"PO-Revision-Date: 2021-01-20 08:41+0300\n"
+"Last-Translator: Paley\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woovirtualwallet.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: include/ajax.php:28
+msgid "A connected user is required"
+msgstr "Требуется подключенный пользователь"
+
+#: include/ajax.php:34
+msgid "Action control failed. Try to refresh the page."
+msgstr "Управление действием не удалось. Попробуйте обновить страницу."
+
+#: include/ajax.php:43
+msgid "You don't have the capacity to do that."
+msgstr "У Вас нет возможности для выполнения этого."
+
+#: include/core/gateway.php:40
+msgctxt "Admin Gateway title"
+msgid "Virtual Wallet"
+msgstr "Виртуальный Кошелек"
+
+#: include/core/gateway.php:41
+msgctxt "Admin Gateway descr"
+msgid "Customers use Virtual Wallet Money"
+msgstr "Клиенты используют Деньги Виртуального Кошелька"
+
+#: include/core/gateway.php:48
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: include/core/gateway.php:50
+msgid "Enable Virtual Wallet payments"
+msgstr "Включить платежи через Виртуальный Кошелек"
+
+#: include/core/gateway.php:54 include/ui/widgets/balance.php:89
+#: include/ui/widgets/history.php:88
+msgid "Title"
+msgstr "Название"
+
+#: include/core/gateway.php:56
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Управляет заголовком, который видят пользователи во время оформления заказа."
+
+#: include/core/gateway.php:57
+msgctxt "Virtual Wallet payment method"
+msgid "Virtual Wallet Payment"
+msgstr "Оплата через Виртуальный Кошелек"
+
+#: include/core/gateway.php:61 include/ui/widgets/history.php:174
+msgid "Description"
+msgstr "Описание"
+
+#: include/core/gateway.php:63
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+"Описание способа оплаты, которое клиент будет видеть во время оформления "
+"заказа."
+
+#: include/core/gateway.php:64
+msgid "Order amount will be deduced from your virtual wallet."
+msgstr "Сумма заказа будет вычтена из вашего виртуального кошелька."
+
+#: include/core/gateway.php:68
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: include/core/gateway.php:70
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+"Инструкции, которые будут добавлены на страницу благодарности и email'ы."
+
+#: include/core/gateway.php:75
+msgid "Not logged user message"
+msgstr "Сообщение для неавторизованного пользователя"
+
+#: include/core/gateway.php:77
+msgid ""
+"Message that will be added to the payment method description when customer "
+"is not logged in."
+msgstr ""
+"Сообщение, которое будет добавлено в описание способа оплаты, когда клиент "
+"не вошел в систему."
+
+#: include/core/gateway.php:78
+msgid "You must be connected to use your Virtual Wallet"
+msgstr "Вы должны быть подключены, чтобы использовать Виртуальный Кошелёк"
+
+#: include/core/gateway.php:82
+msgid "Show balance"
+msgstr "Показать баланс"
+
+#: include/core/gateway.php:84
+msgid "The payment method title includes the customer's wallet balance."
+msgstr "Заголовок платёжного метода включает баланс кошелька пользователя."
+
+#: include/core/gateway.php:88
+msgid "Show icon"
+msgstr "Показать иконку"
+
+#: include/core/gateway.php:90
+msgid "The payment method title includes the Virtual Wallet icon."
+msgstr "Название способа оплаты включает значок Виртуального Кошелька."
+
+#: include/core/gateway.php:111
+#, php-format
+msgid "You don't have enough money in your wallet : Actual balance is %s"
+msgstr "У вас недостаточно денег в вашем кошельке : Фактический баланс %s"
+
+#: include/core/gateway.php:161
+#, php-format
+msgid ""
+"Your order contains products that cannot be bought with your Virtual Wallet: "
+"%s"
+msgstr ""
+"Ваш заказ содержит товары, которые нельзя купить с помощью Виртуального "
+"Кошелька: %s"
+
+#: include/core/gateway.php:162
+msgctxt "product name separator"
+msgid ", "
+msgstr ", "
+
+#: include/core/gateway.php:228
+#, php-format
+msgctxt "wallet balance decoration"
+msgid "Your current balance : %s"
+msgstr "Ваш текущий баланс : %s"
+
+#: include/core/gateway.php:261
+msgid "Virtual Wallet Payment cannot be used by logged off customers&hellip;"
+msgstr ""
+"Оплата с помощью Виртуального Кошелька недоступна для неавторизованных "
+"пользователей&hellip;"
+
+#: include/core/gateway.php:300
+#, php-format
+msgid "Not enough money in your Virtual Wallet (balance: %s)&hellip;"
+msgstr "Недостаточно денег в Виртуальном Кошельке (баланс: %s)&hellip;"
+
+#: include/core/gateway.php:327
+#, php-format
+msgid "Order %s payment"
+msgstr "Оплата заказа %s"
+
+#: include/core/helper.php:15 include/core/wallet.php:224
+msgid "Virtual Money"
+msgstr "Виртуальные Деньги"
+
+#: include/core/trace.php:280
+msgctxt "Amount set by hand: move = n/c"
+msgid "—"
+msgstr "—"
+
+#: include/core/wallet.php:106 include/ui/product.php:141
+#: include/ui/users.php:34
+msgid "Virtual Wallet"
+msgstr "Виртуальный Кошелек"
+
+#. Plugin Name of the plugin/theme
+#: include/ui/admin.php:55
+msgid "WooVirtualWallet"
+msgstr "WooVirtualWallet"
+
+#: include/ui/admin.php:63 include/ui/admin.php:83 include/ui/admin.php:84
+#: include/ui/admin.php:93 include/ui/admin.php:97
+msgid "Users"
+msgstr "Пользователи"
+
+#: include/ui/admin.php:74
+msgid ""
+"The users page will redirect you to the standard WordPress Users page where "
+"you will have some new possibilities:"
+msgstr ""
+"Страница пользователей перенаправит вас на стандартную страницу WordPress "
+"'Пользователи', где у вас будет несколько новых возможностей:"
+
+#: include/ui/admin.php:75
+msgid "See users' wallet balance"
+msgstr "Просмотрите баланс кошелька пользователей"
+
+#: include/ui/admin.php:76
+msgid "See users' wallet history"
+msgstr "Просмотрите историю кошелька пользователей"
+
+#: include/ui/admin.php:77
+msgid "Export users' wallet balance"
+msgstr "Экспортируйте баланс кошелька пользователей"
+
+#: include/ui/admin.php:78
+msgid "Add/Remove wallet credit"
+msgstr "Добавить/Удалить кредиты кошелька"
+
+#: include/ui/admin.php:109
+msgid "The settings page gives access to the following settings :"
+msgstr "Страница настроек предоставляет доступ к следующим настройкам:"
+
+#: include/ui/admin.php:110
+msgid "Order status needed to get wallet credit"
+msgstr "Статус заказа, необходимый для получения кредитов кошелька"
+
+#: include/ui/admin.php:111
+msgid "Prevent products that give wallet credit to be bought with the wallet"
+msgstr ""
+"Предотвращает покупку , с помощью виртуального кошелька товаров, которые "
+"дают кредиты кошелька"
+
+#: include/ui/admin.php:118 include/ui/admin.php:123
+msgid "Payment Gateway"
+msgstr "Платежный Шлюз"
+
+#: include/ui/admin.php:126
+#, php-format
+msgid ""
+"<a href='%s' target='_blank'> Setup WooVirtualWallet as a Payment Gateway</a>"
+msgstr ""
+"<a href='%s' target='_blank'> Установите WooVirtualWallet в качестве "
+"Платёжного Шлюза</a>"
+
+#: include/ui/admin.php:127
+msgid ""
+"You need to set up WooVirtualWallet as a WooCommerce Payment Gateway. You "
+"can do this by clicking the link below"
+msgstr ""
+"Вам нужно настроить WooVirtualWallet в качестве платежного шлюза "
+"WooCommerce. Вы можете сделать это, нажав на ссылку ниже"
+
+#: include/ui/admin.php:136 include/ui/admin.php:144 woovirtualwallet.php:123
+msgid "Settings"
+msgstr "Настройки"
+
+#: include/ui/admin.php:151
+msgid "Customers Status"
+msgstr "Статус Клиентов"
+
+#: include/ui/admin.php:152
+msgid "See and edit the customers' wallets"
+msgstr "Посмотреть и отредактировать кошельки клиентов"
+
+#: include/ui/admin.php:156
+msgid "Customers Wallet Status"
+msgstr "Статус Кошелька Клиентов"
+
+#: include/ui/admin.php:159
+#, php-format
+msgid "<a href='%s' target='_blank'>Check/Edit the users wallet money</a>"
+msgstr ""
+"<a href='%s' target='_blank'>Просмотрите/Отредактируйте средства "
+"пользовательских кошельков</a>"
+
+#: include/ui/admin.php:160
+msgid ""
+"You can see and edit the wallet amount of your customers by going to the "
+"users page or clicking the link down below."
+msgstr ""
+"Вы можете увидеть и отредактировать сумму кошельков ваших клиентов, перейдя "
+"на страницу пользователей или нажав на ссылку ниже."
+
+#: include/ui/admin.php:178
+msgid ""
+"The appearance page will let you customize the appearance of Widgets and "
+"shortcodes."
+msgstr ""
+"Страница внешнего вида позволит вам настроить внешний виджетов и шорткодов."
+
+#: include/ui/admin.php:179
+msgid ""
+"You will also find there the description and documentation to use the "
+"available shortcodes."
+msgstr ""
+"Вы также найдете описания и документацию по использованию доступных "
+"шорткодов."
+
+#: include/ui/admin.php:184
+msgid "Appearance"
+msgstr "Внешность"
+
+#: include/ui/admin.php:191
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: include/ui/admin.php:196 include/ui/admin.php:277
+msgid "Wallet Balance"
+msgstr "Баланс Кошелька"
+
+#: include/ui/admin.php:211
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet balance"
+msgstr ""
+"Используйте шорткод %s для отображения текущего баланса виртуального "
+"кошелька клиента"
+
+#: include/ui/admin.php:215
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet balance "
+"without styling"
+msgstr ""
+"Используйте шорткод %s для отображения текущего баланса виртуального "
+"кошелька клиента без украшений"
+
+#: include/ui/admin.php:224 include/ui/admin.php:293
+msgid "Wallet History"
+msgstr "История Кошелька"
+
+#: include/ui/admin.php:239
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet history"
+msgstr ""
+"Используйте шорткод %s для отображения текущей истории виртуального кошелька "
+"клиента"
+
+#: include/ui/admin.php:250 include/ui/admin.php:255
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: include/ui/admin.php:257
+msgid ""
+"In this section, you will find various shortcodes you can use on your "
+"website."
+msgstr ""
+"В этом разделе Вы найдете различные шорткоды, которые вы сможете "
+"использовать на Вашем сайте."
+
+#: include/ui/admin.php:261
+msgid "Simple Wallet Balance"
+msgstr "Простой Баланс Кошелька"
+
+#: include/ui/admin.php:265
+msgid ""
+"This simple shortcode is used to display the current user's wallet balance "
+"with no decoration."
+msgstr ""
+"Этот шорткод используется для отображения баланса кошелька текущего "
+"пользователя без визуального оформления."
+
+#: include/ui/admin.php:266
+msgid ""
+"This is very convenient if you want to display the balance within a phrase "
+"for example."
+msgstr ""
+"Это очень удобно, если вы хотите отображать очки в тексте или фразе, "
+"например."
+
+#: include/ui/admin.php:270
+msgid ""
+"(Optional) If set, the result will be a simple text. If not, the result will "
+"be embedded in a stylable DOM element"
+msgstr ""
+"(По желанию) Если включить, результат будет в виде простого текста. Если "
+"нет, результат будет встроен в стилизованный DOM элемент"
+
+#: include/ui/admin.php:281
+msgid "This shortcode is used to display the current user's wallet balance."
+msgstr ""
+"Этот шорткод используется для отображения баланса кошелька текущего "
+"пользователя."
+
+#: include/ui/admin.php:282
+msgid "It is equivalent to the balance widget."
+msgstr "Это эквивалент виджета баланса."
+
+#: include/ui/admin.php:286
+msgid "(Optional) If set, it will change the default header above the balance"
+msgstr ""
+"(По желанию) Если включить, это изменит заголовок по умолчанию над балансом"
+
+#: include/ui/admin.php:297
+msgid ""
+"This simple shortcode is used to display the current user's wallet history."
+msgstr ""
+"Этот шорткод используется для отображения истории кошелька текущего "
+"пользователя."
+
+#: include/ui/admin.php:298
+msgid "It is equivalent to the history widget."
+msgstr "Это эквивалент виджета истории."
+
+#: include/ui/admin.php:302
+msgid "(Optional) If set, it will change the default header above the history"
+msgstr ""
+"(По желанию) Если включить, это изменит заголовок по умолчанию над историей"
+
+#: include/ui/admin.php:319
+msgid "Set up the wallet payment gateway with lots of different options:"
+msgstr "Настройте платежный шлюза кошелька с множеством различных опций:"
+
+#: include/ui/admin.php:320
+msgid "Enable/Disable the gateway"
+msgstr "Включить/Отключить шлюз"
+
+#: include/ui/admin.php:321
+msgid "Edit the gateway's title and description"
+msgstr "Редактировать название и описание шлюза"
+
+#: include/ui/admin.php:322
+msgid "Edit the gateway's instructions and logged off message"
+msgstr ""
+"Редактировать инструкции шлюза и сообщение для неавторизованных пользователей"
+
+#: include/ui/admin.php:323
+msgid "Show the customer's wallet balance or not"
+msgstr "Показать баланс кошелька клиента или нет"
+
+#: include/ui/admin.php:328
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: include/ui/admin.php:343
+msgid "Wallet Rules"
+msgstr "Правила Кошелька"
+
+#: include/ui/admin.php:345
+msgid "Set the general settings and behavior of the virtual wallet"
+msgstr "Установите общие настройки и поведение виртуального кошелька"
+
+#: include/ui/admin.php:349
+msgid "Add purchased wallet money on 'Complete' order only"
+msgstr ""
+"Добавлять купленные средства кошелька только для заказов со статусом "
+"'Завершен'"
+
+#: include/ui/admin.php:353
+msgid ""
+"Edit a product to give wallet money to a customer purchasing it. Default "
+"order status to apply it is 'processing'."
+msgstr ""
+"Редактировать товар, чтобы выдавать деньги кошелька для клиента, покупающего "
+"этот товар. Статус заказа по умолчанию, чтобы применить его - 'обработка'."
+
+#: include/ui/admin.php:355
+msgid ""
+"If you want to use the 'completed' order status instead (recommanded), check "
+"the below box"
+msgstr ""
+"Если вы хотите использовать статус заказа 'Завершен' (рекомендуется), "
+"нажмите на приведенный ниже чек-бокс"
+
+#: include/ui/admin.php:365
+msgid "Wallet credit can't be bought with the wallet"
+msgstr "Кредиты кошелька не могут быть куплены с помощью виртуального кошелька"
+
+#: include/ui/admin.php:370
+msgid ""
+"The <i>Virtual Wallet</i> payment method cannot be used if the customer's "
+"order contains a product that feeds the <i>Virtual Wallet</i>."
+msgstr ""
+"Платежный метод <i>Виртуальный Кошелёк</i> не может быть использован для "
+"заказа, который содержит товар, пополняющий <i>Виртуальный Кошелёк</i>."
+
+#: include/ui/admin.php:381
+msgid "Manage your license and different system related options :"
+msgstr "Управление лицензией и настройками, связанными с системой:"
+
+#: include/ui/admin.php:382
+msgid "License :"
+msgstr "Лицензия :"
+
+#: include/ui/admin.php:383
+msgid "Manage your license and subscription"
+msgstr "Управление лицензией и подпиской"
+
+#: include/ui/admin.php:393 include/ui/admin.php:394
+msgid "System"
+msgstr "Система"
+
+#: include/ui/admin.php:408
+msgid "Data Management"
+msgstr "Управление Данными"
+
+#: include/ui/admin.php:413
+msgid "Delete all data"
+msgstr "Удалить все данные"
+
+#: include/ui/admin.php:415
+msgid "Remove all Wallets settings and user's credits."
+msgstr "Удалить все настройки Кошельков и пользовательские кредиты."
+
+#: include/ui/admin.php:416
+msgid "Use it with care since this action is <b>not undoable</b>."
+msgstr ""
+"Используйте эту функцию с осторожностью, так как это действие <b>необратимо</"
+"b>."
+
+#: include/ui/admin.php:420 include/ui/admin.php:454
+msgid "Delete All Data"
+msgstr "Удалить Все Данные"
+
+#: include/ui/admin.php:453
+#, php-format
+msgid ""
+"If you really want to reset all WooVirtualWallet data, check this box and "
+"click on <i>'%s'</i> again."
+msgstr ""
+"Если вы действительно хотите сбросить все данные WooVirtualWallet, включите "
+"это поле и нажмите на <i>'%s'</i> снова."
+
+#: include/ui/admin.php:455
+msgid "This operation is not undoable!"
+msgstr "Эта операция необратима!"
+
+#: include/ui/admin.php:456
+msgid "Consider making a backup of your database before continue."
+msgstr "Перед продолжением следует сделать резервную копию базы данных."
+
+#: include/ui/admin.php:491
+msgid "WooVirtualWallet install has been cleaned up."
+msgstr "Установка WooVirtualWallet была очищена."
+
+#: include/ui/product.php:95
+#, php-format
+msgctxt "g2d order note"
+msgid "Product <i>%1$s</i> offers %2$s on customer's %3$s"
+msgstr "Товар <i>%1$s</i> предлагает %2$s на %3$s пользователя"
+
+#: include/ui/product.php:167 include/ui/product.php:235
+#, php-format
+msgid "Purchase that product adds %1$s in customer's %2$s"
+msgstr "Покупка этого товара добавит %1$s в %2$s пользователя"
+
+#: include/ui/product.php:174
+#, php-format
+msgid ""
+"Customers must be logged in to receive wallet credit. Guest orders won't "
+"give any %s."
+msgstr ""
+"Клиенты должны авторизоваться, чтобы получать кредиты кошелька. Гостевые "
+"заказы не дают никаких %s."
+
+#: include/ui/product.php:182
+#, php-format
+msgid "Amount (%s)"
+msgstr "Сумма (%s)"
+
+#: include/ui/product.php:212
+#, php-format
+msgid "%s amount must be greater than zero or null."
+msgstr "%s сумма должна быть больше нуля или оставьте пустой."
+
+#: include/ui/product.php:221
+#, php-format
+msgid "Bad %s amount format"
+msgstr "Плохой формат суммы %s"
+
+#: include/ui/product.php:240
+#, php-format
+msgid ""
+" (Customers must be logged in to receive wallet credit. Guest orders won't "
+"give any %s.)"
+msgstr ""
+" (Клиенты должны быть зарегистрированы, чтобы получать кредиты кошелька. "
+"Гостевые заказы не дают никаких %s.)"
+
+#: include/ui/product.php:267
+#, php-format
+msgid "%1$s purchased in order %2$s"
+msgstr "%1$s куплено в заказе %2$s"
+
+#: include/ui/users.php:35
+msgid "Add to Virtual Wallets"
+msgstr "Добавить в Виртуальные Кошельки"
+
+#: include/ui/users.php:51
+msgid "Last operations"
+msgstr "Последние операции"
+
+#: include/ui/users.php:52 include/ui/widgets/history.php:173
+msgid "Date"
+msgstr "Дата"
+
+#: include/ui/users.php:53
+msgid "Reason"
+msgstr "Причина"
+
+#: include/ui/users.php:54
+msgid "Operation"
+msgstr "Операция"
+
+#: include/ui/users.php:55 include/ui/widgets/history.php:176
+msgid "Total"
+msgstr "Итог"
+
+#: include/ui/users.php:56
+msgid "Please wait"
+msgstr "Пожалуйста, подождите"
+
+#: include/ui/users.php:121
+msgid "You don't have enough permissions to edit users wallets."
+msgstr ""
+"У вас недостаточно разрешений для редактирования кошельков пользователей."
+
+#: include/ui/users.php:129
+msgid "Please, set an amount to add in each selected user's wallet."
+msgstr ""
+"Пожалуйста, укажите сумму для добавления в кошелек каждого выбранного "
+"пользователя."
+
+#: include/ui/users.php:136
+msgid "Please select users."
+msgstr "Пожалуйста, выберите пользователей."
+
+#: include/ui/users.php:149
+msgid "A wallet amount must be a number."
+msgstr "Сумма кошелька должна быть числом."
+
+#: include/ui/users.php:169
+#, php-format
+msgid "%d users wallets amounts modified."
+msgstr "%d суммы кошельков пользователей изменены."
+
+#: include/ui/users.php:192 include/ui/widgets/history.php:175
+msgid "Amount"
+msgstr "Сумма"
+
+#: include/ui/users.php:208
+msgid "Commercial operation"
+msgstr "Коммерческая операция"
+
+#: include/ui/widgets/balance.php:35
+msgid "WooVirtualWallet balance"
+msgstr "Баланс WooVirtualWallet"
+
+#: include/ui/widgets/balance.php:37
+msgid "Show their wallet balance to customers."
+msgstr "Покажите клиентам их баланс кошелька."
+
+#: include/ui/widgets/balance.php:62
+msgctxt "frontend widget"
+msgid "Virtual Money"
+msgstr "Виртуальные Деньги"
+
+#: include/ui/widgets/balance.php:92
+msgctxt "frontend widget"
+msgid "Virtual Wallet"
+msgstr "Виртуальный Кошелек"
+
+#: include/ui/widgets/balance.php:97 include/ui/widgets/history.php:96
+msgid "Header"
+msgstr "Хедер"
+
+#: include/ui/widgets/balance.php:100
+msgctxt "frontend widget"
+msgid "You currently own"
+msgstr "В настоящее время у вас есть"
+
+#: include/ui/widgets/balance.php:157
+msgid "Your Wallet Balance"
+msgstr "Ваш Баланс Кошелька"
+
+#: include/ui/widgets/history.php:34
+msgid "WooVirtualWallet History"
+msgstr "История WooVirtualWallet"
+
+#: include/ui/widgets/history.php:36
+msgid "Show the customer virtual wallet history."
+msgstr "Покажите клиенту историю виртуального кошелька."
+
+#: include/ui/widgets/history.php:61 include/ui/widgets/history.php:91
+msgctxt "frontend widget"
+msgid "Virtual Wallet History"
+msgstr "История Виртуального Кошелька"
+
+#: include/ui/widgets/history.php:99
+msgid "The last operations on your virtual wallet"
+msgstr "Последние операции с вашим виртуальным кошельком"
+
+#: include/ui/widgets/history.php:104
+msgid "Period (month)"
+msgstr "Период (месяц)"
+
+#: include/ui/widgets/history.php:107
+msgid "Number of months to show"
+msgstr "Количество месяцев для отображения"
+
+#: include/ui/widgets/history.php:142
+msgid "Last operations on your Virtual Wallet"
+msgstr "Последние операции с вашим Виртуальным Кошельком"
+
+#: include/ui/widgets/history.php:163
+msgid "Kindly offered for demo"
+msgstr "Предоставлено для демонстрации"
+
+#: include/ui/widgets/history.php:167
+msgid "Every story has a beginning"
+msgstr "У каждой истории есть начало"
+
+#: woovirtualwallet.php:126
+msgid "Help"
+msgstr "Помощь"
+
+#: woovirtualwallet.php:136
+msgid "Add Licence Key"
+msgstr "Добавить Лицензионный Ключ"
+
+#. Plugin URI of the plugin/theme
+#: woovirtualwallet.php:145
+msgid "https://plugins.longwatchstudio.com/product/woovirtualwallet/"
+msgstr "https://plugins.longwatchstudio.com/product/woovirtualwallet/"
+
+#: woovirtualwallet.php:155
+msgid "https://plugins.longwatchstudio.com/docs/woovirtualwallet/"
+msgstr "https://plugins.longwatchstudio.com/docs/woovirtualwallet/"
+
+#. Description of the plugin/theme
+msgid "A virtual wallet for your customers"
+msgstr "Виртуальный кошелек для ваших клиентов"
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"
+
+#~ msgid "https://plugins.longwatchstudio.com"
+#~ msgstr "https://plugins.longwatchstudio.com"

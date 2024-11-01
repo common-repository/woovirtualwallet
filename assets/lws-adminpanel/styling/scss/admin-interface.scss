@@ -1,0 +1,309 @@
+@import "scss_includes/admin-interface/_breadcrumb.scss";
+@import "scss_includes/admin-interface/_admin-menu.scss";
+@import "scss_includes/admin-interface/_sticky-second-row.scss";
+@import "scss_includes/admin-interface/_buttons.scss";
+@font-face { font-family: Gravity; src: url('../fonts/Gravity-Regular.otf'); }
+@font-face { font-family: Gravity; font-weight:300; src: url('../fonts/Gravity-Light.otf');}
+@font-face { font-family: Roboto; font-weight:300; src: url('../fonts/Roboto-Regular.ttf');}
+@font-face { font-family: Roboto; font-weight:900; src: url('../fonts/Roboto-Black.ttf');}
+
+.lws-adminpanel{
+	width:100%;
+	background-color: #fff;
+
+	.lws-sticky-panel{
+		position: sticky;
+		top:32px;
+		z-index: 9899;
+		background-color: #fafafa;
+	}
+
+	.lws-button-link{
+		border:none;
+		border-radius: 0;
+		border-bottom:5px solid var(--group-color, #016087);
+		display: flex;
+		justify-content: center;
+		background-color:var(--group-medium-color,#01806760);
+		align-items: center;
+		color:#000;
+		box-sizing: border-box;
+		transition: all 0.3s;
+		height:40px;
+		font-size:20px;
+		user-select: none;
+		text-decoration: none;
+		cursor: pointer;
+		width: 100%;
+
+		&:hover{
+			background-color:var(--group-color,#016087) ;
+			color:#fff;
+		}
+	}
+
+	.lws-icon-btn{
+		display:flex;
+		height: 30px;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		background-color: #dddfdf;
+		color:#000;
+		user-select: none;
+		cursor: pointer;
+
+		.icon{
+			width: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--btn-color, #666);
+			color:#fff;
+			margin-right:10px;
+		}
+
+		.text{
+			flex:1 1 auto;
+			line-height: 30px;
+			font-family: "Gravity";
+			color:#000;
+
+			label{
+				vertical-align: inherit;
+			}
+			a{
+				text-decoration: none;
+				color:#000;
+			}
+		}
+
+		.end-line-btn{
+			margin-right:0px !important;
+			width: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #333;
+			color:#fff;
+			margin-right:10px;
+			transition: all 0.3s ease;
+		}
+
+		&:hover{
+			background-color: var(--btn-color, #666);
+			color:#fff;
+			.text{
+				color:#fff;
+			}
+			a{
+				color:#fff;
+			}
+			.end-line-btn{
+				background-color: #666;
+			}
+		}
+	}
+
+	.lws-license-big-text{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: var(--group-color,#016087);
+		font-size:32px;
+		padding:30px 15px;
+	}
+
+	.lws-license-small-text{
+		padding-top : 10px;
+		display: flex;
+		text-align: justify;
+		color: #666;
+		font-size:11px;
+	}
+
+	.lws-addon-license-field{
+		display: flex;
+
+		.lws-button-link{
+			width: auto;
+		}
+	}
+
+	input.lws-input{
+		&[type="text"], &[type="search"], &[type="tel"], &[type="time"], &[type="url"], &[type="password"], &[type="week"], &[type="month"],
+		&[type="color"], &[type="date"], &[type="datetime"], &[type="datetime-local"], &[type="email"], &[type="number"]{
+			border:none;
+			border-radius : 0;
+			background-color: #eee;
+			color:#000;
+			height:30px;
+			box-sizing: border-box;
+			transition: all 0.3s ease ;
+
+			&::placeholder{
+				opacity: 1;
+				color:#666;
+			}
+
+			&:hover{
+				background-color:#cdd;
+
+				&::placeholder{
+					color:#577;
+				}
+			}
+
+			&:focus{
+				background-color:#344;
+				color:#fff;
+				outline:none;
+				box-shadow: none;
+				&::placeholder{
+					color:#aaa;
+				}
+			}
+		}
+
+	}
+
+	.lws_adm_field_hidden{
+		display: none !important;
+	}
+
+	.lws-loader{
+		.animation{
+			display: block;
+			position: relative;
+			left: 50%;
+			top: 50%;
+			width: 28px;
+			height: 28px;
+			margin: -16px 0 0 -16px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: var(--group-color,#366);
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+		}
+		.animation:before {
+			content: "";
+			position: absolute;
+			top: 2px;
+			left: 2px;
+			right: 2px;
+			bottom: 2px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: #777;
+			-webkit-animation: spin 3s linear infinite;
+			animation: spin 3s linear infinite;
+		}
+		.animation:after {
+			content: "";
+			position: absolute;
+			top: 6px;
+			left: 6px;
+			right: 6px;
+			bottom: 6px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			border-top-color: var(--group-light-color,#366);
+			-webkit-animation: spin 1.5s linear infinite;
+			animation: spin 1.5s linear infinite;
+		}
+		@-webkit-keyframes spin {
+			0%   {
+				-webkit-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		@keyframes spin {
+			0%   {
+				-webkit-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+
+	}
+}
+
+.top-row{
+	display: flex;
+	flex-direction: row;
+	background-color: #f5f5f5;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+	.breadcrumb{
+		flex:1 1 auto;
+	}
+	.lws-admin-menu{
+		flex:0 0 auto;
+		position: relative;
+		color:#fff;
+	}
+	.top-menu{
+		position: absolute;
+		top:44px;
+		right:0;
+		width:300px;
+		min-height: 100px;
+		background-color: #233;
+		color:#fff;
+		display: none;
+		z-index: 9899;
+		flex-direction:column;
+
+	}
+}
+.second-row{
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	margin-top: 20px;
+	height: 50px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.lws-description{
+	margin: 20px 10px 10px 10px;
+}
+
+.lws-adminpanel-transient-notices{
+	padding-right:40px;
+
+	.notice{
+		margin:20px 0 0 20px;
+		padding:10px 0 10px 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.lws-adminpanel {
+		.lws-sticky-panel {
+			top: 0px;
+		}
+	}
+}
+@media (max-width: 782px) {
+	.lws-adminpanel {
+		.lws-sticky-panel {
+			top: 0px;
+		}
+
+		input.lws-input {
+			min-height: 30px;
+			font-size: 14px;
+		}
+	}
+}

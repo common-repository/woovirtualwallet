@@ -1,0 +1,162 @@
+.radiogrid-large-container {
+	border: 1px solid var(--grid-item-color, #333);
+	border-right-width: 5px;
+	background-color: #f5f5f5;
+	display: grid;
+	grid-template-columns: 180px auto;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: var(--grid-item-color-alpha, #eeeeee);
+
+		.text {
+			.title {
+				color: var(--grid-item-color, #333);
+			}
+		}
+	}
+
+	&.selected {
+		background-color: var(--grid-item-color-alpha, #eeeeee);
+
+		.text {
+			.title {
+				color: var(--grid-item-color, #333);
+			}
+		}
+	}
+	.image {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		padding: 0px;
+		box-sizing: border-box;
+
+		img {
+			max-width: 180px;
+			max-height: 180px;
+			object-fit: contain;
+		}
+	}
+
+	.text {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		transition: all 0.3s ease;
+
+		.title {
+			flex: 0 0 36px;
+			line-height: 32px;
+			text-align: left;
+			font-family: "Gravity";
+			font-weight: 500;
+			font-size: 24px;
+			padding-left: 5px;
+			background-color: #ddd;
+			transition: all 0.3s ease;
+		}
+
+		.desc {
+			flex: 1 1 auto;
+			text-align: left;
+			font-family: "Gravity";
+			font-size: 15px;
+			padding: 5px;
+			text-align: justify;
+		}
+	}
+}
+
+.lws-radiogrid-button {
+	width: 100%;
+	height: 30px;
+	background-color: #eee;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	.icon {
+		display: flex;
+		flex: 0 0 30px;
+		font-size: 20px;
+		color: #fff;
+		background-color: var(--grid-item-color, #666);
+		justify-content: center;
+		align-items: center;
+	}
+	.label {
+		flex:1 1 auto;
+		line-height: 20px;padding:5px;font-size:15px;box-sizing: border-box;
+	}
+
+	&:hover{
+		.icon {
+			background-color: var(--grid-item-color-light, #999);
+		}
+		.label {
+			background-color: var(--grid-item-color-alpha, #f5f5f5);
+		}
+	}
+	&.selected{
+		.icon {
+			background-color: var(--grid-item-color-dark, #333);
+		}
+		.label {
+			background-color: var(--grid-item-color-alpha, #ccc);
+		}
+	}
+
+	&.inactive{
+		.icon {
+			background-color: #aaa;
+			color: #ddd;
+		}
+		.label {
+			background-color: #eee;
+			color: #fff;
+		}
+	}
+	&.no-icon{
+		.label{
+			border-left:5px solid var(--grid-item-color, #666);
+		}
+		&:hover{
+			.label {
+				border-color: var(--grid-item-color-light, #999);
+				background-color: var(--grid-item-color-alpha, #f5f5f5);
+			}
+		}
+			&.selected{
+			.label {
+				border-color: var(--grid-item-color-dark, #333);
+				background-color: var(--grid-item-color-alpha, #ccc);
+			}
+		}
+	}
+}
+
+/* Buttons
+.lws_wizard .lws-radiogrid-button{width:100%;height:30px;border:1px solid #666;border-radius: 4px;display: flex;flex-direction: row;cursor: pointer;}
+.lws_wizard .lws-radiogrid-button-icon{flex:0 0 30px;line-height: 30px;font-size:20px;color:#fff;background-color:#666;text-align: center;}
+.lws_wizard .lws-radiogrid-button-label{line-height: 20px;padding:5px;font-size:15px;box-sizing: border-box;}
+.lws_wizard .lws-radiogrid-button:hover{border-color:#cc1f25}
+.lws_wizard .lws-radiogrid-button:hover .lws-radiogrid-button-icon{background-color:var(--lws-wizard-main-color);}
+.lws_wizard .lws-radiogrid-button.selected{border-color:var(--lws-wizard-done-color);}
+.lws_wizard .lws-radiogrid-button.selected .lws-radiogrid-button-icon{background-color:var(--lws-wizard-done-color);}
+
+.lws_wizard .lws-radiogrid-button.no-icon{justify-content: center;align-items: center;}
+.lws_wizard .lws-radiogrid-button.no-icon.selected{border-color:var(--lws-wizard-done-color);background-color:var(--lws-wizard-done-color);color:#fff}
+.lws_wizard .lws-radiogrid-button.no-icon:hover{border-color:var(--lws-wizard-main-color);background-color:var(--lws-wizard-main-color);color:#fff}
+
+.lws_wizard .lws-radiogrid-button.inactive{border:1px solid #aaa;cursor: default;}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button-icon{background-color:#aaa;text-align: center;}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button-label{color:#aaa;}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button:hover{border-color:#aaa}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button:hover .lws-radiogrid-button-icon{background-color:#aaa;}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button.selected{border-color:#aaa;}
+.lws_wizard .lws-radiogrid-button.inactive .lws-radiogrid-button.selected .lws-radiogrid-button-icon{background-color:#aaa;}
+*/

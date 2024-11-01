@@ -1,0 +1,103 @@
+.lac-taglist-wrapper{
+	position: relative;
+	display: grid;
+	grid-template-columns: minmax(200px,600px);
+	row-gap: 2px;
+
+	.top-line{
+		position: relative;
+		display: flex;
+
+		.lac-taglist-combo{
+			position: relative;
+			display: grid;
+			grid-template-columns: 1fr max-content;
+			height: 30px;
+			box-sizing: border-box;
+			z-index: 99;
+			line-height: 30px;
+			font-size: 15px;
+			width: 100%;
+
+			.lac-taglist-input{
+				border: none;
+				border-radius: 0;
+				background-color: #eee;
+				color: #000;
+				height: 30px;
+				box-sizing: border-box;
+				margin-left: 0px;
+			}
+
+			.addbutton{
+				display:flex;
+				flex:0 0 auto;
+				flex-wrap: nowrap;
+				justify-content: center;
+				cursor: pointer;
+				background-color: #366;
+				color: #fff;
+				padding-left: 5px;
+				padding-right: 5px;
+
+				&:hover{
+					background-color: #588;
+				}
+				&.lws-disabled{
+					background-color:#ddd;
+					color:#eee;
+				}
+			}
+		}
+	}
+
+	.values-list{
+		display: flex;
+		border: 1px solid #eee;
+		border-left:5px solid #ddd;
+		padding:2px;
+		height: 150px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-content: flex-start;
+		line-height: 30px;
+		font-size:15px;
+
+		.lac-taglist-tags{
+			display:flex;
+			flex: 1 1 auto;
+			flex-direction:row;
+			flex-wrap: wrap;
+			align-content: flex-start;
+			overflow-y: auto;
+		}
+
+		.tag-item{
+			margin:2px 0 0 2px;
+			padding:5px 10px 2px 10px;
+			height:20px;
+			font-size:14px;
+			line-height:14px;
+			background-color: #eee;
+			display:flex;
+			flex-direction:row;
+
+			.text{padding-right:5px;}
+			.remove{color: #366;cursor: pointer;font-size: 12px;}
+		}
+	}
+
+	.lac-taglist-optgroup{
+		padding:5px;box-sizing: border-box;background-color:#999;color:#fff;font-size:10px;font-weight: bold;text-transform: uppercase;
+	}
+	.lac-taglist-item{padding:5px;box-sizing: border-box;cursor:pointer;}
+	.lac-taglist-item:hover{background-color:#3fa9f5;color:#fff;}
+	.lac-highlighted, .lac-highlighted:hover{background-color:#015aa3;color:#fff;}
+	.lac-taglist-error{
+		position:absolute;border:1px solid #df2500;background-color:#fee;
+		top:28px; color: #600; padding:2px 10px;display:none;z-index:200;
+	}
+
+	.lac-taglist-buffer{position:absolute;width:0px;height:0px;opacity:0;}
+}

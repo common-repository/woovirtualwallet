@@ -1,0 +1,41 @@
+.form-grid {
+    .lws-input {
+        border: none;
+        border-radius: 0;
+        background-color: #eee;
+        box-shadow: none;
+        height: 30px;
+    }
+
+    .title-button-div {
+        display: flex;
+        background-color: var(--wizard-color, #666);
+        color: #fff;
+        height: 30px;
+
+        .icon {
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            background-color: var(--wizard-color-darker, #333);
+        }
+
+        .text {
+            line-height: 30px;
+            padding: 0 10px;
+            font-size: 16px;
+        }
+    }
+
+    .group-title {
+        grid-column: 1/-1;
+        color: var(--wizard-color);
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 100;
+        text-align: center;
+        height: 36px;
+    }
+}

@@ -1,0 +1,43 @@
+img.lws-woovirtualwallet-currency-symbol{
+	display: inline !important;
+	float: none !important;
+	margin-bottom: -0.1em;
+	height: 1em;
+	width: auto;
+}
+.lws-woovirtualwallet-currency-label{
+}
+.wvw-payment-method-warning{
+	color: #cc1d25;
+}
+.lws-woovirtualwallet-payment-method-alert{
+	font-weight: bold;
+}
+.lws-woovirtualwallet-forbidden-product{
+	font-style: italic;
+}
+.lws-woovirtualwallet-forbidden-product error{
+	font-weight: bold;
+}
+#payment .payment_methods li .lws-woovirtualwallet-payment-method-label{
+	float: right;position: relative;
+	display:flex;height:30px;margin-left:10px;background-color: #ddd;
+}
+#payment .payment_methods li .lws-woovirtualwallet-payment-method-icon{
+	flex: 0 0 auto; height: 30px;
+}
+.woocommerce-checkout #payment .payment_methods li .lws-woovirtualwallet-payment-method-icon img{
+	width: auto;height: 26px;margin: 2px;
+}
+#payment .payment_methods li .lws-woovirtualwallet-payment-method-balance{
+	padding: 0 5px;line-height: 30px;font-weight: normal;
+}
+/** WC prevent for adding well aligned img in product texts */
+ul.products li.product img.lws-woovirtualwallet-currency-symbol, ul.products .wc-block-grid__product img.lws-woovirtualwallet-currency-symbol, .wc-block-grid__products li.product img.lws-woovirtualwallet-currency-symbol, .wc-block-grid__products .wc-block-grid__product img.lws-woovirtualwallet-currency-symbol{
+	display: initial;
+	margin: initial;
+	margin-bottom: -0.1em;
+}
+.lws-woovirtualwallet-amount{
+	white-space: nowrap !important;
+}

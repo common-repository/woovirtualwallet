@@ -1,0 +1,670 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooVirtualWallet\n"
+"POT-Creation-Date: 2021-01-09 21:28+0100\n"
+"PO-Revision-Date: 2020-03-25 17:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woovirtualwallet.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: include/ajax.php:28
+msgid "A connected user is required"
+msgstr ""
+
+#: include/ajax.php:34
+msgid "Action control failed. Try to refresh the page."
+msgstr ""
+
+#: include/ajax.php:43
+msgid "You don't have the capacity to do that."
+msgstr ""
+
+#: include/core/gateway.php:40
+msgctxt "Admin Gateway title"
+msgid "Virtual Wallet"
+msgstr ""
+
+#: include/core/gateway.php:41
+msgctxt "Admin Gateway descr"
+msgid "Customers use Virtual Wallet Money"
+msgstr ""
+
+#: include/core/gateway.php:48
+msgid "Enable/Disable"
+msgstr ""
+
+#: include/core/gateway.php:50
+msgid "Enable Virtual Wallet payments"
+msgstr ""
+
+#: include/core/gateway.php:54 include/ui/widgets/balance.php:89
+#: include/ui/widgets/history.php:88
+msgid "Title"
+msgstr ""
+
+#: include/core/gateway.php:56
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: include/core/gateway.php:57
+msgctxt "Virtual Wallet payment method"
+msgid "Virtual Wallet Payment"
+msgstr ""
+
+#: include/core/gateway.php:61 include/ui/widgets/history.php:174
+msgid "Description"
+msgstr ""
+
+#: include/core/gateway.php:63
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: include/core/gateway.php:64
+msgid "Order amount will be deduced from your virtual wallet."
+msgstr ""
+
+#: include/core/gateway.php:68
+msgid "Instructions"
+msgstr ""
+
+#: include/core/gateway.php:70
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: include/core/gateway.php:75
+msgid "Not logged user message"
+msgstr ""
+
+#: include/core/gateway.php:77
+msgid ""
+"Message that will be added to the payment method description when customer "
+"is not logged in."
+msgstr ""
+
+#: include/core/gateway.php:78
+msgid "You must be connected to use your Virtual Wallet"
+msgstr ""
+
+#: include/core/gateway.php:82
+msgid "Show balance"
+msgstr ""
+
+#: include/core/gateway.php:84
+msgid "The payment method title includes the customer's wallet balance."
+msgstr ""
+
+#: include/core/gateway.php:88
+msgid "Show icon"
+msgstr ""
+
+#: include/core/gateway.php:90
+msgid "The payment method title includes the Virtual Wallet icon."
+msgstr ""
+
+#: include/core/gateway.php:111
+#, php-format
+msgid "You don't have enough money in your wallet : Actual balance is %s"
+msgstr ""
+
+#: include/core/gateway.php:161
+#, php-format
+msgid ""
+"Your order contains products that cannot be bought with your Virtual Wallet: "
+"%s"
+msgstr ""
+
+#: include/core/gateway.php:162
+msgctxt "product name separator"
+msgid ", "
+msgstr ""
+
+#: include/core/gateway.php:228
+#, php-format
+msgctxt "wallet balance decoration"
+msgid "Your current balance : %s"
+msgstr ""
+
+#: include/core/gateway.php:261
+msgid "Virtual Wallet Payment cannot be used by logged off customers&hellip;"
+msgstr ""
+
+#: include/core/gateway.php:300
+#, php-format
+msgid "Not enough money in your Virtual Wallet (balance: %s)&hellip;"
+msgstr ""
+
+#: include/core/gateway.php:327
+#, php-format
+msgid "Order %s payment"
+msgstr ""
+
+#: include/core/helper.php:15 include/core/wallet.php:224
+msgid "Virtual Money"
+msgstr ""
+
+#: include/core/trace.php:280
+msgctxt "Amount set by hand: move = n/c"
+msgid "—"
+msgstr ""
+
+#: include/core/wallet.php:106 include/ui/product.php:141
+#: include/ui/users.php:34
+msgid "Virtual Wallet"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: include/ui/admin.php:55
+msgid "WooVirtualWallet"
+msgstr ""
+
+#: include/ui/admin.php:63 include/ui/admin.php:83 include/ui/admin.php:84
+#: include/ui/admin.php:93 include/ui/admin.php:97
+msgid "Users"
+msgstr ""
+
+#: include/ui/admin.php:74
+msgid ""
+"The users page will redirect you to the standard WordPress Users page where "
+"you will have some new possibilities:"
+msgstr ""
+
+#: include/ui/admin.php:75
+msgid "See users' wallet balance"
+msgstr ""
+
+#: include/ui/admin.php:76
+msgid "See users' wallet history"
+msgstr ""
+
+#: include/ui/admin.php:77
+msgid "Export users' wallet balance"
+msgstr ""
+
+#: include/ui/admin.php:78
+msgid "Add/Remove wallet credit"
+msgstr ""
+
+#: include/ui/admin.php:109
+msgid "The settings page gives access to the following settings :"
+msgstr ""
+
+#: include/ui/admin.php:110
+msgid "Order status needed to get wallet credit"
+msgstr ""
+
+#: include/ui/admin.php:111
+msgid "Prevent products that give wallet credit to be bought with the wallet"
+msgstr ""
+
+#: include/ui/admin.php:118 include/ui/admin.php:123
+msgid "Payment Gateway"
+msgstr ""
+
+#: include/ui/admin.php:126
+#, php-format
+msgid ""
+"<a href='%s' target='_blank'> Setup WooVirtualWallet as a Payment Gateway</a>"
+msgstr ""
+
+#: include/ui/admin.php:127
+msgid ""
+"You need to set up WooVirtualWallet as a WooCommerce Payment Gateway. You "
+"can do this by clicking the link below"
+msgstr ""
+
+#: include/ui/admin.php:136 include/ui/admin.php:144 woovirtualwallet.php:123
+msgid "Settings"
+msgstr ""
+
+#: include/ui/admin.php:151
+msgid "Customers Status"
+msgstr ""
+
+#: include/ui/admin.php:152
+msgid "See and edit the customers' wallets"
+msgstr ""
+
+#: include/ui/admin.php:156
+msgid "Customers Wallet Status"
+msgstr ""
+
+#: include/ui/admin.php:159
+#, php-format
+msgid "<a href='%s' target='_blank'>Check/Edit the users wallet money</a>"
+msgstr ""
+
+#: include/ui/admin.php:160
+msgid ""
+"You can see and edit the wallet amount of your customers by going to the "
+"users page or clicking the link down below."
+msgstr ""
+
+#: include/ui/admin.php:178
+msgid ""
+"The appearance page will let you customize the appearance of Widgets and "
+"shortcodes."
+msgstr ""
+
+#: include/ui/admin.php:179
+msgid ""
+"You will also find there the description and documentation to use the "
+"available shortcodes."
+msgstr ""
+
+#: include/ui/admin.php:184
+msgid "Appearance"
+msgstr ""
+
+#: include/ui/admin.php:191
+msgid "Widgets"
+msgstr ""
+
+#: include/ui/admin.php:196 include/ui/admin.php:277
+msgid "Wallet Balance"
+msgstr ""
+
+#: include/ui/admin.php:211
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet balance"
+msgstr ""
+
+#: include/ui/admin.php:215
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet balance "
+"without styling"
+msgstr ""
+
+#: include/ui/admin.php:224 include/ui/admin.php:293
+msgid "Wallet History"
+msgstr ""
+
+#: include/ui/admin.php:239
+#, php-format
+msgid ""
+"Use the shortcode %s to show the current customer virtual wallet history"
+msgstr ""
+
+#: include/ui/admin.php:250 include/ui/admin.php:255
+msgid "Shortcodes"
+msgstr ""
+
+#: include/ui/admin.php:257
+msgid ""
+"In this section, you will find various shortcodes you can use on your "
+"website."
+msgstr ""
+
+#: include/ui/admin.php:261
+msgid "Simple Wallet Balance"
+msgstr ""
+
+#: include/ui/admin.php:265
+msgid ""
+"This simple shortcode is used to display the current user's wallet balance "
+"with no decoration."
+msgstr ""
+
+#: include/ui/admin.php:266
+msgid ""
+"This is very convenient if you want to display the balance within a phrase "
+"for example."
+msgstr ""
+
+#: include/ui/admin.php:270
+msgid ""
+"(Optional) If set, the result will be a simple text. If not, the result will "
+"be embedded in a stylable DOM element"
+msgstr ""
+
+#: include/ui/admin.php:281
+msgid "This shortcode is used to display the current user's wallet balance."
+msgstr ""
+
+#: include/ui/admin.php:282
+msgid "It is equivalent to the balance widget."
+msgstr ""
+
+#: include/ui/admin.php:286
+msgid "(Optional) If set, it will change the default header above the balance"
+msgstr ""
+
+#: include/ui/admin.php:297
+msgid ""
+"This simple shortcode is used to display the current user's wallet history."
+msgstr ""
+
+#: include/ui/admin.php:298
+msgid "It is equivalent to the history widget."
+msgstr ""
+
+#: include/ui/admin.php:302
+msgid "(Optional) If set, it will change the default header above the history"
+msgstr ""
+
+#: include/ui/admin.php:319
+msgid "Set up the wallet payment gateway with lots of different options:"
+msgstr ""
+
+#: include/ui/admin.php:320
+msgid "Enable/Disable the gateway"
+msgstr ""
+
+#: include/ui/admin.php:321
+msgid "Edit the gateway's title and description"
+msgstr ""
+
+#: include/ui/admin.php:322
+msgid "Edit the gateway's instructions and logged off message"
+msgstr ""
+
+#: include/ui/admin.php:323
+msgid "Show the customer's wallet balance or not"
+msgstr ""
+
+#: include/ui/admin.php:328
+msgid "Gateway"
+msgstr ""
+
+#: include/ui/admin.php:343
+msgid "Wallet Rules"
+msgstr ""
+
+#: include/ui/admin.php:345
+msgid "Set the general settings and behavior of the virtual wallet"
+msgstr ""
+
+#: include/ui/admin.php:349
+msgid "Add purchased wallet money on 'Complete' order only"
+msgstr ""
+
+#: include/ui/admin.php:353
+msgid ""
+"Edit a product to give wallet money to a customer purchasing it. Default "
+"order status to apply it is 'processing'."
+msgstr ""
+
+#: include/ui/admin.php:355
+msgid ""
+"If you want to use the 'completed' order status instead (recommanded), check "
+"the below box"
+msgstr ""
+
+#: include/ui/admin.php:365
+msgid "Wallet credit can't be bought with the wallet"
+msgstr ""
+
+#: include/ui/admin.php:370
+msgid ""
+"The <i>Virtual Wallet</i> payment method cannot be used if the customer's "
+"order contains a product that feeds the <i>Virtual Wallet</i>."
+msgstr ""
+
+#: include/ui/admin.php:381
+msgid "Manage your license and different system related options :"
+msgstr ""
+
+#: include/ui/admin.php:382
+msgid "License :"
+msgstr ""
+
+#: include/ui/admin.php:383
+msgid "Manage your license and subscription"
+msgstr ""
+
+#: include/ui/admin.php:393 include/ui/admin.php:394
+msgid "System"
+msgstr ""
+
+#: include/ui/admin.php:408
+msgid "Data Management"
+msgstr ""
+
+#: include/ui/admin.php:413
+msgid "Delete all data"
+msgstr ""
+
+#: include/ui/admin.php:415
+msgid "Remove all Wallets settings and user's credits."
+msgstr ""
+
+#: include/ui/admin.php:416
+msgid "Use it with care since this action is <b>not undoable</b>."
+msgstr ""
+
+#: include/ui/admin.php:420 include/ui/admin.php:454
+msgid "Delete All Data"
+msgstr ""
+
+#: include/ui/admin.php:453
+#, php-format
+msgid ""
+"If you really want to reset all WooVirtualWallet data, check this box and "
+"click on <i>'%s'</i> again."
+msgstr ""
+
+#: include/ui/admin.php:455
+msgid "This operation is not undoable!"
+msgstr ""
+
+#: include/ui/admin.php:456
+msgid "Consider making a backup of your database before continue."
+msgstr ""
+
+#: include/ui/admin.php:491
+msgid "WooVirtualWallet install has been cleaned up."
+msgstr ""
+
+#: include/ui/product.php:95
+#, php-format
+msgctxt "g2d order note"
+msgid "Product <i>%1$s</i> offers %2$s on customer's %3$s"
+msgstr ""
+
+#: include/ui/product.php:167 include/ui/product.php:235
+#, php-format
+msgid "Purchase that product adds %1$s in customer's %2$s"
+msgstr ""
+
+#: include/ui/product.php:174
+#, php-format
+msgid ""
+"Customers must be logged in to receive wallet credit. Guest orders won't "
+"give any %s."
+msgstr ""
+
+#: include/ui/product.php:182
+#, php-format
+msgid "Amount (%s)"
+msgstr ""
+
+#: include/ui/product.php:212
+#, php-format
+msgid "%s amount must be greater than zero or null."
+msgstr ""
+
+#: include/ui/product.php:221
+#, php-format
+msgid "Bad %s amount format"
+msgstr ""
+
+#: include/ui/product.php:240
+#, php-format
+msgid ""
+" (Customers must be logged in to receive wallet credit. Guest orders won't "
+"give any %s.)"
+msgstr ""
+
+#: include/ui/product.php:267
+#, php-format
+msgid "%1$s purchased in order %2$s"
+msgstr ""
+
+#: include/ui/users.php:35
+msgid "Add to Virtual Wallets"
+msgstr ""
+
+#: include/ui/users.php:51
+msgid "Last operations"
+msgstr ""
+
+#: include/ui/users.php:52 include/ui/widgets/history.php:173
+msgid "Date"
+msgstr ""
+
+#: include/ui/users.php:53
+msgid "Reason"
+msgstr ""
+
+#: include/ui/users.php:54
+msgid "Operation"
+msgstr ""
+
+#: include/ui/users.php:55 include/ui/widgets/history.php:176
+msgid "Total"
+msgstr ""
+
+#: include/ui/users.php:56
+msgid "Please wait"
+msgstr ""
+
+#: include/ui/users.php:121
+msgid "You don't have enough permissions to edit users wallets."
+msgstr ""
+
+#: include/ui/users.php:129
+msgid "Please, set an amount to add in each selected user's wallet."
+msgstr ""
+
+#: include/ui/users.php:136
+msgid "Please select users."
+msgstr ""
+
+#: include/ui/users.php:149
+msgid "A wallet amount must be a number."
+msgstr ""
+
+#: include/ui/users.php:169
+#, php-format
+msgid "%d users wallets amounts modified."
+msgstr ""
+
+#: include/ui/users.php:192 include/ui/widgets/history.php:175
+msgid "Amount"
+msgstr ""
+
+#: include/ui/users.php:208
+msgid "Commercial operation"
+msgstr ""
+
+#: include/ui/widgets/balance.php:35
+msgid "WooVirtualWallet balance"
+msgstr ""
+
+#: include/ui/widgets/balance.php:37
+msgid "Show their wallet balance to customers."
+msgstr ""
+
+#: include/ui/widgets/balance.php:62
+msgctxt "frontend widget"
+msgid "Virtual Money"
+msgstr ""
+
+#: include/ui/widgets/balance.php:92
+msgctxt "frontend widget"
+msgid "Virtual Wallet"
+msgstr ""
+
+#: include/ui/widgets/balance.php:97 include/ui/widgets/history.php:96
+msgid "Header"
+msgstr ""
+
+#: include/ui/widgets/balance.php:100
+msgctxt "frontend widget"
+msgid "You currently own"
+msgstr ""
+
+#: include/ui/widgets/balance.php:157
+msgid "Your Wallet Balance"
+msgstr ""
+
+#: include/ui/widgets/history.php:34
+msgid "WooVirtualWallet History"
+msgstr ""
+
+#: include/ui/widgets/history.php:36
+msgid "Show the customer virtual wallet history."
+msgstr ""
+
+#: include/ui/widgets/history.php:61 include/ui/widgets/history.php:91
+msgctxt "frontend widget"
+msgid "Virtual Wallet History"
+msgstr ""
+
+#: include/ui/widgets/history.php:99
+msgid "The last operations on your virtual wallet"
+msgstr ""
+
+#: include/ui/widgets/history.php:104
+msgid "Period (month)"
+msgstr ""
+
+#: include/ui/widgets/history.php:107
+msgid "Number of months to show"
+msgstr ""
+
+#: include/ui/widgets/history.php:142
+msgid "Last operations on your Virtual Wallet"
+msgstr ""
+
+#: include/ui/widgets/history.php:163
+msgid "Kindly offered for demo"
+msgstr ""
+
+#: include/ui/widgets/history.php:167
+msgid "Every story has a beginning"
+msgstr ""
+
+#: woovirtualwallet.php:126
+msgid "Help"
+msgstr ""
+
+#: woovirtualwallet.php:136
+msgid "Add Licence Key"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#: woovirtualwallet.php:145
+msgid "https://plugins.longwatchstudio.com/product/woovirtualwallet/"
+msgstr ""
+
+#: woovirtualwallet.php:155
+msgid "https://plugins.longwatchstudio.com/docs/woovirtualwallet/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A virtual wallet for your customers"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""

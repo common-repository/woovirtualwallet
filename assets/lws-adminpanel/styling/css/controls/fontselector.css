@@ -1,0 +1,22 @@
+.lwss-fontname-group{position:relative;}
+
+.lwss-fontname-select{width:210px;border:1px solid #ccc;height:28px;box-sizing: border-box;line-height: 28px;background:#fff;float:left;}
+.lwss-fontname-select-text{ float:left;height:28px;padding-left:5px;line-height:28px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.lwss-fontname-select-btn{float:right;width:26px;height:26px;box-sizing: border-box;line-height: 28px;}
+
+.lwss-font-list-content{min-height:250px;max-height:350px;overflow-y:auto;overflow-x:hidden;width:15em;}
+.lwss-font-list{position:absolute;background-color:white;border:1px solid darkgray;z-index:215;}
+.lwss-font-list-line{position:relative;clear:both;cursor:pointer;line-height:28px;padding-left:5px;height:28px;}
+.lwss-font-list-line:hover{background-color:rgba(0, 0, 0, 0.2);}
+.lwss-font-list-line-family{float:left;width:auto;}
+.lwss-font-list-line-btn{float:right;width:22px;padding-left:4px;margin-left:-22px;height:28px;line-height:28px;
+    background-color:rgba(255,255,255,0.4);border-left:rgba(255,255,255,0.9)}
+.lwss-font-list-variant{position:fixed;background-color:white;border:1px solid darkgray;z-index:216;color:#666;}
+.lwss-font-list-variant .lwss-font-list-line{padding-right:5px;min-width:120px;}
+
+.lwss-font-list-toggle{border-top:1px solid lightgray;font-weight:200;line-height: 28px;padding-left:5px;}
+.lwss-font-list-toggle-more{cursor:zoom-in;}
+.lwss-font-list-toggle-less{cursor:zoom-out;}
+.lwss-font-list-toggle:hover{font-weight:600;}
+
+.lwss-font-list-last-used{clear:both;;width:100%;border-bottom:1px dashed lightgray;}

@@ -1,0 +1,286 @@
+/** Editlist */
+.lws-editlist {
+	line-height: 30px;
+	border: none;
+	margin-top: 5px;
+	border-spacing: 0;
+	width: 100%;
+	display: grid;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+	&.lws_editlist_table {
+		display: grid;
+	}
+
+	.lws-editlist-error {
+		border: 1px solid #eee;
+		text-align: center;
+		font-weight: bold;
+		color: darkred;
+		font-size: 16px;
+		margin: 0px;
+	}
+
+	.lws_editlist_row {
+		display: contents;
+
+		&:nth-child(even)>.lws-editlist-cell.td {
+			background-color: #f3f3f3;
+		}
+
+		&:nth-child(odd)>.lws-editlist-cell.td {
+			background-color: #fff;
+		}
+
+		&:hover>.lws-editlist-cell.td {
+			background-color: #ddd;
+		}
+
+		&.lws_editlist_tr_edited>.lws-editlist-cell.td {
+			opacity: 0.5;
+		}
+
+		&.loading>.lws-editlist-cell.td {
+			opacity: 0.5;
+		}
+	}
+
+	.lws-editlist-cell {
+		vertical-align: top;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		padding: 5px;
+		position: relative;
+
+		.cell-content {
+			width: 100%;
+		}
+
+		.colored {
+			color: var(--group-color, #366);
+		}
+
+		.centered {
+			width: 100%;
+			text-align: center;
+		}
+
+		&.hidden-column {
+			display: none;
+		}
+
+		&.th {
+			border: none;
+			background-color: #dadfdf;
+			color: #666;
+			font-weight: 500;
+			font-size: 16px;
+			text-align: left;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+
+			&.hidden-column {
+				display: none;
+			}
+		}
+
+		a {
+			color: var(--group-color, #366);
+			font-weight: bold;
+			text-decoration: none;
+			padding-right: 5px;
+
+			&.maxwidth {
+				flex: 1 1 auto;
+			}
+
+			&.right {
+				text-align: right;
+			}
+		}
+
+		a.lws-editlist-title-edit-btn {
+			font-size: 15px;
+		}
+
+		&.title {
+			text-align: left;
+		}
+
+		&.lws-editlist-checkbox {
+			padding: 5px;
+		}
+
+		.lws-editlist-btns-line {
+			flex: 1 1 auto;
+			display: flex;
+			flex-wrap: nowrap;
+
+			.lws-adm-btn {
+				margin-left: 2px;
+				flex: 1 1 auto;
+				white-space: nowrap;
+			}
+		}
+
+		.lws-checkbox {
+			border: 1px solid #aaa;
+		}
+
+		&.lws-small-media-cell {
+			display: none;
+			grid-template-columns: max-content auto;
+			gap: 5px;
+			column-gap: 10px;
+
+			.small-media-subcell {
+				display: contents;
+
+				&.hidden-column {
+					display: none;
+				}
+			}
+
+			.cell-title {
+				font-size: 15px;
+				color: var(--group-color, #333);
+			}
+
+			.cell-content {
+				display: flex;
+				flex-wrap: wrap;
+			}
+		}
+	}
+
+	&.small-visible{
+		.lws-editlist-cell{
+			&.lws-small-media-cell{
+				display: grid;
+			}
+			&.large-media-cell-content {
+				display: none;
+			}
+		}
+	}
+}
+
+.lws-master-editlist {
+	.lws-editlist-group-add {
+		width: 100%;
+		font-size: 22px;
+		height: 40px;
+		line-height: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/** Actions */
+.lws_editlist_actions {
+	flex: 0 1 auto;
+	padding-top: 5px;
+}
+
+.lws-editlist-actions-cont {
+	border: 1px solid #dddddd;
+	border-left: 3px solid #ddd;
+	border-radius: 0;
+	display: flex;
+	background-color: #fff;
+
+	.lws-editlist-actions-left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 41px;
+		font-size: 20px;
+		border-right: 1px solid #ccc;
+	}
+
+	.lws-editlist-actions-right {
+		display: grid;
+		grid-template-columns: auto;
+		background-color: #ddd;
+		gap: 1px;
+
+		.lws-editlist-action {
+			padding: 5px;
+			background-color: #fff;
+			display: flex;
+			flex-wrap: wrap;
+			padding-bottom: 5px;
+			line-height: 30px;
+			gap: 5px;
+			border-bottom: 1px solid #ddd;
+		}
+	}
+}
+
+.lws-editlist-bottom-line {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+
+	&.bt-right {
+		justify-content: flex-end;
+	}
+
+	.lws-editlist-add {
+		margin-top: 5px;
+		height: 40px;
+		padding: 5px 20px;
+		font-size: 18px;
+	}
+}
+
+/* Groups */
+.lws-editlist-group {
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	border-left: 5px solid;
+	border-top: 1px solid;
+	border-color: var(--group-color, #aaa);
+	gap: 5px;
+	align-items: start;
+
+	.lws-editlist-groupby-head {
+		border-right: 1px solid;
+		border-bottom: 1px solid;
+		border-color: var(--group-color, #aaa);
+		align-self: stretch;
+		justify-self: stretch;
+		grid-row: span 2;
+		display: flex;
+
+		.lws_editlist_groupby_head,
+		.lws_editlist_groupby_form {
+			flex: 1 1 auto;
+			display: flex;
+		}
+	}
+
+	.lws-editlist-groupby-header {
+		flex: 1 1 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1px;
+		padding: 1px;
+		justify-items: stretch;
+	}
+
+	button {
+		align-self: end;
+		justify-self: end;
+	}
+}
+
+.lws_editlist_line_form.lws_editlist_form_hidden {
+	display: none;
+	text-align: center;
+}

@@ -1,0 +1,67 @@
+/** Filters */
+.lws-editlist-filters {
+    width: 100%;
+}
+
+.lws-editlist-filters-first-line {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #dddddd;
+    border-left: 3px solid #ddd;
+    border-radius: 0;
+    padding: 5px;
+    gap: 5px;
+}
+
+.lws-editlist-filter {
+    flex: 1 1 auto;
+
+    .lws-editlist-filter-box {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+
+        .lws-editlist-filter-box-title {
+            font-weight: 600;
+            border-bottom: 3px solid #ddd;
+            padding-bottom: 3px;
+        }
+
+        .lws-editlist-filter-box-content {
+            display: flex;
+            flex-wrap: nowrap;
+            line-height: 30px;
+
+            span,
+            input,
+            button {
+                margin: 0 5px;
+            }
+
+            a {
+                padding: 0 5px;
+                color: #588;
+            }
+        }
+    }
+}
+
+.lws-editlist-filter-column-visibility {
+    width: 100%;
+
+    .visibility-cb-line {
+        display: flex;
+        padding: 5px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .visibility-cb-wrapper {
+        display: flex;
+        gap: 5px;
+
+        .lws-checkbox::before {
+            color: var(--group-color, #366);
+        }
+    }
+}

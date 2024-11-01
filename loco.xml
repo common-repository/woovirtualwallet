@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WooVirtualWallet">
+  <domain name="woovirtualwallet-lite">
+    <project name="WooVirtualWallet" slug="woovirtualwallet">
+      <source>
+        <directory>.</directory>
+				<exclude>
+					<directory>assets</directory>
+					<directory>modules</directory>
+				</exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/woovirtualwallet-lite.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="lws-adminpanel">
+    <project name="LWS AdminPanel" slug="lws-adminpanel">
+      <source>
+        <directory>./assets/lws-adminpanel</directory>
+      </source>
+      <target>
+        <directory>./assets/lws-adminpanel/languages</directory>
+      </target>
+      <template>
+        <file>./assets/lws-adminpanel/languages/lws-adminpanel.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="woovirtualwallet-pro">
+    <project name="WooVirtualWallet Pro" slug="woovirtualwallet-pro">
+      <source>
+        <directory>./modules/woovirtualwallet-pro</directory>
+      </source>
+      <target>
+        <directory>./modules/woovirtualwallet-pro/languages</directory>
+      </target>
+      <template>
+        <file>./modules/woovirtualwallet-pro/languages/woovirtualwallet-pro.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>./assets/tgm</directory>
+  </exclude>
+</bundle>

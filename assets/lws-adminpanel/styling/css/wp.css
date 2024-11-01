@@ -1,0 +1,9 @@
+#wp-admin-bar-lws-wizard-cancel a:before{
+	content: "\ea51";
+	font-family: 'lws-icons' !important;
+	font-size: 15px !important;
+	line-height: 25px !important;
+}
+#wpadminbar .lws-icon{
+	font-family: 'lws-icons' !important;
+}
